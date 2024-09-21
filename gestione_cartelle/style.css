@@ -1,0 +1,29 @@
+/* CSS personalizzato */
+.custom-btn {
+    position: relative;
+  }
+  
+  .btn-primary {
+    top: 50px;
+    left: 50px;
+  }
+  
+  .btn-secondary {
+    top: 1000px;
+    left: 1150px;
+  }
+  
+  .btn-success {
+    top: 150px;
+    left: 150px;
+  }
+  
+  .btn-danger {
+    top: 200px;
+    left: 200px;
+  }
+  .custom-table th,
+  .custom-table td {
+    padding: 1px; /* Riduce il padding delle celle */
+}
+ 

@@ -1,0 +1,15 @@
+# Ignora file e cartelle specifici
+upload/
+vendor/
+gestione_cartelle/foto/
+gestione_cartelle/image/
+gestione_cartelle/uploads/
+uploads
+
+# Ignora tutti i file con estensione .sql
+*.sql
+*.xlsx
+*.pdf
+*.xlk
+# Ignora file di database locale
+*.db
