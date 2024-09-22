@@ -6,7 +6,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 include_once 'db_connection.php';
-include 'recupero_permessi.php';
+include 'recupero_permessi.php'; 
 
 // Controlla se l'ID dell'utente è stato passato tramite la query string
 if (isset($_GET['id'])) {
@@ -25,24 +25,20 @@ if (isset($_GET['id'])) {
         exit();
     }
     
-    // Verifica se è stato inviato il modulo di conferma dell'eliminazione del documento
-    if (isset($_POST['delete_doc'])) {
-        // Esegui la query per eliminare il documento
-        $doc_id = intval($_POST['doc_id']);
-        $delete_doc_sql = "DELETE FROM documenti WHERE id = $doc_id";
-        if ($conn->query($delete_doc_sql) === TRUE) {
-            logAction($conn, $user_id, $username, $nome, $cognome, "Deleted document with ID $doc_id");
-            // Reindirizza alla stessa pagina dopo l'eliminazione
-            header("Location: view_user.php?id=$user_id");
-            exit();
-        } else {
-            echo "Errore durante l'eliminazione del documento: " . $conn->error;
-        }
-    }
-
     // Esegui la query per recuperare i documenti dell'utente
     $sql = "SELECT * FROM documenti WHERE user_id = $user_id";
     $doc_result = $conn->query($sql);
+
+    // Debug per verificare se i documenti vengono trovati
+    if ($doc_result) {
+        if ($doc_result->num_rows > 0) {
+            echo "Documenti trovati: " . $doc_result->num_rows;
+        } else {
+            echo "Nessun documento trovato per l'utente.";
+        }
+    } else {
+        echo "Errore nella query dei documenti: " . $conn->error;
+    }
 } else {
     echo "ID utente non fornito.";
     exit();

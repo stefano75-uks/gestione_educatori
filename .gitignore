@@ -4,6 +4,7 @@ vendor/
 gestione_cartelle/foto/
 gestione_cartelle/image/
 gestione_cartelle/uploads/
+gestione_cartelle/foto_utenti/
 uploads
 
 # Ignora tutti i file con estensione .sql

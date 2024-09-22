@@ -33,7 +33,7 @@ if (!function_exists('logAction')) {
         $ip_address = getClientIp();
 
         // Debug: stampa l'indirizzo IP ottenuto
-        echo "<pre>IP Address: $ip_address</pre>";
+        //echo "<pre>IP Address: $ip_address</pre>";
 
         $sql = "INSERT INTO log (user_id, username, nome, cognome, ip_address, action) VALUES (?, ?, ?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
