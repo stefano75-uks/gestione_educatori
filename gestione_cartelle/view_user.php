@@ -85,8 +85,11 @@ if (isset($_GET['id'])) {
                 echo "<h5 class='card-title'>" . htmlspecialchars($doc['tipo_documento']) . "</h5>";
                 echo "<p>" . htmlspecialchars($doc['descrizione'] ?? '') . "</p>";
                 echo "<p><strong>Data Evento:</strong> " . htmlspecialchars($doc['data_evento'] ?? '') . "</p>";
-                echo "<a href='" . htmlspecialchars($doc['file_path']) . "' class='btn btn-info mr-2' target='_blank'>Visualizza Documento</a>";
-                echo "<a href='" . htmlspecialchars($doc['file_path']) . "' class='btn btn-secondary mr-2' download>Scarica Documento</a>";
+                
+                // Usa il percorso relativo salvato nel database per visualizzare il documento
+                echo "<a href='/" . htmlspecialchars($doc['file_path']) . "' class='btn btn-info mr-2' target='_blank'>Visualizza Documento</a>";
+                echo "<a href='/" . htmlspecialchars($doc['file_path']) . "' class='btn btn-secondary mr-2' download>Scarica Documento</a>";
+                
                 echo "<form method='POST' class='d-inline' onsubmit='return confirmDelete();'>";
                 echo "<input type='hidden' name='doc_id' value='" . htmlspecialchars($doc['id']) . "'>";
                 echo "<button type='submit' name='delete_doc' class='btn btn-danger'";
@@ -110,3 +113,14 @@ if (isset($_GET['id'])) {
 <?php
 $conn->close();
 ?>
+
+
+<!--
+Alias /disciplinari "D:/disciplinari/"
+
+<Directory "D:/disciplinari/">
+    Options Indexes FollowSymLinks
+    AllowOverride None
+    Require all granted
+</Directory>
+-->
