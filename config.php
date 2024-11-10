@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "MERLIN";
 $dbname = "login_system";
 
 // Crea connessione

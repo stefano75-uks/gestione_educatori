@@ -1,150 +1,93 @@
 <?php
 session_start();
-if (!isset($_SESSION['user_id']) || !$_SESSION['is_admin']) {
+require_once 'config.php';
+
+// Verifica accesso e ruolo
+if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php");
     exit();
 }
 
-include 'config.php';
-
 $error = '';
 $success = '';
 
-// Funzione per ottenere le informazioni dell'utente
-function getUserInfo($conn, $username) {
-    $sql = "SELECT * FROM utenti WHERE username = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("s", $username);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $user = $result->fetch_assoc();
-    $stmt->close();
-    return $user;
-}
-
-// Funzione per ottenere i permessi dell'utente
-function getUserPermissions($conn, $user_id) {
-    $sql = "SELECT * FROM permissions WHERE user_id = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $user_id);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $permissions = [];
-    while ($row = $result->fetch_assoc()) {
-        $permissions[$row['table_name']] = $row;
-    }
-    $stmt->close();
-    return $permissions;
-}
-
-// Funzione per cambiare la password di un utente esistente
-function changePassword($conn, $username, $password) {
-    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-    $sql = "UPDATE utenti SET password = ? WHERE username = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ss", $hashed_password, $username);
-    $stmt->execute();
-    $stmt->close();
-}
-
-// Funzione per aggiungere un nuovo utente
-function addUser($conn, $username, $password, $nome, $cognome, $data_nascita) {
-    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-    $sql = "INSERT INTO utenti (username, password, nome, cognome, data_nascita) VALUES (?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sssss", $username, $hashed_password, $nome, $cognome, $data_nascita);
-    $stmt->execute();
-    $stmt->close();
-}
-
-// Funzione per aggiornare i permessi dell'utente
-function updatePermissions($conn, $user_id, $table_name, $can_read, $can_write, $can_delete) {
-    // Controlla se esiste già un record per questa tabella e utente
-    $sql = "SELECT * FROM permissions WHERE user_id = ? AND table_name = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("is", $user_id, $table_name);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    if ($result->num_rows > 0) {
-        // Aggiorna i permessi esistenti
-        $sql = "UPDATE permissions SET can_read = ?, can_write = ?, can_delete = ? WHERE user_id = ? AND table_name = ?";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("iiiis", $can_read, $can_write, $can_delete, $user_id, $table_name);
-    } else {
-        // Inserisci nuovi permessi
-        $sql = "INSERT INTO permissions (user_id, table_name, can_read, can_write, can_delete) VALUES (?, ?, ?, ?, ?)";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("isiii", $user_id, $table_name, $can_read, $can_write, $can_delete);
-    }
-    $stmt->execute();
-    $stmt->close();
-}
-
-// Funzione per ottenere i nomi delle tabelle del database
-function getTableNames($conn) {
-    $tables = [];
-    $sql = "SHOW TABLES";
+// Funzione per ottenere tutti gli utenti
+function getUsers($conn) {
+    $sql = "SELECT u.*, r.name as role_name 
+            FROM utenti u 
+            LEFT JOIN roles r ON u.role_id = r.id 
+            ORDER BY u.username";
     $result = $conn->query($sql);
-    while ($row = $result->fetch_row()) {
-        $tables[] = $row[0];
-    }
-    return $tables;
+    return $result->fetch_all(MYSQLI_ASSOC);
 }
 
-// Variabili per i messaggi di successo e errore
-$success = '';
-$error = '';
-
-// Se viene inviato il modulo di ricerca utente
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['search_user'])) {
-    $username = $_POST['username'];
-    $user = getUserInfo($conn, $username);
-    if (!$user) {
-        $error = "Utente non trovato.";
-    } else {
-        $permissions = getUserPermissions($conn, $user['id']);
-    }
+// Funzione per ottenere tutti i ruoli
+function getRoles($conn) {
+    $sql = "SELECT * FROM roles ORDER BY name";
+    $result = $conn->query($sql);
+    return $result->fetch_all(MYSQLI_ASSOC);
 }
 
-// Se viene inviato il modulo di cambiamento password
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['change_password'])) {
-    $username = $_POST['username'];
-    $new_password = $_POST['new_password'];
-    changePassword($conn, $username, $new_password);
-    $success = "Password cambiata con successo.";
-}
-
-// Se viene inviato il modulo di creazione utente
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['create_user'])) {
-    $new_username = $_POST['new_username'];
-    $new_password = $_POST['new_password'];
-    $nome = $_POST['nome'];
-    $cognome = $_POST['cognome'];
-    $data_nascita = $_POST['data_nascita'];
-
+// Gestione creazione nuovo utente
+if (isset($_POST['create_user'])) {
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
+    $nome = trim($_POST['nome']);
+    $cognome = trim($_POST['cognome']);
+    $role_id = $_POST['role_id'];
+    
     // Verifica se l'utente esiste già
-    if (getUserInfo($conn, $new_username)) {
-        $error = "L'utente esiste già.";
+    $check = $conn->prepare("SELECT id FROM utenti WHERE username = ?");
+    $check->bind_param("s", $username);
+    $check->execute();
+    if ($check->get_result()->num_rows > 0) {
+        $error = "Username già in uso";
     } else {
-        addUser($conn, $new_username, $new_password, $nome, $cognome, $data_nascita);
-        $success = "Utente creato con successo.";
+        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+        $stmt = $conn->prepare("INSERT INTO utenti (username, password, nome, cognome, role_id) VALUES (?, ?, ?, ?, ?)");
+        $stmt->bind_param("ssssi", $username, $hashed_password, $nome, $cognome, $role_id);
+        
+        if ($stmt->execute()) {
+            $success = "Utente creato con successo";
+        } else {
+            $error = "Errore durante la creazione dell'utente";
+        }
     }
 }
 
-// Se viene inviato il modulo di aggiornamento dei permessi
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update_permissions'])) {
+// Gestione modifica password
+if (isset($_POST['change_password'])) {
     $user_id = $_POST['user_id'];
-    foreach ($_POST['permissions'] as $table_name => $perms) {
-        $can_read = isset($perms['can_read']) ? 1 : 0;
-        $can_write = isset($perms['can_write']) ? 1 : 0;
-        $can_delete = isset($perms['can_delete']) ? 1 : 0;
-        updatePermissions($conn, $user_id, $table_name, $can_read, $can_write, $can_delete);
+    $new_password = trim($_POST['new_password']);
+    
+    $hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
+    $stmt = $conn->prepare("UPDATE utenti SET password = ? WHERE id = ?");
+    $stmt->bind_param("si", $hashed_password, $user_id);
+    
+    if ($stmt->execute()) {
+        $success = "Password modificata con successo";
+    } else {
+        $error = "Errore durante la modifica della password";
     }
-    $success = "Permessi aggiornati con successo.";
 }
 
-// Ottieni l'elenco delle tabelle
-$tables = getTableNames($conn);
+// Gestione eliminazione utente
+if (isset($_POST['delete_user'])) {
+    $user_id = $_POST['user_id'];
+    
+    $stmt = $conn->prepare("DELETE FROM utenti WHERE id = ? AND username != 'admin'");
+    $stmt->bind_param("i", $user_id);
+    
+    if ($stmt->execute()) {
+        $success = "Utente eliminato con successo";
+    } else {
+        $error = "Errore durante l'eliminazione dell'utente";
+    }
+}
+
+// Ottieni lista utenti e ruoli
+$users = getUsers($conn);
+$roles = getRoles($conn);
 ?>
 
 <!DOCTYPE html>
@@ -152,91 +95,195 @@ $tables = getTableNames($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Pannello Amministrazione</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Amministrazione</h2>
-            <p><a href="logout.php" class="btn btn-secondary">Logout</a></p>
-            <?php if ($success): ?>
-                <div class="alert alert-success"><?php echo $success; ?></div>
-            <?php endif; ?>
-            <?php if ($error): ?>
-                <div class="alert alert-danger"><?php echo $error; ?></div>
-            <?php endif; ?>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pannello Amministrazione</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/start.php">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="admin.php">Gestione Utenti</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <span class="text-white me-3">
+                        <?php echo htmlspecialchars($_SESSION['username']); ?>
+                        <span class="badge bg-light text-primary ms-2">Admin</span>
+                    </span>
+                    <a href="logout.php" class="btn btn-light btn-sm">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-            <!-- Modulo per la ricerca utente -->
-            <form method="post" action="admin.php" class="mb-4">
-                <h4>Ricerca Utente</h4>
-                <div class="mb-3">
-                    <label for="username" class="form-label">Nome utente</label>
-                    <input type="text" name="username" id="username" class="form-control" required>
-                </div>
-                <button type="submit" name="search_user" class="btn btn-primary">Cerca</button>
-            </form>
+    <!-- Contenuto principale -->
+    <div class="container my-4">
+        <?php if ($error): ?>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <?php echo $error; ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        <?php endif; ?>
+        
+        <?php if ($success): ?>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <?php echo $success; ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        <?php endif; ?>
 
-            <!-- Modulo per la creazione utente -->
-            <form method="post" action="admin.php" class="mb-4">
-                <h4>Crea Utente</h4>
-                <div class="mb-3">
-                    <label for="new_username" class="form-label">Nome utente</label>
-                    <input type="text" name="new_username" id="new_username" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="new_password" class="form-label">Password</label>
-                    <input type="password" name="new_password" id="new_password" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" name="nome" id="nome" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="cognome" class="form-label">Cognome</label>
-                    <input type="text" name="cognome" id="cognome" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="data_nascita" class="form-label">Data di nascita</label>
-                    <input type="date" name="data_nascita" id="data_nascita" class="form-control" required>
-                </div>
-                <button type="submit" name="create_user" class="btn btn-primary">Crea Utente</button>
-            </form>
-
-            <?php if (isset($user)): ?>
-                <!-- Modulo per la modifica dei permessi -->
-                <form method="post" action="admin.php">
-                    <h4>Permessi Utente: <?php echo htmlspecialchars($user['username']); ?></h4>
-                    <input type="hidden" name="user_id" value="<?php echo $user['id']; ?>">
-                    <?php foreach ($tables as $table): ?>
-                        <div class="mb-3">
-                            <label><?php echo htmlspecialchars($table); ?></label>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="permissions[<?php echo $table; ?>][can_read]" id="<?php echo $table; ?>_can_read" <?php echo isset($permissions[$table]) && $permissions[$table]['can_read'] ? 'checked' : ''; ?>>
-                                <label class="form-check-label" for="<?php echo $table; ?>_can_read">
-                                    Leggi
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="permissions[<?php echo $table; ?>][can_write]" id="<?php echo $table; ?>_can_write" <?php echo isset($permissions[$table]) && $permissions[$table]['can_write'] ? 'checked' : ''; ?>>
-                                <label class="form-check-label" for="<?php echo $table; ?>_can_write">
-                                    Scrivi
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="permissions[<?php echo $table; ?>][can_delete]" id="<?php echo $table; ?>_can_delete" <?php echo isset($permissions[$table]) && $permissions[$table]['can_delete'] ? 'checked' : ''; ?>>
-                                <label class="form-check-label" for="<?php echo $table; ?>_can_delete">
-                                    Elimina
-                                </label>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                    <button type="submit" name="update_permissions" class="btn btn-primary">Aggiorna Permessi</button>
+        <!-- Creazione nuovo utente -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Crea Nuovo Utente</h5>
+            </div>
+            <div class="card-body">
+                <form method="POST" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="cognome" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="cognome" name="cognome" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="role_id" class="form-label">Ruolo</label>
+                        <select class="form-select" id="role_id" name="role_id" required>
+                            <?php foreach ($roles as $role): ?>
+                                <option value="<?php echo $role['id']; ?>">
+                                    <?php echo htmlspecialchars($role['name']); ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" name="create_user" class="btn btn-primary">
+                            <i class="bi bi-person-plus"></i> Crea Utente
+                        </button>
+                    </div>
                 </form>
-            <?php endif; ?>
+            </div>
+        </div>
+
+        <!-- Lista utenti -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Gestione Utenti</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Nome</th>
+                                <th>Cognome</th>
+                                <th>Ruolo</th>
+                                <th>Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($users as $user): ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($user['username']); ?></td>
+                                <td><?php echo htmlspecialchars($user['nome']); ?></td>
+                                <td><?php echo htmlspecialchars($user['cognome']); ?></td>
+                                <td>
+                                    <span class="badge bg-primary">
+                                        <?php echo htmlspecialchars($user['role_name']); ?>
+                                    </span>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm" 
+                                            data-bs-toggle="modal" 
+                                            data-bs-target="#changePasswordModal<?php echo $user['id']; ?>">
+                                        <i class="bi bi-key"></i> Cambia Password
+                                    </button>
+                                    
+                                    <?php if ($user['username'] !== 'admin'): ?>
+                                    <button type="button" class="btn btn-danger btn-sm" 
+                                            data-bs-toggle="modal" 
+                                            data-bs-target="#deleteUserModal<?php echo $user['id']; ?>">
+                                        <i class="bi bi-trash"></i> Elimina
+                                    </button>
+                                    <?php endif; ?>
+
+                                    <!-- Modal Cambio Password -->
+                                    <div class="modal fade" id="changePasswordModal<?php echo $user['id']; ?>" tabindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Cambia Password - <?php echo htmlspecialchars($user['username']); ?></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <form method="POST">
+                                                    <div class="modal-body">
+                                                        <input type="hidden" name="user_id" value="<?php echo $user['id']; ?>">
+                                                        <div class="mb-3">
+                                                            <label for="new_password" class="form-label">Nuova Password</label>
+                                                            <input type="password" class="form-control" name="new_password" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                                                        <button type="submit" name="change_password" class="btn btn-primary">Salva</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Modal Elimina Utente -->
+                                    <div class="modal fade" id="deleteUserModal<?php echo $user['id']; ?>" tabindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Conferma Eliminazione</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Sei sicuro di voler eliminare l'utente <strong><?php echo htmlspecialchars($user['username']); ?></strong>?
+                                                </div>
+                                                <form method="POST">
+                                                    <div class="modal-footer">
+                                                        <input type="hidden" name="user_id" value="<?php echo $user['id']; ?>">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                                                        <button type="submit" name="delete_user" class="btn btn-danger">Elimina</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

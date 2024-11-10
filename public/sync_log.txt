@@ -1,0 +1,3148 @@
+2024-11-03 10:27:54 - Sincronizzazione completata
+Totali processati: 0
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1
+Dettagli:
+Errore generale: Unknown column 'reparto' in 'field list'
+
+2024-11-03 10:47:36 - Sincronizzazione completata
+Totali processati: 0
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1
+Dettagli:
+Errore generale: Unknown column 'data_ingresso_istituto' in 'field list'
+
+2024-11-03 11:03:01 - Sincronizzazione completata
+Totali processati: 0
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1
+Dettagli:
+Errore generale: Unknown column 'data_ingresso_istituto' in 'field list'
+
+2024-11-03 11:09:37 - Sincronizzazione completata
+Totali processati: 0
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1
+Dettagli:
+Errore generale: Unknown column 'data_ingresso_istituto' in 'field list'
+
+2024-11-03 11:12:22 - Sincronizzazione completata
+Totali processati: 0
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1
+Dettagli:
+Errore generale: Unknown column 'data_ingresso_istituto' in 'field list'
+
+2024-11-03 11:15:24 - Sincronizzazione completata
+Totali processati: 1536
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 1536
+Dettagli:
+Errore per matricola AA021800548: Field 'dove' doesn't have a default value
+Errore per matricola AA061900113: Field 'dove' doesn't have a default value
+Errore per matricola AA102000041: Field 'dove' doesn't have a default value
+Errore per matricola AA162100175: Field 'dove' doesn't have a default value
+Errore per matricola AA162300034: Field 'dove' doesn't have a default value
+Errore per matricola AA162300074: Field 'dove' doesn't have a default value
+Errore per matricola AA162400053: Field 'dove' doesn't have a default value
+Errore per matricola AA162400058: Field 'dove' doesn't have a default value
+Errore per matricola AA422301616: Field 'dove' doesn't have a default value
+Errore per matricola BB010301215: Field 'dove' doesn't have a default value
+Errore per matricola BB011002898: Field 'dove' doesn't have a default value
+Errore per matricola BB011100602: Field 'dove' doesn't have a default value
+Errore per matricola BB011402297: Field 'dove' doesn't have a default value
+Errore per matricola BB011800825: Field 'dove' doesn't have a default value
+Errore per matricola BB011901938: Field 'dove' doesn't have a default value
+Errore per matricola BB012301957: Field 'dove' doesn't have a default value
+Errore per matricola BB012400201: Field 'dove' doesn't have a default value
+Errore per matricola BB031500021: Field 'dove' doesn't have a default value
+Errore per matricola BB032100633: Field 'dove' doesn't have a default value
+Errore per matricola BB032200255: Field 'dove' doesn't have a default value
+Errore per matricola BB062200151: Field 'dove' doesn't have a default value
+Errore per matricola BB140700018: Field 'dove' doesn't have a default value
+Errore per matricola BB151400002: Field 'dove' doesn't have a default value
+Errore per matricola BB171200026: Field 'dove' doesn't have a default value
+Errore per matricola BB171800268: Field 'dove' doesn't have a default value
+Errore per matricola BB210800123: Field 'dove' doesn't have a default value
+Errore per matricola BB232100062: Field 'dove' doesn't have a default value
+Errore per matricola BB291900108: Field 'dove' doesn't have a default value
+Errore per matricola BB372100045: Field 'dove' doesn't have a default value
+Errore per matricola BB390700071: Field 'dove' doesn't have a default value
+Errore per matricola CC161500395: Field 'dove' doesn't have a default value
+Errore per matricola CC181900354: Field 'dove' doesn't have a default value
+Errore per matricola CC252200023: Field 'dove' doesn't have a default value
+Errore per matricola CC252200081: Field 'dove' doesn't have a default value
+Errore per matricola CC301300327: Field 'dove' doesn't have a default value
+Errore per matricola CC311900110: Field 'dove' doesn't have a default value
+Errore per matricola DD022300182: Field 'dove' doesn't have a default value
+Errore per matricola DD051500071: Field 'dove' doesn't have a default value
+Errore per matricola DD082100094: Field 'dove' doesn't have a default value
+Errore per matricola DD142400009: Field 'dove' doesn't have a default value
+Errore per matricola DD142400021: Field 'dove' doesn't have a default value
+Errore per matricola DD170800171: Field 'dove' doesn't have a default value
+Errore per matricola DD181900083: Field 'dove' doesn't have a default value
+Errore per matricola DD272200508: Field 'dove' doesn't have a default value
+Errore per matricola DD279900772: Field 'dove' doesn't have a default value
+Errore per matricola DD431500017: Field 'dove' doesn't have a default value
+Errore per matricola DD551800002: Field 'dove' doesn't have a default value
+Errore per matricola DD552000053: Field 'dove' doesn't have a default value
+Errore per matricola DD552300203: Field 'dove' doesn't have a default value
+Errore per matricola EE010300199: Field 'dove' doesn't have a default value
+Errore per matricola EE010900541: Field 'dove' doesn't have a default value
+Errore per matricola EE010901130: Field 'dove' doesn't have a default value
+Errore per matricola EE010901274: Field 'dove' doesn't have a default value
+Errore per matricola EE010901420: Field 'dove' doesn't have a default value
+Errore per matricola EE011001313: Field 'dove' doesn't have a default value
+Errore per matricola EE011100950: Field 'dove' doesn't have a default value
+Errore per matricola EE011300561: Field 'dove' doesn't have a default value
+Errore per matricola EE011300597: Field 'dove' doesn't have a default value
+Errore per matricola EE011301259: Field 'dove' doesn't have a default value
+Errore per matricola EE011500548: Field 'dove' doesn't have a default value
+Errore per matricola EE011500692: Field 'dove' doesn't have a default value
+Errore per matricola EE011500806: Field 'dove' doesn't have a default value
+Errore per matricola EE011600107: Field 'dove' doesn't have a default value
+Errore per matricola EE011600451: Field 'dove' doesn't have a default value
+Errore per matricola EE011600545: Field 'dove' doesn't have a default value
+Errore per matricola EE011600577: Field 'dove' doesn't have a default value
+Errore per matricola EE011600851: Field 'dove' doesn't have a default value
+Errore per matricola EE011600979: Field 'dove' doesn't have a default value
+Errore per matricola EE011700140: Field 'dove' doesn't have a default value
+Errore per matricola EE011700142: Field 'dove' doesn't have a default value
+Errore per matricola EE011700156: Field 'dove' doesn't have a default value
+Errore per matricola EE011700205: Field 'dove' doesn't have a default value
+Errore per matricola EE011700513: Field 'dove' doesn't have a default value
+Errore per matricola EE011700874: Field 'dove' doesn't have a default value
+Errore per matricola EE011700973: Field 'dove' doesn't have a default value
+Errore per matricola EE011701398: Field 'dove' doesn't have a default value
+Errore per matricola EE011800382: Field 'dove' doesn't have a default value
+Errore per matricola EE011800445: Field 'dove' doesn't have a default value
+Errore per matricola EE011800529: Field 'dove' doesn't have a default value
+Errore per matricola EE011800600: Field 'dove' doesn't have a default value
+Errore per matricola EE011800661: Field 'dove' doesn't have a default value
+Errore per matricola EE011800767: Field 'dove' doesn't have a default value
+Errore per matricola EE011800856: Field 'dove' doesn't have a default value
+Errore per matricola EE011800887: Field 'dove' doesn't have a default value
+Errore per matricola EE011800928: Field 'dove' doesn't have a default value
+Errore per matricola EE011801020: Field 'dove' doesn't have a default value
+Errore per matricola EE011801124: Field 'dove' doesn't have a default value
+Errore per matricola EE011801126: Field 'dove' doesn't have a default value
+Errore per matricola EE011801413: Field 'dove' doesn't have a default value
+Errore per matricola EE011801416: Field 'dove' doesn't have a default value
+Errore per matricola EE011900034: Field 'dove' doesn't have a default value
+Errore per matricola EE011900042: Field 'dove' doesn't have a default value
+Errore per matricola EE011900180: Field 'dove' doesn't have a default value
+Errore per matricola EE011900290: Field 'dove' doesn't have a default value
+Errore per matricola EE011900419: Field 'dove' doesn't have a default value
+Errore per matricola EE011900498: Field 'dove' doesn't have a default value
+Errore per matricola EE011900590: Field 'dove' doesn't have a default value
+Errore per matricola EE011900600: Field 'dove' doesn't have a default value
+Errore per matricola EE011900605: Field 'dove' doesn't have a default value
+Errore per matricola EE011900606: Field 'dove' doesn't have a default value
+Errore per matricola EE011900659: Field 'dove' doesn't have a default value
+Errore per matricola EE011900879: Field 'dove' doesn't have a default value
+Errore per matricola EE011900930: Field 'dove' doesn't have a default value
+Errore per matricola EE011901030: Field 'dove' doesn't have a default value
+Errore per matricola EE011901045: Field 'dove' doesn't have a default value
+Errore per matricola EE011901049: Field 'dove' doesn't have a default value
+Errore per matricola EE011901051: Field 'dove' doesn't have a default value
+Errore per matricola EE011901052: Field 'dove' doesn't have a default value
+Errore per matricola EE011901123: Field 'dove' doesn't have a default value
+Errore per matricola EE011901240: Field 'dove' doesn't have a default value
+Errore per matricola EE011901293: Field 'dove' doesn't have a default value
+Errore per matricola EE011901294: Field 'dove' doesn't have a default value
+Errore per matricola EE011901323: Field 'dove' doesn't have a default value
+Errore per matricola EE011901343: Field 'dove' doesn't have a default value
+Errore per matricola EE012000021: Field 'dove' doesn't have a default value
+Errore per matricola EE012000091: Field 'dove' doesn't have a default value
+Errore per matricola EE012000148: Field 'dove' doesn't have a default value
+Errore per matricola EE012000166: Field 'dove' doesn't have a default value
+Errore per matricola EE012000177: Field 'dove' doesn't have a default value
+Errore per matricola EE012000228: Field 'dove' doesn't have a default value
+Errore per matricola EE012000269: Field 'dove' doesn't have a default value
+Errore per matricola EE012000311: Field 'dove' doesn't have a default value
+Errore per matricola EE012000362: Field 'dove' doesn't have a default value
+Errore per matricola EE012000374: Field 'dove' doesn't have a default value
+Errore per matricola EE012000444: Field 'dove' doesn't have a default value
+Errore per matricola EE012000449: Field 'dove' doesn't have a default value
+Errore per matricola EE012000455: Field 'dove' doesn't have a default value
+Errore per matricola EE012000478: Field 'dove' doesn't have a default value
+Errore per matricola EE012000483: Field 'dove' doesn't have a default value
+Errore per matricola EE012000519: Field 'dove' doesn't have a default value
+Errore per matricola EE012000531: Field 'dove' doesn't have a default value
+Errore per matricola EE012000564: Field 'dove' doesn't have a default value
+Errore per matricola EE012000584: Field 'dove' doesn't have a default value
+Errore per matricola EE012000585: Field 'dove' doesn't have a default value
+Errore per matricola EE012000587: Field 'dove' doesn't have a default value
+Errore per matricola EE012000631: Field 'dove' doesn't have a default value
+Errore per matricola EE012000647: Field 'dove' doesn't have a default value
+Errore per matricola EE012000677: Field 'dove' doesn't have a default value
+Errore per matricola EE012000685: Field 'dove' doesn't have a default value
+Errore per matricola EE012000716: Field 'dove' doesn't have a default value
+Errore per matricola EE012000742: Field 'dove' doesn't have a default value
+Errore per matricola EE012000771: Field 'dove' doesn't have a default value
+Errore per matricola EE012000782: Field 'dove' doesn't have a default value
+Errore per matricola EE012000801: Field 'dove' doesn't have a default value
+Errore per matricola EE012000825: Field 'dove' doesn't have a default value
+Errore per matricola EE012000828: Field 'dove' doesn't have a default value
+Errore per matricola EE012000837: Field 'dove' doesn't have a default value
+Errore per matricola EE012000860: Field 'dove' doesn't have a default value
+Errore per matricola EE012000869: Field 'dove' doesn't have a default value
+Errore per matricola EE012000873: Field 'dove' doesn't have a default value
+Errore per matricola EE012000906: Field 'dove' doesn't have a default value
+Errore per matricola EE012000913: Field 'dove' doesn't have a default value
+Errore per matricola EE012100003: Field 'dove' doesn't have a default value
+Errore per matricola EE012100017: Field 'dove' doesn't have a default value
+Errore per matricola EE012100023: Field 'dove' doesn't have a default value
+Errore per matricola EE012100024: Field 'dove' doesn't have a default value
+Errore per matricola EE012100034: Field 'dove' doesn't have a default value
+Errore per matricola EE012100048: Field 'dove' doesn't have a default value
+Errore per matricola EE012100059: Field 'dove' doesn't have a default value
+Errore per matricola EE012100070: Field 'dove' doesn't have a default value
+Errore per matricola EE012100071: Field 'dove' doesn't have a default value
+Errore per matricola EE012100084: Field 'dove' doesn't have a default value
+Errore per matricola EE012100094: Field 'dove' doesn't have a default value
+Errore per matricola EE012100100: Field 'dove' doesn't have a default value
+Errore per matricola EE012100110: Field 'dove' doesn't have a default value
+Errore per matricola EE012100141: Field 'dove' doesn't have a default value
+Errore per matricola EE012100142: Field 'dove' doesn't have a default value
+Errore per matricola EE012100194: Field 'dove' doesn't have a default value
+Errore per matricola EE012100198: Field 'dove' doesn't have a default value
+Errore per matricola EE012100231: Field 'dove' doesn't have a default value
+Errore per matricola EE012100239: Field 'dove' doesn't have a default value
+Errore per matricola EE012100240: Field 'dove' doesn't have a default value
+Errore per matricola EE012100261: Field 'dove' doesn't have a default value
+Errore per matricola EE012100268: Field 'dove' doesn't have a default value
+Errore per matricola EE012100269: Field 'dove' doesn't have a default value
+Errore per matricola EE012100271: Field 'dove' doesn't have a default value
+Errore per matricola EE012100276: Field 'dove' doesn't have a default value
+Errore per matricola EE012100293: Field 'dove' doesn't have a default value
+Errore per matricola EE012100299: Field 'dove' doesn't have a default value
+Errore per matricola EE012100301: Field 'dove' doesn't have a default value
+Errore per matricola EE012100305: Field 'dove' doesn't have a default value
+Errore per matricola EE012100314: Field 'dove' doesn't have a default value
+Errore per matricola EE012100322: Field 'dove' doesn't have a default value
+Errore per matricola EE012100331: Field 'dove' doesn't have a default value
+Errore per matricola EE012100346: Field 'dove' doesn't have a default value
+Errore per matricola EE012100373: Field 'dove' doesn't have a default value
+Errore per matricola EE012100380: Field 'dove' doesn't have a default value
+Errore per matricola EE012100397: Field 'dove' doesn't have a default value
+Errore per matricola EE012100411: Field 'dove' doesn't have a default value
+Errore per matricola EE012100424: Field 'dove' doesn't have a default value
+Errore per matricola EE012100440: Field 'dove' doesn't have a default value
+Errore per matricola EE012100449: Field 'dove' doesn't have a default value
+Errore per matricola EE012100453: Field 'dove' doesn't have a default value
+Errore per matricola EE012100457: Field 'dove' doesn't have a default value
+Errore per matricola EE012200009: Field 'dove' doesn't have a default value
+Errore per matricola EE012200024: Field 'dove' doesn't have a default value
+Errore per matricola EE012200025: Field 'dove' doesn't have a default value
+Errore per matricola EE012200033: Field 'dove' doesn't have a default value
+Errore per matricola EE012200049: Field 'dove' doesn't have a default value
+Errore per matricola EE012200054: Field 'dove' doesn't have a default value
+Errore per matricola EE012200059: Field 'dove' doesn't have a default value
+Errore per matricola EE012200061: Field 'dove' doesn't have a default value
+Errore per matricola EE012200077: Field 'dove' doesn't have a default value
+Errore per matricola EE012200094: Field 'dove' doesn't have a default value
+Errore per matricola EE012200104: Field 'dove' doesn't have a default value
+Errore per matricola EE012200108: Field 'dove' doesn't have a default value
+Errore per matricola EE012200111: Field 'dove' doesn't have a default value
+Errore per matricola EE012200150: Field 'dove' doesn't have a default value
+Errore per matricola EE012200152: Field 'dove' doesn't have a default value
+Errore per matricola EE012200154: Field 'dove' doesn't have a default value
+Errore per matricola EE012200163: Field 'dove' doesn't have a default value
+Errore per matricola EE012200166: Field 'dove' doesn't have a default value
+Errore per matricola EE012200176: Field 'dove' doesn't have a default value
+Errore per matricola EE012200182: Field 'dove' doesn't have a default value
+Errore per matricola EE012200188: Field 'dove' doesn't have a default value
+Errore per matricola EE012200195: Field 'dove' doesn't have a default value
+Errore per matricola EE012200201: Field 'dove' doesn't have a default value
+Errore per matricola EE012200202: Field 'dove' doesn't have a default value
+Errore per matricola EE012200206: Field 'dove' doesn't have a default value
+Errore per matricola EE012200217: Field 'dove' doesn't have a default value
+Errore per matricola EE012200220: Field 'dove' doesn't have a default value
+Errore per matricola EE012200224: Field 'dove' doesn't have a default value
+Errore per matricola EE012200229: Field 'dove' doesn't have a default value
+Errore per matricola EE012200233: Field 'dove' doesn't have a default value
+Errore per matricola EE012200234: Field 'dove' doesn't have a default value
+Errore per matricola EE012200244: Field 'dove' doesn't have a default value
+Errore per matricola EE012200248: Field 'dove' doesn't have a default value
+Errore per matricola EE012200252: Field 'dove' doesn't have a default value
+Errore per matricola EE012200259: Field 'dove' doesn't have a default value
+Errore per matricola EE012200269: Field 'dove' doesn't have a default value
+Errore per matricola EE012200271: Field 'dove' doesn't have a default value
+Errore per matricola EE012200274: Field 'dove' doesn't have a default value
+Errore per matricola EE012200275: Field 'dove' doesn't have a default value
+Errore per matricola EE012200276: Field 'dove' doesn't have a default value
+Errore per matricola EE012200281: Field 'dove' doesn't have a default value
+Errore per matricola EE012200292: Field 'dove' doesn't have a default value
+Errore per matricola EE012200294: Field 'dove' doesn't have a default value
+Errore per matricola EE012200295: Field 'dove' doesn't have a default value
+Errore per matricola EE012200298: Field 'dove' doesn't have a default value
+Errore per matricola EE012200316: Field 'dove' doesn't have a default value
+Errore per matricola EE012200346: Field 'dove' doesn't have a default value
+Errore per matricola EE012200364: Field 'dove' doesn't have a default value
+Errore per matricola EE012200372: Field 'dove' doesn't have a default value
+Errore per matricola EE012200380: Field 'dove' doesn't have a default value
+Errore per matricola EE012200381: Field 'dove' doesn't have a default value
+Errore per matricola EE012200386: Field 'dove' doesn't have a default value
+Errore per matricola EE012200387: Field 'dove' doesn't have a default value
+Errore per matricola EE012200396: Field 'dove' doesn't have a default value
+Errore per matricola EE012200403: Field 'dove' doesn't have a default value
+Errore per matricola EE012200404: Field 'dove' doesn't have a default value
+Errore per matricola EE012200408: Field 'dove' doesn't have a default value
+Errore per matricola EE012200416: Field 'dove' doesn't have a default value
+Errore per matricola EE012200429: Field 'dove' doesn't have a default value
+Errore per matricola EE012200430: Field 'dove' doesn't have a default value
+Errore per matricola EE012200432: Field 'dove' doesn't have a default value
+Errore per matricola EE012200436: Field 'dove' doesn't have a default value
+Errore per matricola EE012200441: Field 'dove' doesn't have a default value
+Errore per matricola EE012200442: Field 'dove' doesn't have a default value
+Errore per matricola EE012200443: Field 'dove' doesn't have a default value
+Errore per matricola EE012200447: Field 'dove' doesn't have a default value
+Errore per matricola EE012200448: Field 'dove' doesn't have a default value
+Errore per matricola EE012200454: Field 'dove' doesn't have a default value
+Errore per matricola EE012200456: Field 'dove' doesn't have a default value
+Errore per matricola EE012200458: Field 'dove' doesn't have a default value
+Errore per matricola EE012200460: Field 'dove' doesn't have a default value
+Errore per matricola EE012200467: Field 'dove' doesn't have a default value
+Errore per matricola EE012200473: Field 'dove' doesn't have a default value
+Errore per matricola EE012200480: Field 'dove' doesn't have a default value
+Errore per matricola EE012200490: Field 'dove' doesn't have a default value
+Errore per matricola EE012200495: Field 'dove' doesn't have a default value
+Errore per matricola EE012200496: Field 'dove' doesn't have a default value
+Errore per matricola EE012200510: Field 'dove' doesn't have a default value
+Errore per matricola EE012200512: Field 'dove' doesn't have a default value
+Errore per matricola EE012200524: Field 'dove' doesn't have a default value
+Errore per matricola EE012200525: Field 'dove' doesn't have a default value
+Errore per matricola EE012200533: Field 'dove' doesn't have a default value
+Errore per matricola EE012200535: Field 'dove' doesn't have a default value
+Errore per matricola EE012200539: Field 'dove' doesn't have a default value
+Errore per matricola EE012200545: Field 'dove' doesn't have a default value
+Errore per matricola EE012200562: Field 'dove' doesn't have a default value
+Errore per matricola EE012200565: Field 'dove' doesn't have a default value
+Errore per matricola EE012200570: Field 'dove' doesn't have a default value
+Errore per matricola EE012200572: Field 'dove' doesn't have a default value
+Errore per matricola EE012200573: Field 'dove' doesn't have a default value
+Errore per matricola EE012200591: Field 'dove' doesn't have a default value
+Errore per matricola EE012200592: Field 'dove' doesn't have a default value
+Errore per matricola EE012200596: Field 'dove' doesn't have a default value
+Errore per matricola EE012200601: Field 'dove' doesn't have a default value
+Errore per matricola EE012200612: Field 'dove' doesn't have a default value
+Errore per matricola EE012200614: Field 'dove' doesn't have a default value
+Errore per matricola EE012200616: Field 'dove' doesn't have a default value
+Errore per matricola EE012200625: Field 'dove' doesn't have a default value
+Errore per matricola EE012200626: Field 'dove' doesn't have a default value
+Errore per matricola EE012200641: Field 'dove' doesn't have a default value
+Errore per matricola EE012200645: Field 'dove' doesn't have a default value
+Errore per matricola EE012200653: Field 'dove' doesn't have a default value
+Errore per matricola EE012200656: Field 'dove' doesn't have a default value
+Errore per matricola EE012200667: Field 'dove' doesn't have a default value
+Errore per matricola EE012200674: Field 'dove' doesn't have a default value
+Errore per matricola EE012200678: Field 'dove' doesn't have a default value
+Errore per matricola EE012200688: Field 'dove' doesn't have a default value
+Errore per matricola EE012200692: Field 'dove' doesn't have a default value
+Errore per matricola EE012200693: Field 'dove' doesn't have a default value
+Errore per matricola EE012200694: Field 'dove' doesn't have a default value
+Errore per matricola EE012200698: Field 'dove' doesn't have a default value
+Errore per matricola EE012200700: Field 'dove' doesn't have a default value
+Errore per matricola EE012200704: Field 'dove' doesn't have a default value
+Errore per matricola EE012300008: Field 'dove' doesn't have a default value
+Errore per matricola EE012300017: Field 'dove' doesn't have a default value
+Errore per matricola EE012300022: Field 'dove' doesn't have a default value
+Errore per matricola EE012300023: Field 'dove' doesn't have a default value
+Errore per matricola EE012300024: Field 'dove' doesn't have a default value
+Errore per matricola EE012300025: Field 'dove' doesn't have a default value
+Errore per matricola EE012300037: Field 'dove' doesn't have a default value
+Errore per matricola EE012300039: Field 'dove' doesn't have a default value
+Errore per matricola EE012300054: Field 'dove' doesn't have a default value
+Errore per matricola EE012300055: Field 'dove' doesn't have a default value
+Errore per matricola EE012300059: Field 'dove' doesn't have a default value
+Errore per matricola EE012300069: Field 'dove' doesn't have a default value
+Errore per matricola EE012300074: Field 'dove' doesn't have a default value
+Errore per matricola EE012300078: Field 'dove' doesn't have a default value
+Errore per matricola EE012300079: Field 'dove' doesn't have a default value
+Errore per matricola EE012300094: Field 'dove' doesn't have a default value
+Errore per matricola EE012300095: Field 'dove' doesn't have a default value
+Errore per matricola EE012300096: Field 'dove' doesn't have a default value
+Errore per matricola EE012300103: Field 'dove' doesn't have a default value
+Errore per matricola EE012300106: Field 'dove' doesn't have a default value
+Errore per matricola EE012300110: Field 'dove' doesn't have a default value
+Errore per matricola EE012300112: Field 'dove' doesn't have a default value
+Errore per matricola EE012300114: Field 'dove' doesn't have a default value
+Errore per matricola EE012300115: Field 'dove' doesn't have a default value
+Errore per matricola EE012300116: Field 'dove' doesn't have a default value
+Errore per matricola EE012300124: Field 'dove' doesn't have a default value
+Errore per matricola EE012300131: Field 'dove' doesn't have a default value
+Errore per matricola EE012300146: Field 'dove' doesn't have a default value
+Errore per matricola EE012300147: Field 'dove' doesn't have a default value
+Errore per matricola EE012300150: Field 'dove' doesn't have a default value
+Errore per matricola EE012300153: Field 'dove' doesn't have a default value
+Errore per matricola EE012300154: Field 'dove' doesn't have a default value
+Errore per matricola EE012300159: Field 'dove' doesn't have a default value
+Errore per matricola EE012300161: Field 'dove' doesn't have a default value
+Errore per matricola EE012300169: Field 'dove' doesn't have a default value
+Errore per matricola EE012300177: Field 'dove' doesn't have a default value
+Errore per matricola EE012300179: Field 'dove' doesn't have a default value
+Errore per matricola EE012300181: Field 'dove' doesn't have a default value
+Errore per matricola EE012300182: Field 'dove' doesn't have a default value
+Errore per matricola EE012300184: Field 'dove' doesn't have a default value
+Errore per matricola EE012300185: Field 'dove' doesn't have a default value
+Errore per matricola EE012300186: Field 'dove' doesn't have a default value
+Errore per matricola EE012300205: Field 'dove' doesn't have a default value
+Errore per matricola EE012300212: Field 'dove' doesn't have a default value
+Errore per matricola EE012300219: Field 'dove' doesn't have a default value
+Errore per matricola EE012300240: Field 'dove' doesn't have a default value
+Errore per matricola EE012300243: Field 'dove' doesn't have a default value
+Errore per matricola EE012300250: Field 'dove' doesn't have a default value
+Errore per matricola EE012300253: Field 'dove' doesn't have a default value
+Errore per matricola EE012300260: Field 'dove' doesn't have a default value
+Errore per matricola EE012300263: Field 'dove' doesn't have a default value
+Errore per matricola EE012300273: Field 'dove' doesn't have a default value
+Errore per matricola EE012300281: Field 'dove' doesn't have a default value
+Errore per matricola EE012300282: Field 'dove' doesn't have a default value
+Errore per matricola EE012300284: Field 'dove' doesn't have a default value
+Errore per matricola EE012300285: Field 'dove' doesn't have a default value
+Errore per matricola EE012300288: Field 'dove' doesn't have a default value
+Errore per matricola EE012300293: Field 'dove' doesn't have a default value
+Errore per matricola EE012300294: Field 'dove' doesn't have a default value
+Errore per matricola EE012300305: Field 'dove' doesn't have a default value
+Errore per matricola EE012300310: Field 'dove' doesn't have a default value
+Errore per matricola EE012300321: Field 'dove' doesn't have a default value
+Errore per matricola EE012300333: Field 'dove' doesn't have a default value
+Errore per matricola EE012300347: Field 'dove' doesn't have a default value
+Errore per matricola EE012300350: Field 'dove' doesn't have a default value
+Errore per matricola EE012300351: Field 'dove' doesn't have a default value
+Errore per matricola EE012300352: Field 'dove' doesn't have a default value
+Errore per matricola EE012300353: Field 'dove' doesn't have a default value
+Errore per matricola EE012300358: Field 'dove' doesn't have a default value
+Errore per matricola EE012300363: Field 'dove' doesn't have a default value
+Errore per matricola EE012300372: Field 'dove' doesn't have a default value
+Errore per matricola EE012300388: Field 'dove' doesn't have a default value
+Errore per matricola EE012300389: Field 'dove' doesn't have a default value
+Errore per matricola EE012300410: Field 'dove' doesn't have a default value
+Errore per matricola EE012300411: Field 'dove' doesn't have a default value
+Errore per matricola EE012300417: Field 'dove' doesn't have a default value
+Errore per matricola EE012300422: Field 'dove' doesn't have a default value
+Errore per matricola EE012300453: Field 'dove' doesn't have a default value
+Errore per matricola EE012300454: Field 'dove' doesn't have a default value
+Errore per matricola EE012300458: Field 'dove' doesn't have a default value
+Errore per matricola EE012300461: Field 'dove' doesn't have a default value
+Errore per matricola EE012300474: Field 'dove' doesn't have a default value
+Errore per matricola EE012300478: Field 'dove' doesn't have a default value
+Errore per matricola EE012300481: Field 'dove' doesn't have a default value
+Errore per matricola EE012300487: Field 'dove' doesn't have a default value
+Errore per matricola EE012300489: Field 'dove' doesn't have a default value
+Errore per matricola EE012300490: Field 'dove' doesn't have a default value
+Errore per matricola EE012300492: Field 'dove' doesn't have a default value
+Errore per matricola EE012300498: Field 'dove' doesn't have a default value
+Errore per matricola EE012300504: Field 'dove' doesn't have a default value
+Errore per matricola EE012300505: Field 'dove' doesn't have a default value
+Errore per matricola EE012300508: Field 'dove' doesn't have a default value
+Errore per matricola EE012300522: Field 'dove' doesn't have a default value
+Errore per matricola EE012300523: Field 'dove' doesn't have a default value
+Errore per matricola EE012300527: Field 'dove' doesn't have a default value
+Errore per matricola EE012300530: Field 'dove' doesn't have a default value
+Errore per matricola EE012300532: Field 'dove' doesn't have a default value
+Errore per matricola EE012300535: Field 'dove' doesn't have a default value
+Errore per matricola EE012300543: Field 'dove' doesn't have a default value
+Errore per matricola EE012300549: Field 'dove' doesn't have a default value
+Errore per matricola EE012300550: Field 'dove' doesn't have a default value
+Errore per matricola EE012300555: Field 'dove' doesn't have a default value
+Errore per matricola EE012300558: Field 'dove' doesn't have a default value
+Errore per matricola EE012300562: Field 'dove' doesn't have a default value
+Errore per matricola EE012300568: Field 'dove' doesn't have a default value
+Errore per matricola EE012300604: Field 'dove' doesn't have a default value
+Errore per matricola EE012300609: Field 'dove' doesn't have a default value
+Errore per matricola EE012300613: Field 'dove' doesn't have a default value
+Errore per matricola EE012300618: Field 'dove' doesn't have a default value
+Errore per matricola EE012300621: Field 'dove' doesn't have a default value
+Errore per matricola EE012300623: Field 'dove' doesn't have a default value
+Errore per matricola EE012300631: Field 'dove' doesn't have a default value
+Errore per matricola EE012300632: Field 'dove' doesn't have a default value
+Errore per matricola EE012300634: Field 'dove' doesn't have a default value
+Errore per matricola EE012300642: Field 'dove' doesn't have a default value
+Errore per matricola EE012300648: Field 'dove' doesn't have a default value
+Errore per matricola EE012300649: Field 'dove' doesn't have a default value
+Errore per matricola EE012300651: Field 'dove' doesn't have a default value
+Errore per matricola EE012300665: Field 'dove' doesn't have a default value
+Errore per matricola EE012300666: Field 'dove' doesn't have a default value
+Errore per matricola EE012300667: Field 'dove' doesn't have a default value
+Errore per matricola EE012300668: Field 'dove' doesn't have a default value
+Errore per matricola EE012300679: Field 'dove' doesn't have a default value
+Errore per matricola EE012300680: Field 'dove' doesn't have a default value
+Errore per matricola EE012300691: Field 'dove' doesn't have a default value
+Errore per matricola EE012300706: Field 'dove' doesn't have a default value
+Errore per matricola EE012300717: Field 'dove' doesn't have a default value
+Errore per matricola EE012300728: Field 'dove' doesn't have a default value
+Errore per matricola EE012300729: Field 'dove' doesn't have a default value
+Errore per matricola EE012300733: Field 'dove' doesn't have a default value
+Errore per matricola EE012300734: Field 'dove' doesn't have a default value
+Errore per matricola EE012300754: Field 'dove' doesn't have a default value
+Errore per matricola EE012300755: Field 'dove' doesn't have a default value
+Errore per matricola EE012300768: Field 'dove' doesn't have a default value
+Errore per matricola EE012300769: Field 'dove' doesn't have a default value
+Errore per matricola EE012300783: Field 'dove' doesn't have a default value
+Errore per matricola EE012300788: Field 'dove' doesn't have a default value
+Errore per matricola EE012300790: Field 'dove' doesn't have a default value
+Errore per matricola EE012300792: Field 'dove' doesn't have a default value
+Errore per matricola EE012300796: Field 'dove' doesn't have a default value
+Errore per matricola EE012300802: Field 'dove' doesn't have a default value
+Errore per matricola EE012300803: Field 'dove' doesn't have a default value
+Errore per matricola EE012300804: Field 'dove' doesn't have a default value
+Errore per matricola EE012300805: Field 'dove' doesn't have a default value
+Errore per matricola EE012300811: Field 'dove' doesn't have a default value
+Errore per matricola EE012300822: Field 'dove' doesn't have a default value
+Errore per matricola EE012300826: Field 'dove' doesn't have a default value
+Errore per matricola EE012300832: Field 'dove' doesn't have a default value
+Errore per matricola EE012300842: Field 'dove' doesn't have a default value
+Errore per matricola EE012300844: Field 'dove' doesn't have a default value
+Errore per matricola EE012300852: Field 'dove' doesn't have a default value
+Errore per matricola EE012300854: Field 'dove' doesn't have a default value
+Errore per matricola EE012300864: Field 'dove' doesn't have a default value
+Errore per matricola EE012300867: Field 'dove' doesn't have a default value
+Errore per matricola EE012300870: Field 'dove' doesn't have a default value
+Errore per matricola EE012300871: Field 'dove' doesn't have a default value
+Errore per matricola EE012300872: Field 'dove' doesn't have a default value
+Errore per matricola EE012300875: Field 'dove' doesn't have a default value
+Errore per matricola EE012300876: Field 'dove' doesn't have a default value
+Errore per matricola EE012300879: Field 'dove' doesn't have a default value
+Errore per matricola EE012300884: Field 'dove' doesn't have a default value
+Errore per matricola EE012300891: Field 'dove' doesn't have a default value
+Errore per matricola EE012300893: Field 'dove' doesn't have a default value
+Errore per matricola EE012300894: Field 'dove' doesn't have a default value
+Errore per matricola EE012300900: Field 'dove' doesn't have a default value
+Errore per matricola EE012300903: Field 'dove' doesn't have a default value
+Errore per matricola EE012300904: Field 'dove' doesn't have a default value
+Errore per matricola EE012300908: Field 'dove' doesn't have a default value
+Errore per matricola EE012300910: Field 'dove' doesn't have a default value
+Errore per matricola EE012300913: Field 'dove' doesn't have a default value
+Errore per matricola EE012300916: Field 'dove' doesn't have a default value
+Errore per matricola EE012300919: Field 'dove' doesn't have a default value
+Errore per matricola EE012300920: Field 'dove' doesn't have a default value
+Errore per matricola EE012300926: Field 'dove' doesn't have a default value
+Errore per matricola EE012300927: Field 'dove' doesn't have a default value
+Errore per matricola EE012300936: Field 'dove' doesn't have a default value
+Errore per matricola EE012300940: Field 'dove' doesn't have a default value
+Errore per matricola EE012300943: Field 'dove' doesn't have a default value
+Errore per matricola EE012300945: Field 'dove' doesn't have a default value
+Errore per matricola EE012300946: Field 'dove' doesn't have a default value
+Errore per matricola EE012300957: Field 'dove' doesn't have a default value
+Errore per matricola EE012300962: Field 'dove' doesn't have a default value
+Errore per matricola EE012300967: Field 'dove' doesn't have a default value
+Errore per matricola EE012300968: Field 'dove' doesn't have a default value
+Errore per matricola EE012300974: Field 'dove' doesn't have a default value
+Errore per matricola EE012300976: Field 'dove' doesn't have a default value
+Errore per matricola EE012300980: Field 'dove' doesn't have a default value
+Errore per matricola EE012300986: Field 'dove' doesn't have a default value
+Errore per matricola EE012300987: Field 'dove' doesn't have a default value
+Errore per matricola EE012300988: Field 'dove' doesn't have a default value
+Errore per matricola EE012300995: Field 'dove' doesn't have a default value
+Errore per matricola EE012301000: Field 'dove' doesn't have a default value
+Errore per matricola EE012301009: Field 'dove' doesn't have a default value
+Errore per matricola EE012301012: Field 'dove' doesn't have a default value
+Errore per matricola EE012301013: Field 'dove' doesn't have a default value
+Errore per matricola EE012301014: Field 'dove' doesn't have a default value
+Errore per matricola EE012301018: Field 'dove' doesn't have a default value
+Errore per matricola EE012301019: Field 'dove' doesn't have a default value
+Errore per matricola EE012301021: Field 'dove' doesn't have a default value
+Errore per matricola EE012301022: Field 'dove' doesn't have a default value
+Errore per matricola EE012301023: Field 'dove' doesn't have a default value
+Errore per matricola EE012301028: Field 'dove' doesn't have a default value
+Errore per matricola EE012301029: Field 'dove' doesn't have a default value
+Errore per matricola EE012301030: Field 'dove' doesn't have a default value
+Errore per matricola EE012301036: Field 'dove' doesn't have a default value
+Errore per matricola EE012301038: Field 'dove' doesn't have a default value
+Errore per matricola EE012301039: Field 'dove' doesn't have a default value
+Errore per matricola EE012301042: Field 'dove' doesn't have a default value
+Errore per matricola EE012301043: Field 'dove' doesn't have a default value
+Errore per matricola EE012301053: Field 'dove' doesn't have a default value
+Errore per matricola EE012301054: Field 'dove' doesn't have a default value
+Errore per matricola EE012301056: Field 'dove' doesn't have a default value
+Errore per matricola EE012301063: Field 'dove' doesn't have a default value
+Errore per matricola EE012400006: Field 'dove' doesn't have a default value
+Errore per matricola EE012400007: Field 'dove' doesn't have a default value
+Errore per matricola EE012400012: Field 'dove' doesn't have a default value
+Errore per matricola EE012400013: Field 'dove' doesn't have a default value
+Errore per matricola EE012400016: Field 'dove' doesn't have a default value
+Errore per matricola EE012400017: Field 'dove' doesn't have a default value
+Errore per matricola EE012400019: Field 'dove' doesn't have a default value
+Errore per matricola EE012400023: Field 'dove' doesn't have a default value
+Errore per matricola EE012400027: Field 'dove' doesn't have a default value
+Errore per matricola EE012400038: Field 'dove' doesn't have a default value
+Errore per matricola EE012400043: Field 'dove' doesn't have a default value
+Errore per matricola EE012400060: Field 'dove' doesn't have a default value
+Errore per matricola EE012400068: Field 'dove' doesn't have a default value
+Errore per matricola EE012400069: Field 'dove' doesn't have a default value
+Errore per matricola EE012400071: Field 'dove' doesn't have a default value
+Errore per matricola EE012400078: Field 'dove' doesn't have a default value
+Errore per matricola EE012400080: Field 'dove' doesn't have a default value
+Errore per matricola EE012400083: Field 'dove' doesn't have a default value
+Errore per matricola EE012400090: Field 'dove' doesn't have a default value
+Errore per matricola EE012400097: Field 'dove' doesn't have a default value
+Errore per matricola EE012400098: Field 'dove' doesn't have a default value
+Errore per matricola EE012400099: Field 'dove' doesn't have a default value
+Errore per matricola EE012400102: Field 'dove' doesn't have a default value
+Errore per matricola EE012400106: Field 'dove' doesn't have a default value
+Errore per matricola EE012400107: Field 'dove' doesn't have a default value
+Errore per matricola EE012400109: Field 'dove' doesn't have a default value
+Errore per matricola EE012400111: Field 'dove' doesn't have a default value
+Errore per matricola EE012400121: Field 'dove' doesn't have a default value
+Errore per matricola EE012400131: Field 'dove' doesn't have a default value
+Errore per matricola EE012400139: Field 'dove' doesn't have a default value
+Errore per matricola EE012400141: Field 'dove' doesn't have a default value
+Errore per matricola EE012400146: Field 'dove' doesn't have a default value
+Errore per matricola EE012400149: Field 'dove' doesn't have a default value
+Errore per matricola EE012400150: Field 'dove' doesn't have a default value
+Errore per matricola EE012400153: Field 'dove' doesn't have a default value
+Errore per matricola EE012400157: Field 'dove' doesn't have a default value
+Errore per matricola EE012400168: Field 'dove' doesn't have a default value
+Errore per matricola EE012400173: Field 'dove' doesn't have a default value
+Errore per matricola EE012400181: Field 'dove' doesn't have a default value
+Errore per matricola EE012400186: Field 'dove' doesn't have a default value
+Errore per matricola EE012400188: Field 'dove' doesn't have a default value
+Errore per matricola EE012400190: Field 'dove' doesn't have a default value
+Errore per matricola EE012400191: Field 'dove' doesn't have a default value
+Errore per matricola EE012400193: Field 'dove' doesn't have a default value
+Errore per matricola EE012400201: Field 'dove' doesn't have a default value
+Errore per matricola EE012400203: Field 'dove' doesn't have a default value
+Errore per matricola EE012400207: Field 'dove' doesn't have a default value
+Errore per matricola EE012400209: Field 'dove' doesn't have a default value
+Errore per matricola EE012400224: Field 'dove' doesn't have a default value
+Errore per matricola EE012400232: Field 'dove' doesn't have a default value
+Errore per matricola EE012400241: Field 'dove' doesn't have a default value
+Errore per matricola EE012400245: Field 'dove' doesn't have a default value
+Errore per matricola EE012400247: Field 'dove' doesn't have a default value
+Errore per matricola EE012400251: Field 'dove' doesn't have a default value
+Errore per matricola EE012400257: Field 'dove' doesn't have a default value
+Errore per matricola EE012400268: Field 'dove' doesn't have a default value
+Errore per matricola EE012400271: Field 'dove' doesn't have a default value
+Errore per matricola EE012400279: Field 'dove' doesn't have a default value
+Errore per matricola EE012400281: Field 'dove' doesn't have a default value
+Errore per matricola EE012400284: Field 'dove' doesn't have a default value
+Errore per matricola EE012400288: Field 'dove' doesn't have a default value
+Errore per matricola EE012400298: Field 'dove' doesn't have a default value
+Errore per matricola EE012400299: Field 'dove' doesn't have a default value
+Errore per matricola EE012400311: Field 'dove' doesn't have a default value
+Errore per matricola EE012400314: Field 'dove' doesn't have a default value
+Errore per matricola EE012400315: Field 'dove' doesn't have a default value
+Errore per matricola EE012400322: Field 'dove' doesn't have a default value
+Errore per matricola EE012400324: Field 'dove' doesn't have a default value
+Errore per matricola EE012400325: Field 'dove' doesn't have a default value
+Errore per matricola EE012400329: Field 'dove' doesn't have a default value
+Errore per matricola EE012400334: Field 'dove' doesn't have a default value
+Errore per matricola EE012400337: Field 'dove' doesn't have a default value
+Errore per matricola EE012400338: Field 'dove' doesn't have a default value
+Errore per matricola EE012400345: Field 'dove' doesn't have a default value
+Errore per matricola EE012400346: Field 'dove' doesn't have a default value
+Errore per matricola EE012400349: Field 'dove' doesn't have a default value
+Errore per matricola EE012400351: Field 'dove' doesn't have a default value
+Errore per matricola EE012400352: Field 'dove' doesn't have a default value
+Errore per matricola EE012400353: Field 'dove' doesn't have a default value
+Errore per matricola EE012400356: Field 'dove' doesn't have a default value
+Errore per matricola EE012400371: Field 'dove' doesn't have a default value
+Errore per matricola EE012400376: Field 'dove' doesn't have a default value
+Errore per matricola EE012400392: Field 'dove' doesn't have a default value
+Errore per matricola EE012400397: Field 'dove' doesn't have a default value
+Errore per matricola EE012400405: Field 'dove' doesn't have a default value
+Errore per matricola EE012400409: Field 'dove' doesn't have a default value
+Errore per matricola EE012400414: Field 'dove' doesn't have a default value
+Errore per matricola EE012400415: Field 'dove' doesn't have a default value
+Errore per matricola EE012400423: Field 'dove' doesn't have a default value
+Errore per matricola EE012400424: Field 'dove' doesn't have a default value
+Errore per matricola EE012400433: Field 'dove' doesn't have a default value
+Errore per matricola EE012400434: Field 'dove' doesn't have a default value
+Errore per matricola EE012400436: Field 'dove' doesn't have a default value
+Errore per matricola EE012400437: Field 'dove' doesn't have a default value
+Errore per matricola EE012400438: Field 'dove' doesn't have a default value
+Errore per matricola EE012400445: Field 'dove' doesn't have a default value
+Errore per matricola EE012400446: Field 'dove' doesn't have a default value
+Errore per matricola EE012400448: Field 'dove' doesn't have a default value
+Errore per matricola EE012400452: Field 'dove' doesn't have a default value
+Errore per matricola EE012400454: Field 'dove' doesn't have a default value
+Errore per matricola EE012400457: Field 'dove' doesn't have a default value
+Errore per matricola EE012400460: Field 'dove' doesn't have a default value
+Errore per matricola EE012400461: Field 'dove' doesn't have a default value
+Errore per matricola EE012400467: Field 'dove' doesn't have a default value
+Errore per matricola EE012400479: Field 'dove' doesn't have a default value
+Errore per matricola EE012400481: Field 'dove' doesn't have a default value
+Errore per matricola EE012400482: Field 'dove' doesn't have a default value
+Errore per matricola EE012400485: Field 'dove' doesn't have a default value
+Errore per matricola EE012400486: Field 'dove' doesn't have a default value
+Errore per matricola EE012400488: Field 'dove' doesn't have a default value
+Errore per matricola EE012400491: Field 'dove' doesn't have a default value
+Errore per matricola EE012400493: Field 'dove' doesn't have a default value
+Errore per matricola EE012400495: Field 'dove' doesn't have a default value
+Errore per matricola EE012400496: Field 'dove' doesn't have a default value
+Errore per matricola EE012400497: Field 'dove' doesn't have a default value
+Errore per matricola EE012400499: Field 'dove' doesn't have a default value
+Errore per matricola EE012400500: Field 'dove' doesn't have a default value
+Errore per matricola EE012400502: Field 'dove' doesn't have a default value
+Errore per matricola EE012400504: Field 'dove' doesn't have a default value
+Errore per matricola EE012400507: Field 'dove' doesn't have a default value
+Errore per matricola EE012400508: Field 'dove' doesn't have a default value
+Errore per matricola EE012400510: Field 'dove' doesn't have a default value
+Errore per matricola EE012400512: Field 'dove' doesn't have a default value
+Errore per matricola EE012400514: Field 'dove' doesn't have a default value
+Errore per matricola EE012400515: Field 'dove' doesn't have a default value
+Errore per matricola EE012400523: Field 'dove' doesn't have a default value
+Errore per matricola EE012400524: Field 'dove' doesn't have a default value
+Errore per matricola EE012400530: Field 'dove' doesn't have a default value
+Errore per matricola EE012400532: Field 'dove' doesn't have a default value
+Errore per matricola EE012400533: Field 'dove' doesn't have a default value
+Errore per matricola EE012400541: Field 'dove' doesn't have a default value
+Errore per matricola EE012400545: Field 'dove' doesn't have a default value
+Errore per matricola EE012400546: Field 'dove' doesn't have a default value
+Errore per matricola EE012400547: Field 'dove' doesn't have a default value
+Errore per matricola EE012400548: Field 'dove' doesn't have a default value
+Errore per matricola EE012400550: Field 'dove' doesn't have a default value
+Errore per matricola EE012400551: Field 'dove' doesn't have a default value
+Errore per matricola EE012400555: Field 'dove' doesn't have a default value
+Errore per matricola EE012400566: Field 'dove' doesn't have a default value
+Errore per matricola EE012400567: Field 'dove' doesn't have a default value
+Errore per matricola EE012400568: Field 'dove' doesn't have a default value
+Errore per matricola EE012400572: Field 'dove' doesn't have a default value
+Errore per matricola EE012400579: Field 'dove' doesn't have a default value
+Errore per matricola EE012400585: Field 'dove' doesn't have a default value
+Errore per matricola EE012400586: Field 'dove' doesn't have a default value
+Errore per matricola EE012400588: Field 'dove' doesn't have a default value
+Errore per matricola EE012400589: Field 'dove' doesn't have a default value
+Errore per matricola EE012400590: Field 'dove' doesn't have a default value
+Errore per matricola EE012400592: Field 'dove' doesn't have a default value
+Errore per matricola EE012400596: Field 'dove' doesn't have a default value
+Errore per matricola EE012400597: Field 'dove' doesn't have a default value
+Errore per matricola EE012400600: Field 'dove' doesn't have a default value
+Errore per matricola EE012400601: Field 'dove' doesn't have a default value
+Errore per matricola EE012400611: Field 'dove' doesn't have a default value
+Errore per matricola EE012400615: Field 'dove' doesn't have a default value
+Errore per matricola EE012400617: Field 'dove' doesn't have a default value
+Errore per matricola EE012400626: Field 'dove' doesn't have a default value
+Errore per matricola EE012400629: Field 'dove' doesn't have a default value
+Errore per matricola EE012400630: Field 'dove' doesn't have a default value
+Errore per matricola EE012400636: Field 'dove' doesn't have a default value
+Errore per matricola EE012400637: Field 'dove' doesn't have a default value
+Errore per matricola EE012400639: Field 'dove' doesn't have a default value
+Errore per matricola EE012400640: Field 'dove' doesn't have a default value
+Errore per matricola EE012400642: Field 'dove' doesn't have a default value
+Errore per matricola EE012400645: Field 'dove' doesn't have a default value
+Errore per matricola EE012400647: Field 'dove' doesn't have a default value
+Errore per matricola EE012400648: Field 'dove' doesn't have a default value
+Errore per matricola EE012400649: Field 'dove' doesn't have a default value
+Errore per matricola EE012400650: Field 'dove' doesn't have a default value
+Errore per matricola EE012400652: Field 'dove' doesn't have a default value
+Errore per matricola EE012400653: Field 'dove' doesn't have a default value
+Errore per matricola EE012400654: Field 'dove' doesn't have a default value
+Errore per matricola EE012400655: Field 'dove' doesn't have a default value
+Errore per matricola EE012400658: Field 'dove' doesn't have a default value
+Errore per matricola EE012400659: Field 'dove' doesn't have a default value
+Errore per matricola EE012400660: Field 'dove' doesn't have a default value
+Errore per matricola EE012400661: Field 'dove' doesn't have a default value
+Errore per matricola EE012400663: Field 'dove' doesn't have a default value
+Errore per matricola EE012400664: Field 'dove' doesn't have a default value
+Errore per matricola EE012400666: Field 'dove' doesn't have a default value
+Errore per matricola EE012400667: Field 'dove' doesn't have a default value
+Errore per matricola EE012400668: Field 'dove' doesn't have a default value
+Errore per matricola EE012400669: Field 'dove' doesn't have a default value
+Errore per matricola EE012400670: Field 'dove' doesn't have a default value
+Errore per matricola EE012400671: Field 'dove' doesn't have a default value
+Errore per matricola EE012400672: Field 'dove' doesn't have a default value
+Errore per matricola EE012400673: Field 'dove' doesn't have a default value
+Errore per matricola EE012400674: Field 'dove' doesn't have a default value
+Errore per matricola EE012400677: Field 'dove' doesn't have a default value
+Errore per matricola EE012400679: Field 'dove' doesn't have a default value
+Errore per matricola EE012400680: Field 'dove' doesn't have a default value
+Errore per matricola EE012400683: Field 'dove' doesn't have a default value
+Errore per matricola EE012400684: Field 'dove' doesn't have a default value
+Errore per matricola EE012400685: Field 'dove' doesn't have a default value
+Errore per matricola EE012400686: Field 'dove' doesn't have a default value
+Errore per matricola EE012400688: Field 'dove' doesn't have a default value
+Errore per matricola EE012400690: Field 'dove' doesn't have a default value
+Errore per matricola EE012400694: Field 'dove' doesn't have a default value
+Errore per matricola EE012400695: Field 'dove' doesn't have a default value
+Errore per matricola EE012400696: Field 'dove' doesn't have a default value
+Errore per matricola EE012400698: Field 'dove' doesn't have a default value
+Errore per matricola EE012400699: Field 'dove' doesn't have a default value
+Errore per matricola EE012400700: Field 'dove' doesn't have a default value
+Errore per matricola EE012400701: Field 'dove' doesn't have a default value
+Errore per matricola EE012400703: Field 'dove' doesn't have a default value
+Errore per matricola EE012400704: Field 'dove' doesn't have a default value
+Errore per matricola EE012400709: Field 'dove' doesn't have a default value
+Errore per matricola EE012400710: Field 'dove' doesn't have a default value
+Errore per matricola EE012400713: Field 'dove' doesn't have a default value
+Errore per matricola EE012400717: Field 'dove' doesn't have a default value
+Errore per matricola EE012400719: Field 'dove' doesn't have a default value
+Errore per matricola EE012400720: Field 'dove' doesn't have a default value
+Errore per matricola EE012400723: Field 'dove' doesn't have a default value
+Errore per matricola EE012400728: Field 'dove' doesn't have a default value
+Errore per matricola EE012400732: Field 'dove' doesn't have a default value
+Errore per matricola EE012400733: Field 'dove' doesn't have a default value
+Errore per matricola EE012400742: Field 'dove' doesn't have a default value
+Errore per matricola EE012400744: Field 'dove' doesn't have a default value
+Errore per matricola EE012400745: Field 'dove' doesn't have a default value
+Errore per matricola EE012400749: Field 'dove' doesn't have a default value
+Errore per matricola EE012400750: Field 'dove' doesn't have a default value
+Errore per matricola EE012400752: Field 'dove' doesn't have a default value
+Errore per matricola EE012400755: Field 'dove' doesn't have a default value
+Errore per matricola EE012400759: Field 'dove' doesn't have a default value
+Errore per matricola EE012400763: Field 'dove' doesn't have a default value
+Errore per matricola EE012400767: Field 'dove' doesn't have a default value
+Errore per matricola EE012400769: Field 'dove' doesn't have a default value
+Errore per matricola EE012400770: Field 'dove' doesn't have a default value
+Errore per matricola EE012400771: Field 'dove' doesn't have a default value
+Errore per matricola EE012400772: Field 'dove' doesn't have a default value
+Errore per matricola EE012400773: Field 'dove' doesn't have a default value
+Errore per matricola EE012400778: Field 'dove' doesn't have a default value
+Errore per matricola EE012400781: Field 'dove' doesn't have a default value
+Errore per matricola EE012400782: Field 'dove' doesn't have a default value
+Errore per matricola EE012400788: Field 'dove' doesn't have a default value
+Errore per matricola EE012400790: Field 'dove' doesn't have a default value
+Errore per matricola EE012400791: Field 'dove' doesn't have a default value
+Errore per matricola EE012400792: Field 'dove' doesn't have a default value
+Errore per matricola EE012400793: Field 'dove' doesn't have a default value
+Errore per matricola EE012400794: Field 'dove' doesn't have a default value
+Errore per matricola EE012400796: Field 'dove' doesn't have a default value
+Errore per matricola EE012400797: Field 'dove' doesn't have a default value
+Errore per matricola EE012400800: Field 'dove' doesn't have a default value
+Errore per matricola EE012400802: Field 'dove' doesn't have a default value
+Errore per matricola EE012400806: Field 'dove' doesn't have a default value
+Errore per matricola EE012400807: Field 'dove' doesn't have a default value
+Errore per matricola EE012400809: Field 'dove' doesn't have a default value
+Errore per matricola EE012400811: Field 'dove' doesn't have a default value
+Errore per matricola EE012400812: Field 'dove' doesn't have a default value
+Errore per matricola EE012400813: Field 'dove' doesn't have a default value
+Errore per matricola EE012400814: Field 'dove' doesn't have a default value
+Errore per matricola EE012400816: Field 'dove' doesn't have a default value
+Errore per matricola EE012400817: Field 'dove' doesn't have a default value
+Errore per matricola EE012400820: Field 'dove' doesn't have a default value
+Errore per matricola EE012400821: Field 'dove' doesn't have a default value
+Errore per matricola EE012400823: Field 'dove' doesn't have a default value
+Errore per matricola EE012400824: Field 'dove' doesn't have a default value
+Errore per matricola EE012400825: Field 'dove' doesn't have a default value
+Errore per matricola EE012400826: Field 'dove' doesn't have a default value
+Errore per matricola EE012400832: Field 'dove' doesn't have a default value
+Errore per matricola EE012400833: Field 'dove' doesn't have a default value
+Errore per matricola EE012400835: Field 'dove' doesn't have a default value
+Errore per matricola EE012400836: Field 'dove' doesn't have a default value
+Errore per matricola EE012400837: Field 'dove' doesn't have a default value
+Errore per matricola EE012400838: Field 'dove' doesn't have a default value
+Errore per matricola EE012400839: Field 'dove' doesn't have a default value
+Errore per matricola EE012400840: Field 'dove' doesn't have a default value
+Errore per matricola EE012400841: Field 'dove' doesn't have a default value
+Errore per matricola EE012400842: Field 'dove' doesn't have a default value
+Errore per matricola EE012400843: Field 'dove' doesn't have a default value
+Errore per matricola EE012400844: Field 'dove' doesn't have a default value
+Errore per matricola EE012400845: Field 'dove' doesn't have a default value
+Errore per matricola EE012400846: Field 'dove' doesn't have a default value
+Errore per matricola EE012400847: Field 'dove' doesn't have a default value
+Errore per matricola EE012400848: Field 'dove' doesn't have a default value
+Errore per matricola EE012400850: Field 'dove' doesn't have a default value
+Errore per matricola EE012400852: Field 'dove' doesn't have a default value
+Errore per matricola EE012400853: Field 'dove' doesn't have a default value
+Errore per matricola EE012400854: Field 'dove' doesn't have a default value
+Errore per matricola EE012400857: Field 'dove' doesn't have a default value
+Errore per matricola EE012400858: Field 'dove' doesn't have a default value
+Errore per matricola EE012400859: Field 'dove' doesn't have a default value
+Errore per matricola EE012400861: Field 'dove' doesn't have a default value
+Errore per matricola EE012400862: Field 'dove' doesn't have a default value
+Errore per matricola EE012400863: Field 'dove' doesn't have a default value
+Errore per matricola EE012400867: Field 'dove' doesn't have a default value
+Errore per matricola EE012400868: Field 'dove' doesn't have a default value
+Errore per matricola EE012400869: Field 'dove' doesn't have a default value
+Errore per matricola EE012400871: Field 'dove' doesn't have a default value
+Errore per matricola EE012400872: Field 'dove' doesn't have a default value
+Errore per matricola EE012400873: Field 'dove' doesn't have a default value
+Errore per matricola EE012400874: Field 'dove' doesn't have a default value
+Errore per matricola EE012400875: Field 'dove' doesn't have a default value
+Errore per matricola EE012400876: Field 'dove' doesn't have a default value
+Errore per matricola EE012400878: Field 'dove' doesn't have a default value
+Errore per matricola EE012400879: Field 'dove' doesn't have a default value
+Errore per matricola EE012400880: Field 'dove' doesn't have a default value
+Errore per matricola EE012400881: Field 'dove' doesn't have a default value
+Errore per matricola EE012400882: Field 'dove' doesn't have a default value
+Errore per matricola EE012400883: Field 'dove' doesn't have a default value
+Errore per matricola EE012400885: Field 'dove' doesn't have a default value
+Errore per matricola EE012400886: Field 'dove' doesn't have a default value
+Errore per matricola EE012400888: Field 'dove' doesn't have a default value
+Errore per matricola EE012400890: Field 'dove' doesn't have a default value
+Errore per matricola EE012400891: Field 'dove' doesn't have a default value
+Errore per matricola EE012400892: Field 'dove' doesn't have a default value
+Errore per matricola EE012400893: Field 'dove' doesn't have a default value
+Errore per matricola EE012400894: Field 'dove' doesn't have a default value
+Errore per matricola EE012400895: Field 'dove' doesn't have a default value
+Errore per matricola EE012400896: Field 'dove' doesn't have a default value
+Errore per matricola EE012400897: Field 'dove' doesn't have a default value
+Errore per matricola EE012400898: Field 'dove' doesn't have a default value
+Errore per matricola EE012400899: Field 'dove' doesn't have a default value
+Errore per matricola EE012400900: Field 'dove' doesn't have a default value
+Errore per matricola EE012400901: Field 'dove' doesn't have a default value
+Errore per matricola EE012400902: Field 'dove' doesn't have a default value
+Errore per matricola EE012400903: Field 'dove' doesn't have a default value
+Errore per matricola EE012400904: Field 'dove' doesn't have a default value
+Errore per matricola EE012400905: Field 'dove' doesn't have a default value
+Errore per matricola EE012400906: Field 'dove' doesn't have a default value
+Errore per matricola EE012400907: Field 'dove' doesn't have a default value
+Errore per matricola EE012400908: Field 'dove' doesn't have a default value
+Errore per matricola EE012400911: Field 'dove' doesn't have a default value
+Errore per matricola EE012400913: Field 'dove' doesn't have a default value
+Errore per matricola EE012400914: Field 'dove' doesn't have a default value
+Errore per matricola EE012400915: Field 'dove' doesn't have a default value
+Errore per matricola EE012400916: Field 'dove' doesn't have a default value
+Errore per matricola EE012400917: Field 'dove' doesn't have a default value
+Errore per matricola EE012400918: Field 'dove' doesn't have a default value
+Errore per matricola EE012400920: Field 'dove' doesn't have a default value
+Errore per matricola EE012400921: Field 'dove' doesn't have a default value
+Errore per matricola EE012400922: Field 'dove' doesn't have a default value
+Errore per matricola EE012400923: Field 'dove' doesn't have a default value
+Errore per matricola EE012400924: Field 'dove' doesn't have a default value
+Errore per matricola EE012400925: Field 'dove' doesn't have a default value
+Errore per matricola EE012400926: Field 'dove' doesn't have a default value
+Errore per matricola EE012400927: Field 'dove' doesn't have a default value
+Errore per matricola EE012400928: Field 'dove' doesn't have a default value
+Errore per matricola EE012400929: Field 'dove' doesn't have a default value
+Errore per matricola EE012400930: Field 'dove' doesn't have a default value
+Errore per matricola EE012400931: Field 'dove' doesn't have a default value
+Errore per matricola EE012400932: Field 'dove' doesn't have a default value
+Errore per matricola EE012400933: Field 'dove' doesn't have a default value
+Errore per matricola EE012400934: Field 'dove' doesn't have a default value
+Errore per matricola EE012400935: Field 'dove' doesn't have a default value
+Errore per matricola EE012400936: Field 'dove' doesn't have a default value
+Errore per matricola EE012400937: Field 'dove' doesn't have a default value
+Errore per matricola EE012400938: Field 'dove' doesn't have a default value
+Errore per matricola EE012400939: Field 'dove' doesn't have a default value
+Errore per matricola EE012400940: Field 'dove' doesn't have a default value
+Errore per matricola EE012400941: Field 'dove' doesn't have a default value
+Errore per matricola EE012400942: Field 'dove' doesn't have a default value
+Errore per matricola EE012400944: Field 'dove' doesn't have a default value
+Errore per matricola EE012400945: Field 'dove' doesn't have a default value
+Errore per matricola EE012400946: Field 'dove' doesn't have a default value
+Errore per matricola EE012400947: Field 'dove' doesn't have a default value
+Errore per matricola EE012400948: Field 'dove' doesn't have a default value
+Errore per matricola EE012400949: Field 'dove' doesn't have a default value
+Errore per matricola EE012400950: Field 'dove' doesn't have a default value
+Errore per matricola EE012400951: Field 'dove' doesn't have a default value
+Errore per matricola EE012400952: Field 'dove' doesn't have a default value
+Errore per matricola EE012400953: Field 'dove' doesn't have a default value
+Errore per matricola EE012400954: Field 'dove' doesn't have a default value
+Errore per matricola EE012400955: Field 'dove' doesn't have a default value
+Errore per matricola EE012400956: Field 'dove' doesn't have a default value
+Errore per matricola EE019801640: Field 'dove' doesn't have a default value
+Errore per matricola EE020602342: Field 'dove' doesn't have a default value
+Errore per matricola EE020603392: Field 'dove' doesn't have a default value
+Errore per matricola EE020900943: Field 'dove' doesn't have a default value
+Errore per matricola EE021001527: Field 'dove' doesn't have a default value
+Errore per matricola EE021001716: Field 'dove' doesn't have a default value
+Errore per matricola EE021200666: Field 'dove' doesn't have a default value
+Errore per matricola EE021201288: Field 'dove' doesn't have a default value
+Errore per matricola EE021202098: Field 'dove' doesn't have a default value
+Errore per matricola EE021202252: Field 'dove' doesn't have a default value
+Errore per matricola EE021202255: Field 'dove' doesn't have a default value
+Errore per matricola EE021300974: Field 'dove' doesn't have a default value
+Errore per matricola EE021400781: Field 'dove' doesn't have a default value
+Errore per matricola EE021400894: Field 'dove' doesn't have a default value
+Errore per matricola EE021401031: Field 'dove' doesn't have a default value
+Errore per matricola EE021401248: Field 'dove' doesn't have a default value
+Errore per matricola EE021401500: Field 'dove' doesn't have a default value
+Errore per matricola EE021401551: Field 'dove' doesn't have a default value
+Errore per matricola EE021401766: Field 'dove' doesn't have a default value
+Errore per matricola EE021500161: Field 'dove' doesn't have a default value
+Errore per matricola EE021500180: Field 'dove' doesn't have a default value
+Errore per matricola EE021500949: Field 'dove' doesn't have a default value
+Errore per matricola EE021501077: Field 'dove' doesn't have a default value
+Errore per matricola EE021501135: Field 'dove' doesn't have a default value
+Errore per matricola EE021501147: Field 'dove' doesn't have a default value
+Errore per matricola EE021502021: Field 'dove' doesn't have a default value
+Errore per matricola EE021600351: Field 'dove' doesn't have a default value
+Errore per matricola EE021600441: Field 'dove' doesn't have a default value
+Errore per matricola EE021600532: Field 'dove' doesn't have a default value
+Errore per matricola EE021600651: Field 'dove' doesn't have a default value
+Errore per matricola EE021600666: Field 'dove' doesn't have a default value
+Errore per matricola EE021600910: Field 'dove' doesn't have a default value
+Errore per matricola EE021600920: Field 'dove' doesn't have a default value
+Errore per matricola EE021601029: Field 'dove' doesn't have a default value
+Errore per matricola EE021601474: Field 'dove' doesn't have a default value
+Errore per matricola EE021601497: Field 'dove' doesn't have a default value
+Errore per matricola EE021601654: Field 'dove' doesn't have a default value
+Errore per matricola EE021601677: Field 'dove' doesn't have a default value
+Errore per matricola EE021601713: Field 'dove' doesn't have a default value
+Errore per matricola EE021601888: Field 'dove' doesn't have a default value
+Errore per matricola EE021700141: Field 'dove' doesn't have a default value
+Errore per matricola EE021700356: Field 'dove' doesn't have a default value
+Errore per matricola EE021700671: Field 'dove' doesn't have a default value
+Errore per matricola EE021700690: Field 'dove' doesn't have a default value
+Errore per matricola EE021700698: Field 'dove' doesn't have a default value
+Errore per matricola EE021701157: Field 'dove' doesn't have a default value
+Errore per matricola EE021701588: Field 'dove' doesn't have a default value
+Errore per matricola EE021701590: Field 'dove' doesn't have a default value
+Errore per matricola EE021701619: Field 'dove' doesn't have a default value
+Errore per matricola EE021701677: Field 'dove' doesn't have a default value
+Errore per matricola EE021701935: Field 'dove' doesn't have a default value
+Errore per matricola EE021800261: Field 'dove' doesn't have a default value
+Errore per matricola EE021800330: Field 'dove' doesn't have a default value
+Errore per matricola EE021800470: Field 'dove' doesn't have a default value
+Errore per matricola EE021800622: Field 'dove' doesn't have a default value
+Errore per matricola EE021800744: Field 'dove' doesn't have a default value
+Errore per matricola EE021800799: Field 'dove' doesn't have a default value
+Errore per matricola EE021800942: Field 'dove' doesn't have a default value
+Errore per matricola EE021801484: Field 'dove' doesn't have a default value
+Errore per matricola EE021801571: Field 'dove' doesn't have a default value
+Errore per matricola EE021801680: Field 'dove' doesn't have a default value
+Errore per matricola EE021801688: Field 'dove' doesn't have a default value
+Errore per matricola EE021801808: Field 'dove' doesn't have a default value
+Errore per matricola EE021802004: Field 'dove' doesn't have a default value
+Errore per matricola EE021802014: Field 'dove' doesn't have a default value
+Errore per matricola EE021900062: Field 'dove' doesn't have a default value
+Errore per matricola EE021900063: Field 'dove' doesn't have a default value
+Errore per matricola EE021900181: Field 'dove' doesn't have a default value
+Errore per matricola EE021900209: Field 'dove' doesn't have a default value
+Errore per matricola EE021900213: Field 'dove' doesn't have a default value
+Errore per matricola EE021900214: Field 'dove' doesn't have a default value
+Errore per matricola EE021900223: Field 'dove' doesn't have a default value
+Errore per matricola EE021900224: Field 'dove' doesn't have a default value
+Errore per matricola EE021900307: Field 'dove' doesn't have a default value
+Errore per matricola EE021900356: Field 'dove' doesn't have a default value
+Errore per matricola EE021900415: Field 'dove' doesn't have a default value
+Errore per matricola EE021900440: Field 'dove' doesn't have a default value
+Errore per matricola EE021900443: Field 'dove' doesn't have a default value
+Errore per matricola EE021900574: Field 'dove' doesn't have a default value
+Errore per matricola EE021900693: Field 'dove' doesn't have a default value
+Errore per matricola EE021900824: Field 'dove' doesn't have a default value
+Errore per matricola EE021900841: Field 'dove' doesn't have a default value
+Errore per matricola EE021900917: Field 'dove' doesn't have a default value
+Errore per matricola EE021900924: Field 'dove' doesn't have a default value
+Errore per matricola EE021900980: Field 'dove' doesn't have a default value
+Errore per matricola EE021901018: Field 'dove' doesn't have a default value
+Errore per matricola EE021901029: Field 'dove' doesn't have a default value
+Errore per matricola EE021901088: Field 'dove' doesn't have a default value
+Errore per matricola EE021901382: Field 'dove' doesn't have a default value
+Errore per matricola EE021901403: Field 'dove' doesn't have a default value
+Errore per matricola EE021901470: Field 'dove' doesn't have a default value
+Errore per matricola EE021901518: Field 'dove' doesn't have a default value
+Errore per matricola EE021901665: Field 'dove' doesn't have a default value
+Errore per matricola EE021901731: Field 'dove' doesn't have a default value
+Errore per matricola EE021901732: Field 'dove' doesn't have a default value
+Errore per matricola EE021901774: Field 'dove' doesn't have a default value
+Errore per matricola EE021901790: Field 'dove' doesn't have a default value
+Errore per matricola EE021901822: Field 'dove' doesn't have a default value
+Errore per matricola EE021901826: Field 'dove' doesn't have a default value
+Errore per matricola EE021901850: Field 'dove' doesn't have a default value
+Errore per matricola EE022000008: Field 'dove' doesn't have a default value
+Errore per matricola EE022000072: Field 'dove' doesn't have a default value
+Errore per matricola EE022000079: Field 'dove' doesn't have a default value
+Errore per matricola EE022000091: Field 'dove' doesn't have a default value
+Errore per matricola EE022000231: Field 'dove' doesn't have a default value
+Errore per matricola EE022000321: Field 'dove' doesn't have a default value
+Errore per matricola EE022000366: Field 'dove' doesn't have a default value
+Errore per matricola EE022000383: Field 'dove' doesn't have a default value
+Errore per matricola EE022000514: Field 'dove' doesn't have a default value
+Errore per matricola EE022000555: Field 'dove' doesn't have a default value
+Errore per matricola EE022000579: Field 'dove' doesn't have a default value
+Errore per matricola EE022000642: Field 'dove' doesn't have a default value
+Errore per matricola EE022000658: Field 'dove' doesn't have a default value
+Errore per matricola EE022000660: Field 'dove' doesn't have a default value
+Errore per matricola EE022000831: Field 'dove' doesn't have a default value
+Errore per matricola EE022001072: Field 'dove' doesn't have a default value
+Errore per matricola EE022001107: Field 'dove' doesn't have a default value
+Errore per matricola EE022001153: Field 'dove' doesn't have a default value
+Errore per matricola EE022100062: Field 'dove' doesn't have a default value
+Errore per matricola EE022100102: Field 'dove' doesn't have a default value
+Errore per matricola EE022100112: Field 'dove' doesn't have a default value
+Errore per matricola EE022100136: Field 'dove' doesn't have a default value
+Errore per matricola EE022100168: Field 'dove' doesn't have a default value
+Errore per matricola EE022100172: Field 'dove' doesn't have a default value
+Errore per matricola EE022100193: Field 'dove' doesn't have a default value
+Errore per matricola EE022100222: Field 'dove' doesn't have a default value
+Errore per matricola EE022100243: Field 'dove' doesn't have a default value
+Errore per matricola EE022100260: Field 'dove' doesn't have a default value
+Errore per matricola EE022100277: Field 'dove' doesn't have a default value
+Errore per matricola EE022100285: Field 'dove' doesn't have a default value
+Errore per matricola EE022100299: Field 'dove' doesn't have a default value
+Errore per matricola EE022100329: Field 'dove' doesn't have a default value
+Errore per matricola EE022100333: Field 'dove' doesn't have a default value
+Errore per matricola EE022100338: Field 'dove' doesn't have a default value
+Errore per matricola EE022100364: Field 'dove' doesn't have a default value
+Errore per matricola EE022100370: Field 'dove' doesn't have a default value
+Errore per matricola EE022100379: Field 'dove' doesn't have a default value
+Errore per matricola EE022100380: Field 'dove' doesn't have a default value
+Errore per matricola EE022100449: Field 'dove' doesn't have a default value
+Errore per matricola EE022100511: Field 'dove' doesn't have a default value
+Errore per matricola EE022100533: Field 'dove' doesn't have a default value
+Errore per matricola EE022100570: Field 'dove' doesn't have a default value
+Errore per matricola EE022100575: Field 'dove' doesn't have a default value
+Errore per matricola EE022100594: Field 'dove' doesn't have a default value
+Errore per matricola EE022100609: Field 'dove' doesn't have a default value
+Errore per matricola EE022200042: Field 'dove' doesn't have a default value
+Errore per matricola EE022200194: Field 'dove' doesn't have a default value
+Errore per matricola EE022200297: Field 'dove' doesn't have a default value
+Errore per matricola EE022200304: Field 'dove' doesn't have a default value
+Errore per matricola EE022200307: Field 'dove' doesn't have a default value
+Errore per matricola EE022200331: Field 'dove' doesn't have a default value
+Errore per matricola EE022200337: Field 'dove' doesn't have a default value
+Errore per matricola EE022200390: Field 'dove' doesn't have a default value
+Errore per matricola EE022200403: Field 'dove' doesn't have a default value
+Errore per matricola EE022200454: Field 'dove' doesn't have a default value
+Errore per matricola EE022200504: Field 'dove' doesn't have a default value
+Errore per matricola EE022200505: Field 'dove' doesn't have a default value
+Errore per matricola EE022200526: Field 'dove' doesn't have a default value
+Errore per matricola EE022200533: Field 'dove' doesn't have a default value
+Errore per matricola EE022200585: Field 'dove' doesn't have a default value
+Errore per matricola EE022200615: Field 'dove' doesn't have a default value
+Errore per matricola EE022200660: Field 'dove' doesn't have a default value
+Errore per matricola EE022200710: Field 'dove' doesn't have a default value
+Errore per matricola EE022200712: Field 'dove' doesn't have a default value
+Errore per matricola EE022200724: Field 'dove' doesn't have a default value
+Errore per matricola EE022200747: Field 'dove' doesn't have a default value
+Errore per matricola EE022200837: Field 'dove' doesn't have a default value
+Errore per matricola EE022200843: Field 'dove' doesn't have a default value
+Errore per matricola EE022200846: Field 'dove' doesn't have a default value
+Errore per matricola EE022200864: Field 'dove' doesn't have a default value
+Errore per matricola EE022200902: Field 'dove' doesn't have a default value
+Errore per matricola EE022200942: Field 'dove' doesn't have a default value
+Errore per matricola EE022300007: Field 'dove' doesn't have a default value
+Errore per matricola EE022300009: Field 'dove' doesn't have a default value
+Errore per matricola EE022300042: Field 'dove' doesn't have a default value
+Errore per matricola EE022300044: Field 'dove' doesn't have a default value
+Errore per matricola EE022300055: Field 'dove' doesn't have a default value
+Errore per matricola EE022300059: Field 'dove' doesn't have a default value
+Errore per matricola EE022300067: Field 'dove' doesn't have a default value
+Errore per matricola EE022300081: Field 'dove' doesn't have a default value
+Errore per matricola EE022300130: Field 'dove' doesn't have a default value
+Errore per matricola EE022300173: Field 'dove' doesn't have a default value
+Errore per matricola EE022300206: Field 'dove' doesn't have a default value
+Errore per matricola EE022300236: Field 'dove' doesn't have a default value
+Errore per matricola EE022300243: Field 'dove' doesn't have a default value
+Errore per matricola EE022300289: Field 'dove' doesn't have a default value
+Errore per matricola EE022300295: Field 'dove' doesn't have a default value
+Errore per matricola EE022300296: Field 'dove' doesn't have a default value
+Errore per matricola EE022300347: Field 'dove' doesn't have a default value
+Errore per matricola EE022300371: Field 'dove' doesn't have a default value
+Errore per matricola EE022300378: Field 'dove' doesn't have a default value
+Errore per matricola EE022300432: Field 'dove' doesn't have a default value
+Errore per matricola EE022300448: Field 'dove' doesn't have a default value
+Errore per matricola EE022300513: Field 'dove' doesn't have a default value
+Errore per matricola EE022300537: Field 'dove' doesn't have a default value
+Errore per matricola EE022300553: Field 'dove' doesn't have a default value
+Errore per matricola EE022300558: Field 'dove' doesn't have a default value
+Errore per matricola EE022300605: Field 'dove' doesn't have a default value
+Errore per matricola EE022300690: Field 'dove' doesn't have a default value
+Errore per matricola EE022300704: Field 'dove' doesn't have a default value
+Errore per matricola EE022300790: Field 'dove' doesn't have a default value
+Errore per matricola EE022300792: Field 'dove' doesn't have a default value
+Errore per matricola EE022300825: Field 'dove' doesn't have a default value
+Errore per matricola EE022300843: Field 'dove' doesn't have a default value
+Errore per matricola EE022300862: Field 'dove' doesn't have a default value
+Errore per matricola EE022300874: Field 'dove' doesn't have a default value
+Errore per matricola EE022300930: Field 'dove' doesn't have a default value
+Errore per matricola EE022300956: Field 'dove' doesn't have a default value
+Errore per matricola EE022301074: Field 'dove' doesn't have a default value
+Errore per matricola EE022301131: Field 'dove' doesn't have a default value
+Errore per matricola EE022301142: Field 'dove' doesn't have a default value
+Errore per matricola EE022301162: Field 'dove' doesn't have a default value
+Errore per matricola EE022301181: Field 'dove' doesn't have a default value
+Errore per matricola EE022301220: Field 'dove' doesn't have a default value
+Errore per matricola EE022301273: Field 'dove' doesn't have a default value
+Errore per matricola EE022301386: Field 'dove' doesn't have a default value
+Errore per matricola EE022400140: Field 'dove' doesn't have a default value
+Errore per matricola EE022400205: Field 'dove' doesn't have a default value
+Errore per matricola EE022400211: Field 'dove' doesn't have a default value
+Errore per matricola EE022400257: Field 'dove' doesn't have a default value
+Errore per matricola EE022400296: Field 'dove' doesn't have a default value
+Errore per matricola EE022400644: Field 'dove' doesn't have a default value
+Errore per matricola EE022400726: Field 'dove' doesn't have a default value
+Errore per matricola EE022400823: Field 'dove' doesn't have a default value
+Errore per matricola EE022401239: Field 'dove' doesn't have a default value
+Errore per matricola EE022401271: Field 'dove' doesn't have a default value
+Errore per matricola EE031900001: Field 'dove' doesn't have a default value
+Errore per matricola EE032100013: Field 'dove' doesn't have a default value
+Errore per matricola EE041100414: Field 'dove' doesn't have a default value
+Errore per matricola EE041200133: Field 'dove' doesn't have a default value
+Errore per matricola EE051300199: Field 'dove' doesn't have a default value
+Errore per matricola EE051600063: Field 'dove' doesn't have a default value
+Errore per matricola EE052100014: Field 'dove' doesn't have a default value
+Errore per matricola EE052100027: Field 'dove' doesn't have a default value
+Errore per matricola EE052200006: Field 'dove' doesn't have a default value
+Errore per matricola EE052200018: Field 'dove' doesn't have a default value
+Errore per matricola EE052200022: Field 'dove' doesn't have a default value
+Errore per matricola EE052200059: Field 'dove' doesn't have a default value
+Errore per matricola EE052300090: Field 'dove' doesn't have a default value
+Errore per matricola EE052400026: Field 'dove' doesn't have a default value
+Errore per matricola EE061400176: Field 'dove' doesn't have a default value
+Errore per matricola EE061400193: Field 'dove' doesn't have a default value
+Errore per matricola EE061600101: Field 'dove' doesn't have a default value
+Errore per matricola EE061700105: Field 'dove' doesn't have a default value
+Errore per matricola EE061700146: Field 'dove' doesn't have a default value
+Errore per matricola EE061900110: Field 'dove' doesn't have a default value
+Errore per matricola EE061900116: Field 'dove' doesn't have a default value
+Errore per matricola EE062000028: Field 'dove' doesn't have a default value
+Errore per matricola EE062100003: Field 'dove' doesn't have a default value
+Errore per matricola EE062100037: Field 'dove' doesn't have a default value
+Errore per matricola EE062100044: Field 'dove' doesn't have a default value
+Errore per matricola EE062200015: Field 'dove' doesn't have a default value
+Errore per matricola EE062200021: Field 'dove' doesn't have a default value
+Errore per matricola EE062200046: Field 'dove' doesn't have a default value
+Errore per matricola EE062200059: Field 'dove' doesn't have a default value
+Errore per matricola EE062200060: Field 'dove' doesn't have a default value
+Errore per matricola EE062300091: Field 'dove' doesn't have a default value
+Errore per matricola EE062300116: Field 'dove' doesn't have a default value
+Errore per matricola EE062400062: Field 'dove' doesn't have a default value
+Errore per matricola EE062400063: Field 'dove' doesn't have a default value
+Errore per matricola EE071800069: Field 'dove' doesn't have a default value
+Errore per matricola EE071900093: Field 'dove' doesn't have a default value
+Errore per matricola EE071900130: Field 'dove' doesn't have a default value
+Errore per matricola EE071900161: Field 'dove' doesn't have a default value
+Errore per matricola EE071900167: Field 'dove' doesn't have a default value
+Errore per matricola EE072000047: Field 'dove' doesn't have a default value
+Errore per matricola EE072000073: Field 'dove' doesn't have a default value
+Errore per matricola EE072000102: Field 'dove' doesn't have a default value
+Errore per matricola EE072100035: Field 'dove' doesn't have a default value
+Errore per matricola EE072100064: Field 'dove' doesn't have a default value
+Errore per matricola EE072100123: Field 'dove' doesn't have a default value
+Errore per matricola EE072100138: Field 'dove' doesn't have a default value
+Errore per matricola EE072100148: Field 'dove' doesn't have a default value
+Errore per matricola EE072100248: Field 'dove' doesn't have a default value
+Errore per matricola EE072100252: Field 'dove' doesn't have a default value
+Errore per matricola EE072100263: Field 'dove' doesn't have a default value
+Errore per matricola EE072100268: Field 'dove' doesn't have a default value
+Errore per matricola EE072100289: Field 'dove' doesn't have a default value
+Errore per matricola EE072100313: Field 'dove' doesn't have a default value
+Errore per matricola EE072100321: Field 'dove' doesn't have a default value
+Errore per matricola EE072100327: Field 'dove' doesn't have a default value
+Errore per matricola EE072100365: Field 'dove' doesn't have a default value
+Errore per matricola EE072200043: Field 'dove' doesn't have a default value
+Errore per matricola EE072200190: Field 'dove' doesn't have a default value
+Errore per matricola EE072200224: Field 'dove' doesn't have a default value
+Errore per matricola EE072200258: Field 'dove' doesn't have a default value
+Errore per matricola EE072300031: Field 'dove' doesn't have a default value
+Errore per matricola EE072300046: Field 'dove' doesn't have a default value
+Errore per matricola EE090000006: Field 'dove' doesn't have a default value
+Errore per matricola EE091900059: Field 'dove' doesn't have a default value
+Errore per matricola EE092000042: Field 'dove' doesn't have a default value
+Errore per matricola EE092000046: Field 'dove' doesn't have a default value
+Errore per matricola EE092000047: Field 'dove' doesn't have a default value
+Errore per matricola EE092200015: Field 'dove' doesn't have a default value
+Errore per matricola EE092200031: Field 'dove' doesn't have a default value
+Errore per matricola EE092200060: Field 'dove' doesn't have a default value
+Errore per matricola EE092200128: Field 'dove' doesn't have a default value
+Errore per matricola EE092200135: Field 'dove' doesn't have a default value
+Errore per matricola EE092300018: Field 'dove' doesn't have a default value
+Errore per matricola EE092300100: Field 'dove' doesn't have a default value
+Errore per matricola EE092300138: Field 'dove' doesn't have a default value
+Errore per matricola EE092300158: Field 'dove' doesn't have a default value
+Errore per matricola EE092400008: Field 'dove' doesn't have a default value
+Errore per matricola EE092400029: Field 'dove' doesn't have a default value
+Errore per matricola EE092400039: Field 'dove' doesn't have a default value
+Errore per matricola EE092400079: Field 'dove' doesn't have a default value
+Errore per matricola EE102300084: Field 'dove' doesn't have a default value
+Errore per matricola EE102400007: Field 'dove' doesn't have a default value
+Errore per matricola EE102400036: Field 'dove' doesn't have a default value
+Errore per matricola EE102400075: Field 'dove' doesn't have a default value
+Errore per matricola EE102400079: Field 'dove' doesn't have a default value
+Errore per matricola EE131300237: Field 'dove' doesn't have a default value
+Errore per matricola EE131900070: Field 'dove' doesn't have a default value
+Errore per matricola EE132200022: Field 'dove' doesn't have a default value
+Errore per matricola EE132200061: Field 'dove' doesn't have a default value
+Errore per matricola EE132400045: Field 'dove' doesn't have a default value
+Errore per matricola EE172300061: Field 'dove' doesn't have a default value
+Errore per matricola EE182100010: Field 'dove' doesn't have a default value
+Errore per matricola EE182100042: Field 'dove' doesn't have a default value
+Errore per matricola EE182100059: Field 'dove' doesn't have a default value
+Errore per matricola EE182100082: Field 'dove' doesn't have a default value
+Errore per matricola EE182200040: Field 'dove' doesn't have a default value
+Errore per matricola EE182200066: Field 'dove' doesn't have a default value
+Errore per matricola EE182300015: Field 'dove' doesn't have a default value
+Errore per matricola EE182300052: Field 'dove' doesn't have a default value
+Errore per matricola EE182400030: Field 'dove' doesn't have a default value
+Errore per matricola EE182400032: Field 'dove' doesn't have a default value
+Errore per matricola EE191900031: Field 'dove' doesn't have a default value
+Errore per matricola EE192000122: Field 'dove' doesn't have a default value
+Errore per matricola EE192000251: Field 'dove' doesn't have a default value
+Errore per matricola EE192100020: Field 'dove' doesn't have a default value
+Errore per matricola EE192100240: Field 'dove' doesn't have a default value
+Errore per matricola EE192200014: Field 'dove' doesn't have a default value
+Errore per matricola EE192200017: Field 'dove' doesn't have a default value
+Errore per matricola EE192200038: Field 'dove' doesn't have a default value
+Errore per matricola EE192200081: Field 'dove' doesn't have a default value
+Errore per matricola EE192400041: Field 'dove' doesn't have a default value
+Errore per matricola EE201000326: Field 'dove' doesn't have a default value
+Errore per matricola EE201500233: Field 'dove' doesn't have a default value
+Errore per matricola EE201600015: Field 'dove' doesn't have a default value
+Errore per matricola EE201700109: Field 'dove' doesn't have a default value
+Errore per matricola EE201700210: Field 'dove' doesn't have a default value
+Errore per matricola EE201800250: Field 'dove' doesn't have a default value
+Errore per matricola EE201800376: Field 'dove' doesn't have a default value
+Errore per matricola EE201900019: Field 'dove' doesn't have a default value
+Errore per matricola EE201900107: Field 'dove' doesn't have a default value
+Errore per matricola EE201900207: Field 'dove' doesn't have a default value
+Errore per matricola EE202000123: Field 'dove' doesn't have a default value
+Errore per matricola EE202000155: Field 'dove' doesn't have a default value
+Errore per matricola EE202000364: Field 'dove' doesn't have a default value
+Errore per matricola EE202000367: Field 'dove' doesn't have a default value
+Errore per matricola EE202000370: Field 'dove' doesn't have a default value
+Errore per matricola EE202100005: Field 'dove' doesn't have a default value
+Errore per matricola EE202100145: Field 'dove' doesn't have a default value
+Errore per matricola EE202100147: Field 'dove' doesn't have a default value
+Errore per matricola EE202100150: Field 'dove' doesn't have a default value
+Errore per matricola EE202100255: Field 'dove' doesn't have a default value
+Errore per matricola EE202100277: Field 'dove' doesn't have a default value
+Errore per matricola EE202100317: Field 'dove' doesn't have a default value
+Errore per matricola EE202100322: Field 'dove' doesn't have a default value
+Errore per matricola EE202100358: Field 'dove' doesn't have a default value
+Errore per matricola EE202100367: Field 'dove' doesn't have a default value
+Errore per matricola EE202100383: Field 'dove' doesn't have a default value
+Errore per matricola EE202100388: Field 'dove' doesn't have a default value
+Errore per matricola EE202100417: Field 'dove' doesn't have a default value
+Errore per matricola EE202100444: Field 'dove' doesn't have a default value
+Errore per matricola EE202100471: Field 'dove' doesn't have a default value
+Errore per matricola EE202200009: Field 'dove' doesn't have a default value
+Errore per matricola EE202200044: Field 'dove' doesn't have a default value
+Errore per matricola EE202200048: Field 'dove' doesn't have a default value
+Errore per matricola EE202200057: Field 'dove' doesn't have a default value
+Errore per matricola EE202200135: Field 'dove' doesn't have a default value
+Errore per matricola EE202200145: Field 'dove' doesn't have a default value
+Errore per matricola EE202200211: Field 'dove' doesn't have a default value
+Errore per matricola EE202200217: Field 'dove' doesn't have a default value
+Errore per matricola EE202200220: Field 'dove' doesn't have a default value
+Errore per matricola EE202200350: Field 'dove' doesn't have a default value
+Errore per matricola EE202200359: Field 'dove' doesn't have a default value
+Errore per matricola EE202200415: Field 'dove' doesn't have a default value
+Errore per matricola EE202300002: Field 'dove' doesn't have a default value
+Errore per matricola EE202300009: Field 'dove' doesn't have a default value
+Errore per matricola EE202300015: Field 'dove' doesn't have a default value
+Errore per matricola EE202300036: Field 'dove' doesn't have a default value
+Errore per matricola EE202300050: Field 'dove' doesn't have a default value
+Errore per matricola EE202300101: Field 'dove' doesn't have a default value
+Errore per matricola EE202300106: Field 'dove' doesn't have a default value
+Errore per matricola EE202300127: Field 'dove' doesn't have a default value
+Errore per matricola EE202300165: Field 'dove' doesn't have a default value
+Errore per matricola EE202300193: Field 'dove' doesn't have a default value
+Errore per matricola EE202300216: Field 'dove' doesn't have a default value
+Errore per matricola EE202300217: Field 'dove' doesn't have a default value
+Errore per matricola EE202300226: Field 'dove' doesn't have a default value
+Errore per matricola EE202300339: Field 'dove' doesn't have a default value
+Errore per matricola EE202400016: Field 'dove' doesn't have a default value
+Errore per matricola EE202400023: Field 'dove' doesn't have a default value
+Errore per matricola EE202400036: Field 'dove' doesn't have a default value
+Errore per matricola EE202400067: Field 'dove' doesn't have a default value
+Errore per matricola EE202400072: Field 'dove' doesn't have a default value
+Errore per matricola EE202400154: Field 'dove' doesn't have a default value
+Errore per matricola EE202400173: Field 'dove' doesn't have a default value
+Errore per matricola EE202400179: Field 'dove' doesn't have a default value
+Errore per matricola EE202400181: Field 'dove' doesn't have a default value
+Errore per matricola EE230300457: Field 'dove' doesn't have a default value
+Errore per matricola EE231300174: Field 'dove' doesn't have a default value
+Errore per matricola EE231300349: Field 'dove' doesn't have a default value
+Errore per matricola EE231400069: Field 'dove' doesn't have a default value
+Errore per matricola EE231500297: Field 'dove' doesn't have a default value
+Errore per matricola EE231700095: Field 'dove' doesn't have a default value
+Errore per matricola EE231800165: Field 'dove' doesn't have a default value
+Errore per matricola EE231900011: Field 'dove' doesn't have a default value
+Errore per matricola EE231900034: Field 'dove' doesn't have a default value
+Errore per matricola EE231900265: Field 'dove' doesn't have a default value
+Errore per matricola EE231900297: Field 'dove' doesn't have a default value
+Errore per matricola EE231900304: Field 'dove' doesn't have a default value
+Errore per matricola EE231900306: Field 'dove' doesn't have a default value
+Errore per matricola EE232000174: Field 'dove' doesn't have a default value
+Errore per matricola EE232000198: Field 'dove' doesn't have a default value
+Errore per matricola EE232200011: Field 'dove' doesn't have a default value
+Errore per matricola EE232200029: Field 'dove' doesn't have a default value
+Errore per matricola EE232200031: Field 'dove' doesn't have a default value
+Errore per matricola EE232200035: Field 'dove' doesn't have a default value
+Errore per matricola EE232200063: Field 'dove' doesn't have a default value
+Errore per matricola EE232200075: Field 'dove' doesn't have a default value
+Errore per matricola EE232200106: Field 'dove' doesn't have a default value
+Errore per matricola EE232300004: Field 'dove' doesn't have a default value
+Errore per matricola EE232300035: Field 'dove' doesn't have a default value
+Errore per matricola EE232300074: Field 'dove' doesn't have a default value
+Errore per matricola EE232300082: Field 'dove' doesn't have a default value
+Errore per matricola EE232300096: Field 'dove' doesn't have a default value
+Errore per matricola EE232300098: Field 'dove' doesn't have a default value
+Errore per matricola EE232300108: Field 'dove' doesn't have a default value
+Errore per matricola EE232300129: Field 'dove' doesn't have a default value
+Errore per matricola EE232300161: Field 'dove' doesn't have a default value
+Errore per matricola EE232300166: Field 'dove' doesn't have a default value
+Errore per matricola EE232300172: Field 'dove' doesn't have a default value
+Errore per matricola EE232300176: Field 'dove' doesn't have a default value
+Errore per matricola EE232300191: Field 'dove' doesn't have a default value
+Errore per matricola EE232400064: Field 'dove' doesn't have a default value
+Errore per matricola EE232400065: Field 'dove' doesn't have a default value
+Errore per matricola EE232400070: Field 'dove' doesn't have a default value
+Errore per matricola EE232400072: Field 'dove' doesn't have a default value
+Errore per matricola EE232400082: Field 'dove' doesn't have a default value
+Errore per matricola EE232400085: Field 'dove' doesn't have a default value
+Errore per matricola EE261500142: Field 'dove' doesn't have a default value
+Errore per matricola EE291600010: Field 'dove' doesn't have a default value
+Errore per matricola EE292000006: Field 'dove' doesn't have a default value
+Errore per matricola EE292000034: Field 'dove' doesn't have a default value
+Errore per matricola EE292000082: Field 'dove' doesn't have a default value
+Errore per matricola EE292000085: Field 'dove' doesn't have a default value
+Errore per matricola EE292000087: Field 'dove' doesn't have a default value
+Errore per matricola EE292100054: Field 'dove' doesn't have a default value
+Errore per matricola EE292100084: Field 'dove' doesn't have a default value
+Errore per matricola EE292100101: Field 'dove' doesn't have a default value
+Errore per matricola EE292200005: Field 'dove' doesn't have a default value
+Errore per matricola EE292200036: Field 'dove' doesn't have a default value
+Errore per matricola EE292200061: Field 'dove' doesn't have a default value
+Errore per matricola EE292300012: Field 'dove' doesn't have a default value
+Errore per matricola EE292300022: Field 'dove' doesn't have a default value
+Errore per matricola EE292400005: Field 'dove' doesn't have a default value
+Errore per matricola EE321900362: Field 'dove' doesn't have a default value
+Errore per matricola EE321900415: Field 'dove' doesn't have a default value
+Errore per matricola EE322000147: Field 'dove' doesn't have a default value
+Errore per matricola EE322000183: Field 'dove' doesn't have a default value
+Errore per matricola EE322000229: Field 'dove' doesn't have a default value
+Errore per matricola EE322000244: Field 'dove' doesn't have a default value
+Errore per matricola EE322100049: Field 'dove' doesn't have a default value
+Errore per matricola EE322100078: Field 'dove' doesn't have a default value
+Errore per matricola EE322100089: Field 'dove' doesn't have a default value
+Errore per matricola EE322100151: Field 'dove' doesn't have a default value
+Errore per matricola EE322100224: Field 'dove' doesn't have a default value
+Errore per matricola EE322100231: Field 'dove' doesn't have a default value
+Errore per matricola EE322100272: Field 'dove' doesn't have a default value
+Errore per matricola EE322100277: Field 'dove' doesn't have a default value
+Errore per matricola EE322100289: Field 'dove' doesn't have a default value
+Errore per matricola EE322100294: Field 'dove' doesn't have a default value
+Errore per matricola EE322200010: Field 'dove' doesn't have a default value
+Errore per matricola EE322200024: Field 'dove' doesn't have a default value
+Errore per matricola EE322200041: Field 'dove' doesn't have a default value
+Errore per matricola EE322200204: Field 'dove' doesn't have a default value
+Errore per matricola EE322200369: Field 'dove' doesn't have a default value
+Errore per matricola EE322300147: Field 'dove' doesn't have a default value
+Errore per matricola EE322300212: Field 'dove' doesn't have a default value
+Errore per matricola EE322300234: Field 'dove' doesn't have a default value
+Errore per matricola EE322300273: Field 'dove' doesn't have a default value
+Errore per matricola EE322300343: Field 'dove' doesn't have a default value
+Errore per matricola EE322300372: Field 'dove' doesn't have a default value
+Errore per matricola EE322400372: Field 'dove' doesn't have a default value
+Errore per matricola EE322400385: Field 'dove' doesn't have a default value
+Errore per matricola EE392200011: Field 'dove' doesn't have a default value
+Errore per matricola EE392200015: Field 'dove' doesn't have a default value
+Errore per matricola EE392200016: Field 'dove' doesn't have a default value
+Errore per matricola EE481800081: Field 'dove' doesn't have a default value
+Errore per matricola EE481800082: Field 'dove' doesn't have a default value
+Errore per matricola EE482000032: Field 'dove' doesn't have a default value
+Errore per matricola EE482000072: Field 'dove' doesn't have a default value
+Errore per matricola EE482000119: Field 'dove' doesn't have a default value
+Errore per matricola EE482100056: Field 'dove' doesn't have a default value
+Errore per matricola EE482100104: Field 'dove' doesn't have a default value
+Errore per matricola EE482100142: Field 'dove' doesn't have a default value
+Errore per matricola EE482100143: Field 'dove' doesn't have a default value
+Errore per matricola EE482100248: Field 'dove' doesn't have a default value
+Errore per matricola EE482100253: Field 'dove' doesn't have a default value
+Errore per matricola EE482100284: Field 'dove' doesn't have a default value
+Errore per matricola EE482100306: Field 'dove' doesn't have a default value
+Errore per matricola EE482100318: Field 'dove' doesn't have a default value
+Errore per matricola EE482200001: Field 'dove' doesn't have a default value
+Errore per matricola EE482200031: Field 'dove' doesn't have a default value
+Errore per matricola EE482200057: Field 'dove' doesn't have a default value
+Errore per matricola EE482200068: Field 'dove' doesn't have a default value
+Errore per matricola EE482200071: Field 'dove' doesn't have a default value
+Errore per matricola EE482200097: Field 'dove' doesn't have a default value
+Errore per matricola EE482200106: Field 'dove' doesn't have a default value
+Errore per matricola EE482200118: Field 'dove' doesn't have a default value
+Errore per matricola EE482200185: Field 'dove' doesn't have a default value
+Errore per matricola FF010605367: Field 'dove' doesn't have a default value
+Errore per matricola FF010700525: Field 'dove' doesn't have a default value
+Errore per matricola FF010701372: Field 'dove' doesn't have a default value
+Errore per matricola FF010704219: Field 'dove' doesn't have a default value
+Errore per matricola FF010705676: Field 'dove' doesn't have a default value
+Errore per matricola FF010804868: Field 'dove' doesn't have a default value
+Errore per matricola FF010901864: Field 'dove' doesn't have a default value
+Errore per matricola FF011701161: Field 'dove' doesn't have a default value
+Errore per matricola FF011800314: Field 'dove' doesn't have a default value
+Errore per matricola FF012100207: Field 'dove' doesn't have a default value
+Errore per matricola FF012100698: Field 'dove' doesn't have a default value
+Errore per matricola FF012101432: Field 'dove' doesn't have a default value
+Errore per matricola FF012101650: Field 'dove' doesn't have a default value
+Errore per matricola FF012101744: Field 'dove' doesn't have a default value
+Errore per matricola FF012101765: Field 'dove' doesn't have a default value
+Errore per matricola FF012101835: Field 'dove' doesn't have a default value
+Errore per matricola FF012101882: Field 'dove' doesn't have a default value
+Errore per matricola FF012102071: Field 'dove' doesn't have a default value
+Errore per matricola FF012102273: Field 'dove' doesn't have a default value
+Errore per matricola FF012102323: Field 'dove' doesn't have a default value
+Errore per matricola FF012102346: Field 'dove' doesn't have a default value
+Errore per matricola FF012200063: Field 'dove' doesn't have a default value
+Errore per matricola FF012200735: Field 'dove' doesn't have a default value
+Errore per matricola FF012300345: Field 'dove' doesn't have a default value
+Errore per matricola FF012300379: Field 'dove' doesn't have a default value
+Errore per matricola FF012300929: Field 'dove' doesn't have a default value
+Errore per matricola FF012401534: Field 'dove' doesn't have a default value
+Errore per matricola FF042000332: Field 'dove' doesn't have a default value
+Errore per matricola FF042000568: Field 'dove' doesn't have a default value
+Errore per matricola FF042100133: Field 'dove' doesn't have a default value
+Errore per matricola FF051600766: Field 'dove' doesn't have a default value
+Errore per matricola FF051900082: Field 'dove' doesn't have a default value
+Errore per matricola FF059900899: Field 'dove' doesn't have a default value
+Errore per matricola FF110900617: Field 'dove' doesn't have a default value
+Errore per matricola FF111200652: Field 'dove' doesn't have a default value
+Errore per matricola FF111600296: Field 'dove' doesn't have a default value
+Errore per matricola FF111900147: Field 'dove' doesn't have a default value
+Errore per matricola FF112200395: Field 'dove' doesn't have a default value
+Errore per matricola FF122200002: Field 'dove' doesn't have a default value
+Errore per matricola FF122300036: Field 'dove' doesn't have a default value
+Errore per matricola FF131100499: Field 'dove' doesn't have a default value
+Errore per matricola FF131800822: Field 'dove' doesn't have a default value
+Errore per matricola FF139200647: Field 'dove' doesn't have a default value
+Errore per matricola FF140300151: Field 'dove' doesn't have a default value
+Errore per matricola FF150500185: Field 'dove' doesn't have a default value
+Errore per matricola FF172200397: Field 'dove' doesn't have a default value
+Errore per matricola FF191800030: Field 'dove' doesn't have a default value
+Errore per matricola FF192000027: Field 'dove' doesn't have a default value
+Errore per matricola FF192200065: Field 'dove' doesn't have a default value
+Errore per matricola FF192300005: Field 'dove' doesn't have a default value
+Errore per matricola FF192300013: Field 'dove' doesn't have a default value
+Errore per matricola FF192300018: Field 'dove' doesn't have a default value
+Errore per matricola FF250400048: Field 'dove' doesn't have a default value
+Errore per matricola FF291100003: Field 'dove' doesn't have a default value
+Errore per matricola FF301000014: Field 'dove' doesn't have a default value
+Errore per matricola FF320500151: Field 'dove' doesn't have a default value
+Errore per matricola FF322300094: Field 'dove' doesn't have a default value
+Errore per matricola FF341800219: Field 'dove' doesn't have a default value
+Errore per matricola FF341900584: Field 'dove' doesn't have a default value
+Errore per matricola FF349300284: Field 'dove' doesn't have a default value
+Errore per matricola FF581100122: Field 'dove' doesn't have a default value
+Errore per matricola FF581800367: Field 'dove' doesn't have a default value
+Errore per matricola FF582000107: Field 'dove' doesn't have a default value
+Errore per matricola FF582200027: Field 'dove' doesn't have a default value
+Errore per matricola FF582200141: Field 'dove' doesn't have a default value
+Errore per matricola FF582300275: Field 'dove' doesn't have a default value
+Errore per matricola HH011000477: Field 'dove' doesn't have a default value
+Errore per matricola HH012000088: Field 'dove' doesn't have a default value
+Errore per matricola HH022300084: Field 'dove' doesn't have a default value
+Errore per matricola HH030700259: Field 'dove' doesn't have a default value
+Errore per matricola HH031800106: Field 'dove' doesn't have a default value
+Errore per matricola HH031900147: Field 'dove' doesn't have a default value
+Errore per matricola HH031900148: Field 'dove' doesn't have a default value
+Errore per matricola HH032100058: Field 'dove' doesn't have a default value
+Errore per matricola HH041400166: Field 'dove' doesn't have a default value
+Errore per matricola HH041600016: Field 'dove' doesn't have a default value
+Errore per matricola HH041800016: Field 'dove' doesn't have a default value
+Errore per matricola HH042300070: Field 'dove' doesn't have a default value
+Errore per matricola HH042300079: Field 'dove' doesn't have a default value
+Errore per matricola HH061400073: Field 'dove' doesn't have a default value
+Errore per matricola HH061700058: Field 'dove' doesn't have a default value
+Errore per matricola HH071300019: Field 'dove' doesn't have a default value
+Errore per matricola HH071600001: Field 'dove' doesn't have a default value
+Errore per matricola HH071800066: Field 'dove' doesn't have a default value
+Errore per matricola HH071900153: Field 'dove' doesn't have a default value
+Errore per matricola HH072200086: Field 'dove' doesn't have a default value
+Errore per matricola HH079000053: Field 'dove' doesn't have a default value
+Errore per matricola HH111600081: Field 'dove' doesn't have a default value
+Errore per matricola HH111700105: Field 'dove' doesn't have a default value
+Errore per matricola HH111700114: Field 'dove' doesn't have a default value
+Errore per matricola HH111700280: Field 'dove' doesn't have a default value
+Errore per matricola HH111900057: Field 'dove' doesn't have a default value
+Errore per matricola HH111900261: Field 'dove' doesn't have a default value
+Errore per matricola HH112100109: Field 'dove' doesn't have a default value
+Errore per matricola HH142200050: Field 'dove' doesn't have a default value
+Errore per matricola HH192200052: Field 'dove' doesn't have a default value
+Errore per matricola HH192200099: Field 'dove' doesn't have a default value
+Errore per matricola HH441900174: Field 'dove' doesn't have a default value
+Errore per matricola HH442100104: Field 'dove' doesn't have a default value
+Errore per matricola HH442300091: Field 'dove' doesn't have a default value
+Errore per matricola JJ032000005: Field 'dove' doesn't have a default value
+Errore per matricola KK019700739: Field 'dove' doesn't have a default value
+Errore per matricola KK019800488: Field 'dove' doesn't have a default value
+Errore per matricola KK020001532: Field 'dove' doesn't have a default value
+Errore per matricola KK021800366: Field 'dove' doesn't have a default value
+Errore per matricola KK029301853: Field 'dove' doesn't have a default value
+Errore per matricola KK029501002: Field 'dove' doesn't have a default value
+Errore per matricola KK042100037: Field 'dove' doesn't have a default value
+Errore per matricola KK068406583: Field 'dove' doesn't have a default value
+Errore per matricola KK081600134: Field 'dove' doesn't have a default value
+Errore per matricola KK082100072: Field 'dove' doesn't have a default value
+Errore per matricola KK091800029: Field 'dove' doesn't have a default value
+Errore per matricola KK091900037: Field 'dove' doesn't have a default value
+Errore per matricola KK092100070: Field 'dove' doesn't have a default value
+Errore per matricola KK231100096: Field 'dove' doesn't have a default value
+Errore per matricola KK231300137: Field 'dove' doesn't have a default value
+Errore per matricola KK231400120: Field 'dove' doesn't have a default value
+Errore per matricola KK231500574: Field 'dove' doesn't have a default value
+Errore per matricola KK231700214: Field 'dove' doesn't have a default value
+Errore per matricola KK231800054: Field 'dove' doesn't have a default value
+Errore per matricola KK231800339: Field 'dove' doesn't have a default value
+Errore per matricola KK231800990: Field 'dove' doesn't have a default value
+Errore per matricola KK232100526: Field 'dove' doesn't have a default value
+Errore per matricola KK232100572: Field 'dove' doesn't have a default value
+Errore per matricola KK232200611: Field 'dove' doesn't have a default value
+Errore per matricola KK232300084: Field 'dove' doesn't have a default value
+Errore per matricola KK240900039: Field 'dove' doesn't have a default value
+Errore per matricola KK241600114: Field 'dove' doesn't have a default value
+Errore per matricola KK242100022: Field 'dove' doesn't have a default value
+Errore per matricola KK249300123: Field 'dove' doesn't have a default value
+Errore per matricola LL012000169: Field 'dove' doesn't have a default value
+Errore per matricola LL091800065: Field 'dove' doesn't have a default value
+Errore per matricola LL101300084: Field 'dove' doesn't have a default value
+Errore per matricola LL102200134: Field 'dove' doesn't have a default value
+Errore per matricola LL102400014: Field 'dove' doesn't have a default value
+Errore per matricola RA172200003: Field 'dove' doesn't have a default value
+Errore per matricola WW011600037: Field 'dove' doesn't have a default value
+
+2024-11-03 11:17:10 - Sincronizzazione completata
+Totali processati: 1536
+Nuovi inserimenti: 1536
+Aggiornamenti: 0
+Errori: 0
+Dettagli:
+Aggiunto: AA021800548 - DIALLO MAMADOU WURRY
+Aggiunto: AA061900113 - TRAJKOVIC MIKI
+Aggiunto: AA102000041 - LUPPINO SALVATORE
+Aggiunto: AA162100175 - EL FEITURI ASHRAF M HAMAD
+Aggiunto: AA162300034 - ABIDI MOHAMED
+Aggiunto: AA162300074 - NAFETI MOHAMED
+Aggiunto: AA162400053 - MARIC CRISTIAN
+Aggiunto: AA162400058 - SEJDOVIC TARZAN
+Aggiunto: AA422301616 - IERVASI VINCENZO ANTONIO
+Aggiunto: BB010301215 - FERRARO GIUSEPPE
+Aggiunto: BB011002898 - KOTE LEONARD
+Aggiunto: BB011100602 - BOUZIANE MOHAMED
+Aggiunto: BB011402297 - ZHUBA KASTRIOT
+Aggiunto: BB011800825 - OVANOVIC DESP
+Aggiunto: BB011901938 - TOUMI SAMIR
+Aggiunto: BB012301957 - APRICENO LUCA
+Aggiunto: BB012400201 - MUNOZ CANALES HECTOR PATRICIO
+Aggiunto: BB031500021 - URUCI MATTEO
+Aggiunto: BB032100633 - ROVNIC VITALIE
+Aggiunto: BB032200255 - PAPASKUA TEMUR
+Aggiunto: BB062200151 - TOMASSETTI PAOLO
+Aggiunto: BB140700018 - SPARANDEO SAVERIO
+Aggiunto: BB151400002 - MERCURIO MASSIMILIANO
+Aggiunto: BB171200026 - NISTOR IONUT DANIEL
+Aggiunto: BB171800268 - MARCELLI GIANLUCA
+Aggiunto: BB210800123 - CAFOLLA GUIDO
+Aggiunto: BB232100062 - SCIBILIA LUCIANO
+Aggiunto: BB291900108 - RINALDI FILIBERTO
+Aggiunto: BB372100045 - ALESSI TOMMASO
+Aggiunto: BB390700071 - ADAMO ANDREA
+Aggiunto: CC161500395 - VIOLI ATTILIO VITTORIO
+Aggiunto: CC181900354 - CALIN IONUT
+Aggiunto: CC252200023 - DANTE FABRIZIO
+Aggiunto: CC252200081 - MASSARO KIDANEMARIAM
+Aggiunto: CC301300327 - TESTA ALBERTO
+Aggiunto: CC311900110 - TRINITY GBIDI
+Aggiunto: DD022300182 - DA SILVA ALEXANDRE LUIZ
+Aggiunto: DD051500071 - ALABI KUMBAYO GRATIEN
+Aggiunto: DD082100094 - ANTONINI MASSIMO
+Aggiunto: DD142400009 - FITTIRILLO MASSIMILIANO
+Aggiunto: DD142400021 - SPURIO SANDRO
+Aggiunto: DD170800171 - DE ROSA GENNARO
+Aggiunto: DD181900083 - MAROTTA ANIELLO
+Aggiunto: DD272200508 - GJATAJ ELINDRIT
+Aggiunto: DD279900772 - FABIANO GIUSEPPE
+Aggiunto: DD431500017 - SARCONE NICOLINO
+Aggiunto: DD551800002 - SERENI ANDREA
+Aggiunto: DD552000053 - SILVA DE JESUS ADEMILSON
+Aggiunto: DD552300203 - CONCIATORI BRUNO
+Aggiunto: EE010300199 - GALLO VINCENZO
+Aggiunto: EE010900541 - STRANGIO GIOVANNI
+Aggiunto: EE010901130 - RAUSO CLAUDIO
+Aggiunto: EE010901274 - FALBO FABIO ANTONIO
+Aggiunto: EE010901420 - LONGO MASSIMO
+Aggiunto: EE011001313 - FELICI EZIO
+Aggiunto: EE011100950 - CUGINI STEFANO
+Aggiunto: EE011300561 - MARTELLI TIZIANO
+Aggiunto: EE011300597 - PREITI LUIGI
+Aggiunto: EE011301259 - SHEGOW IDOW SIDALI
+Aggiunto: EE011500548 - MAROUF RIAHI
+Aggiunto: EE011500692 - COLLU LUCA
+Aggiunto: EE011500806 - DI MURO MARCO
+Aggiunto: EE011600107 - CAMPAGNA ANTONIO
+Aggiunto: EE011600451 - CAMPIONE ANGELO
+Aggiunto: EE011600545 - JEBARI HASSIB BEN MOHAMEDSGHAIER
+Aggiunto: EE011600577 - TRANTINO GIUSEPPE
+Aggiunto: EE011600851 - MERAN LUCIAN MADALIN
+Aggiunto: EE011600979 - TIESO LUCIANO
+Aggiunto: EE011700140 - SCARLATA PAOLO MARIOSILVESTRO
+Aggiunto: EE011700142 - VIGANO' ROBERTO
+Aggiunto: EE011700156 - ATTILIA GIORGIO
+Aggiunto: EE011700205 - CAUCCI GIANLUCA
+Aggiunto: EE011700513 - HRUSTIC HAMID
+Aggiunto: EE011700874 - PALOMINO PADILLA DAVID
+Aggiunto: EE011700973 - MEDISAN FLAVIU NICOLAE
+Aggiunto: EE011701398 - OBINO FRANCO
+Aggiunto: EE011800382 - PULLARA PIETRO
+Aggiunto: EE011800445 - DI VETTA ORAZIO MARIO
+Aggiunto: EE011800529 - ELEUTERI DANIELE
+Aggiunto: EE011800600 - NARDONI DOMENICO
+Aggiunto: EE011800661 - PETRUCCIOLI ANDREA
+Aggiunto: EE011800767 - DESOGUS MARCO
+Aggiunto: EE011800856 - DI VINCENZO SALVATORE
+Aggiunto: EE011800887 - VECCHIO ANDREA
+Aggiunto: EE011800928 - MARCUCCI GIUSEPPE
+Aggiunto: EE011801020 - KOMAROV GIANNI
+Aggiunto: EE011801124 - NUCCETELLI CLAUDIO
+Aggiunto: EE011801126 - BUSIELLO OMAR
+Aggiunto: EE011801413 - RIOLA LUCIANO
+Aggiunto: EE011801416 - RESTIVO FRANCESCO
+Aggiunto: EE011900034 - SCALIA STEFANO
+Aggiunto: EE011900042 - FEDERICI MASSIMO
+Aggiunto: EE011900180 - ROMEO SEBASTIANO
+Aggiunto: EE011900290 - BOLOTTI NELLO
+Aggiunto: EE011900419 - ALLEGRI ATTILIO
+Aggiunto: EE011900498 - BRIGIDA ANTONIO
+Aggiunto: EE011900590 - UMOH FRANCIS PHILIP
+Aggiunto: EE011900600 - CASTELLANO FABRIZIO
+Aggiunto: EE011900605 - NOTARIANNI FABRIZIO
+Aggiunto: EE011900606 - JADAMA KALILU
+Aggiunto: EE011900659 - FICOSECCO LUIGI
+Aggiunto: EE011900879 - DIANETTI ALESSANDRO
+Aggiunto: EE011900930 - BEVILACQUA CRISTIAN
+Aggiunto: EE011901030 - TALARICO SANDRO
+Aggiunto: EE011901045 - NAVARRA FEDERICO
+Aggiunto: EE011901049 - PAOLONI MATTIA
+Aggiunto: EE011901051 - CONTALDO CARLO
+Aggiunto: EE011901052 - STAIANO MARCO
+Aggiunto: EE011901123 - PROVENZANO GREGORIO CRISTIANAUGUSTO
+Aggiunto: EE011901240 - SALVEMINI PAOLO
+Aggiunto: EE011901293 - TIMINGERIU MIHAI
+Aggiunto: EE011901294 - NOBILI GIAMPIERO
+Aggiunto: EE011901323 - PICCIRILLO DAVID
+Aggiunto: EE011901343 - ELIA ROCCO
+Aggiunto: EE012000021 - BUZZI MARIO
+Aggiunto: EE012000091 - AGUILAR DEMERA CESARE VALENTINO
+Aggiunto: EE012000148 - TESORO ROBERTO
+Aggiunto: EE012000166 - AQUILINI ROBERTO
+Aggiunto: EE012000177 - VICTOR SUNDAY
+Aggiunto: EE012000228 - DIAKITE IBRAHIMA
+Aggiunto: EE012000269 - COPPOLA TEODOSIO
+Aggiunto: EE012000311 - DIONISI SANDRO
+Aggiunto: EE012000362 - POLVERINO VINCENZO
+Aggiunto: EE012000374 - FINOCCHIARO LUCA
+Aggiunto: EE012000444 - CAPUANO RAFFAELE
+Aggiunto: EE012000449 - WATTAGE MAHESH INDIKA FERNANDO
+Aggiunto: EE012000455 - SCOTTO RAFFAELE
+Aggiunto: EE012000478 - SEMANYENZI KHALID ABDUL
+Aggiunto: EE012000483 - HRUSTIC MEDO
+Aggiunto: EE012000519 - CIPRARI MASSIMO
+Aggiunto: EE012000531 - SCAGNETTI REMO
+Aggiunto: EE012000564 - MUSTAFER FRANK
+Aggiunto: EE012000584 - SARHAN MOHAMED MAGEDABDELSALAM
+Aggiunto: EE012000585 - ABBAS CARMELO
+Aggiunto: EE012000587 - TAGLIA LUCIANO
+Aggiunto: EE012000631 - BIANCHI GABRIELE
+Aggiunto: EE012000647 - VELASQUEZ REMEGIO ROSARIO
+Aggiunto: EE012000677 - BIANCHI ALESSIO
+Aggiunto: EE012000685 - CHUCKS MICHAEL
+Aggiunto: EE012000716 - CANTA DAVIDE DANIELE
+Aggiunto: EE012000742 - PINNA DANILO
+Aggiunto: EE012000771 - PASQUI NAZZARENO
+Aggiunto: EE012000782 - REPCE DASHAMIR
+Aggiunto: EE012000801 - FABIANO FRANCESCO
+Aggiunto: EE012000825 - CHUKWUDEBELU IKECHKWU PETER
+Aggiunto: EE012000828 - LORETI MIRKO
+Aggiunto: EE012000837 - PELLEGRINO ANTONIO VINCENZO
+Aggiunto: EE012000860 - MOLVINI MAURIZIO
+Aggiunto: EE012000869 - EMILIOZZI KEVIN
+Aggiunto: EE012000873 - SINANI TAULANT
+Aggiunto: EE012000906 - BENNICI MASSIMILIANO
+Aggiunto: EE012000913 - SMIDA SAMI
+Aggiunto: EE012100003 - INCALZA LUCIANO
+Aggiunto: EE012100017 - NASCIMENTO DOSSANTOS VITORIO
+Aggiunto: EE012100023 - MOHAMED HAMDAM ANDREA
+Aggiunto: EE012100024 - PICCIONI DAVIDE
+Aggiunto: EE012100034 - SAMARA NFAMARA
+Aggiunto: EE012100048 - ALLUSHI BASHKIM
+Aggiunto: EE012100059 - ARIAS CORREA JAMES
+Aggiunto: EE012100070 - MARTINOLI WILLIAM
+Aggiunto: EE012100071 - SFORZA MARCO
+Aggiunto: EE012100084 - MUSIC VALENTINO
+Aggiunto: EE012100094 - ANCONITANO MAURIZIO
+Aggiunto: EE012100100 - REFRIGERI GIUSEPPE
+Aggiunto: EE012100110 - IERARDI ANDREA FRANCESCOMARIA
+Aggiunto: EE012100141 - BOCCHINI ANDREA
+Aggiunto: EE012100142 - D'INNOCENZO GIULIO
+Aggiunto: EE012100194 - STERI CRISTIAN
+Aggiunto: EE012100198 - MONACELLI ENRICO
+Aggiunto: EE012100231 - SAMBOU MOHAMED
+Aggiunto: EE012100239 - MORBIDELLI GIAN MARCO
+Aggiunto: EE012100240 - RUSU CONSTANTIN
+Aggiunto: EE012100261 - CORAZZA MARCO
+Aggiunto: EE012100268 - COSTEA VASILE
+Aggiunto: EE012100269 - JUDE PETER
+Aggiunto: EE012100271 - GRAZIOSI DALMIRO
+Aggiunto: EE012100276 - CUNDARI CRISTIANO
+Aggiunto: EE012100293 - HASSAN AMRO
+Aggiunto: EE012100299 - PONZA ALESSANDRO
+Aggiunto: EE012100301 - AHMED SALEH GABER MOUSSA
+Aggiunto: EE012100305 - BIANCO MARIO SALVATORE
+Aggiunto: EE012100314 - CALVERINO GIORDANO
+Aggiunto: EE012100322 - TERRINONI ALESSANDRO
+Aggiunto: EE012100331 - REALE PATRICK
+Aggiunto: EE012100346 - CASERIO MIRCO
+Aggiunto: EE012100373 - ZUCCALA' IGNAZIO
+Aggiunto: EE012100380 - KARBAL MAHDI
+Aggiunto: EE012100397 - MINTEH LAMIN
+Aggiunto: EE012100411 - SANTORI MAURO
+Aggiunto: EE012100424 - PASSANISI ANGELO
+Aggiunto: EE012100440 - TORNEO ANTONIO
+Aggiunto: EE012100449 - BURLACU SEBI MARIAN
+Aggiunto: EE012100453 - DIALLO AMADOU
+Aggiunto: EE012100457 - SIMILIA GIOVANNI
+Aggiunto: EE012200009 - MONTEFERRI STEFANO
+Aggiunto: EE012200024 - RIVABELLA GIAN PAOLO
+Aggiunto: EE012200025 - COSCENNE CLAUDIO
+Aggiunto: EE012200033 - PASSALACQUA DAVID
+Aggiunto: EE012200049 - SKUKA DENIS
+Aggiunto: EE012200054 - RECI ENDRIT
+Aggiunto: EE012200059 - ABOUELKHER ADEL AHMED ELSAYED
+Aggiunto: EE012200061 - NDIAYE EL HADJI BABACAR
+Aggiunto: EE012200077 - COCCO REVELLI ANDREA
+Aggiunto: EE012200094 - BUSSAGLIA UMBERTO
+Aggiunto: EE012200104 - PHIRTSKHELIANI LASHA
+Aggiunto: EE012200108 - BALTOG STEFAN STELIAN
+Aggiunto: EE012200111 - CANINI GIORGIO
+Aggiunto: EE012200150 - COSTANZO MARCO
+Aggiunto: EE012200152 - PATRIZI GIANLUCA
+Aggiunto: EE012200154 - ABDELLAOUI AMOR
+Aggiunto: EE012200163 - BURRATTI MARCO
+Aggiunto: EE012200166 - DIALLO HAMIDOU
+Aggiunto: EE012200176 - CRETARO ALESSANDRO
+Aggiunto: EE012200182 - KADRA ABDELKADER
+Aggiunto: EE012200188 - DI FELICE ROBERTO
+Aggiunto: EE012200195 - DA SILVA PEDRO HENRIQUE
+Aggiunto: EE012200201 - AKHIMIEN OSAS
+Aggiunto: EE012200202 - LOPEZ VILLERO LUIS CARLOS
+Aggiunto: EE012200206 - ARCADU GABRIELE
+Aggiunto: EE012200217 - DARBOE ABDALLAH
+Aggiunto: EE012200220 - LAURO ENRICO
+Aggiunto: EE012200224 - NARVAEZ PABLO CESAR
+Aggiunto: EE012200229 - LOMBARDO GIUSEPPE
+Aggiunto: EE012200233 - MELONI MARCO
+Aggiunto: EE012200234 - LOSETTO ALEX
+Aggiunto: EE012200244 - JOKIC PETAR
+Aggiunto: EE012200248 - STOJKOV ZORAN OLIVER
+Aggiunto: EE012200252 - PALLAGROSI FABIO
+Aggiunto: EE012200259 - DANISH GHULAM REZA
+Aggiunto: EE012200269 - YAVE CONDORI RICHARD RUBEN
+Aggiunto: EE012200271 - LISCI FABRIZIO
+Aggiunto: EE012200274 - CASTAGNACCI MARIO
+Aggiunto: EE012200275 - PALMISANI PAOLO
+Aggiunto: EE012200276 - GERVASI MASSIMILIANO
+Aggiunto: EE012200281 - NERONI MASSIMILIANO
+Aggiunto: EE012200292 - FAISA VENEDDA
+Aggiunto: EE012200294 - GORGIDZE LUKA
+Aggiunto: EE012200295 - LONDRISHVILI IRAKLI
+Aggiunto: EE012200298 - VASCHETTO SILVIO
+Aggiunto: EE012200316 - CALCAGNI SIMONE
+Aggiunto: EE012200346 - LATTANZI CLAUDIO
+Aggiunto: EE012200364 - GALLACE ANTONIO
+Aggiunto: EE012200372 - CIURCILA GHEORGHE
+Aggiunto: EE012200380 - DE MICHELI MASSIMO
+Aggiunto: EE012200381 - PERSEU DANIELE
+Aggiunto: EE012200386 - EL HAFSI HICHAM
+Aggiunto: EE012200387 - SHILI KARIM
+Aggiunto: EE012200396 - FIORDELISI SERGIO
+Aggiunto: EE012200403 - GORGUCCI ANDREA
+Aggiunto: EE012200404 - DAVID DUMITRU MARIAN
+Aggiunto: EE012200408 - BRESSI GIAMPIERO
+Aggiunto: EE012200416 - BRAIDICH JOHNNY
+Aggiunto: EE012200429 - BAKUTUBO JABBI
+Aggiunto: EE012200430 - HUDOROVICH MILE
+Aggiunto: EE012200432 - MOHAMED ABDULLAHI ABUKAR
+Aggiunto: EE012200436 - SVRAKA ARMIN
+Aggiunto: EE012200441 - ELNAHAS EZAT MOHAMED MOAWAD
+Aggiunto: EE012200442 - SCARINGI PAOLO
+Aggiunto: EE012200443 - LOPEZ ROCHA TATIANA MARTINA
+Aggiunto: EE012200447 - AHMETOVIC EKREM
+Aggiunto: EE012200448 - TONUCCI MIRKO
+Aggiunto: EE012200454 - XHIAJ MARENGLEN
+Aggiunto: EE012200456 - BOUTHRFE YASINE
+Aggiunto: EE012200458 - BELKESSIR SEIFEDDINE
+Aggiunto: EE012200460 - TROIANI PIERLUIGI
+Aggiunto: EE012200467 - RISARELLI GABRIELE
+Aggiunto: EE012200473 - BURRECI GIUSEPPE
+Aggiunto: EE012200480 - LOPES ADILSON
+Aggiunto: EE012200490 - BOCIOANCA IONEL
+Aggiunto: EE012200495 - SICA NUNZIO
+Aggiunto: EE012200496 - RUSSO ANTONIO
+Aggiunto: EE012200510 - PETRILA SILVIU VIOREL
+Aggiunto: EE012200512 - FIDANZA SANDRO
+Aggiunto: EE012200524 - HIRACHE EL MEDHI
+Aggiunto: EE012200525 - MASSIDDA GIANCARLO
+Aggiunto: EE012200533 - CANULLI ROBERTO
+Aggiunto: EE012200535 - ABDELMOATY MOHAMED NABILABDELMOATY
+Aggiunto: EE012200539 - VARUNDIP KUMAR
+Aggiunto: EE012200545 - PISANO ORESTE
+Aggiunto: EE012200562 - BICAJ SHPETIM
+Aggiunto: EE012200565 - SPICCIA STEFANO
+Aggiunto: EE012200570 - ENOMA ODION
+Aggiunto: EE012200572 - BUCCINNA' MAURIZIO
+Aggiunto: EE012200573 - CIPRARI MAURO
+Aggiunto: EE012200591 - BOUDERBELA ABDEJELIL
+Aggiunto: EE012200592 - ROMANELLO SERGIO
+Aggiunto: EE012200596 - BRIZZI MARCO
+Aggiunto: EE012200601 - DESIDERI LIVIO
+Aggiunto: EE012200612 - SERBAN FANEL
+Aggiunto: EE012200614 - AVERSANO SALVATORE
+Aggiunto: EE012200616 - PIPITONE SANTO
+Aggiunto: EE012200625 - DIAN MAMADOU
+Aggiunto: EE012200626 - ABDOU TAREK ALAA ANDALLA
+Aggiunto: EE012200641 - DI RENZO ROBERTO
+Aggiunto: EE012200645 - RECCHIA ALESSIO
+Aggiunto: EE012200653 - CARTA ANTONIO
+Aggiunto: EE012200656 - MARINI MARCO
+Aggiunto: EE012200667 - FERARU ION DRAGOS
+Aggiunto: EE012200674 - KOUCHIKE NADIR
+Aggiunto: EE012200678 - ASAN VERGIL
+Aggiunto: EE012200688 - VARLESE PASQUALE
+Aggiunto: EE012200692 - BARBU IONUT
+Aggiunto: EE012200693 - RAIMONDI MARIANO
+Aggiunto: EE012200694 - VENEZIA FRANCESCO
+Aggiunto: EE012200698 - MONFRECOLA PAOLO
+Aggiunto: EE012200700 - CHIRIAC AURELIAN
+Aggiunto: EE012200704 - SANTONE FABIO
+Aggiunto: EE012300008 - MARZO CRISTIANO
+Aggiunto: EE012300017 - BERNARDI STEFANO
+Aggiunto: EE012300022 - TRESCA SIMONE
+Aggiunto: EE012300023 - OGHOMWEN STANLEY
+Aggiunto: EE012300024 - PIOLA IVANO
+Aggiunto: EE012300025 - HALILOVIC ELVIS
+Aggiunto: EE012300037 - ORSINI MARCO
+Aggiunto: EE012300039 - EL KADMIRI MOHAMED
+Aggiunto: EE012300054 - HOLANEK IVAN
+Aggiunto: EE012300055 - PELLEGRINO SAVINO EROS
+Aggiunto: EE012300059 - MATTALIANO ANGELO ALESSANDROGIUSEPPE
+Aggiunto: EE012300069 - GARCIA USQUIANO GONZALO
+Aggiunto: EE012300074 - GADALETA FRANCO
+Aggiunto: EE012300078 - ALSHABANI ISMAIL
+Aggiunto: EE012300079 - HAMIDOVIC TAHIR
+Aggiunto: EE012300094 - AMBROSI MASSIMILIANO
+Aggiunto: EE012300095 - LACHIRA RIOJAS MIJUEL JOANAKAN
+Aggiunto: EE012300096 - DE CUPIS FEDERICO
+Aggiunto: EE012300103 - FERENAL RODEL
+Aggiunto: EE012300106 - ISMAILI ERION
+Aggiunto: EE012300110 - HOKIC ADMIR
+Aggiunto: EE012300112 - VIRGILIO FABRIZIO
+Aggiunto: EE012300114 - STECCHI ENNIO
+Aggiunto: EE012300115 - ZEFI LEKE
+Aggiunto: EE012300116 - MARCONI GUGLIELMO
+Aggiunto: EE012300124 - SENSOLI EMILIANO
+Aggiunto: EE012300131 - SACCHETTI ALBERTO
+Aggiunto: EE012300146 - NZEMEKE SUCCESS
+Aggiunto: EE012300147 - CIZMIC DANIEL
+Aggiunto: EE012300150 - IRFAN MUHAMMAD
+Aggiunto: EE012300153 - TARISCIOTTI EMILIANO
+Aggiunto: EE012300154 - NUCCIARELLI MASSIMILIANO
+Aggiunto: EE012300159 - TRIFESCU VASILE
+Aggiunto: EE012300161 - ORLANDO FABRIZIO
+Aggiunto: EE012300169 - BULTRINI STEFANO MASSIMILIANO
+Aggiunto: EE012300177 - RUSU GHEORGHE
+Aggiunto: EE012300179 - CUGLIARI DOMENICO
+Aggiunto: EE012300181 - PIERLEONI ERCOLE
+Aggiunto: EE012300182 - SILIPO FRANCO
+Aggiunto: EE012300184 - GATTI FEDERICO
+Aggiunto: EE012300185 - MIRTI FABIO
+Aggiunto: EE012300186 - MIULLI ALESSANDRO
+Aggiunto: EE012300205 - MAURIELLO GIUSEPPE
+Aggiunto: EE012300212 - BOLD MARIUS
+Aggiunto: EE012300219 - BEQARAJ ALFONS
+Aggiunto: EE012300240 - PICA FRANCESCO
+Aggiunto: EE012300243 - VLADA FLORIN
+Aggiunto: EE012300250 - IFTIMIE VALENTIN CRISTIAN
+Aggiunto: EE012300253 - CERCI MAURO
+Aggiunto: EE012300260 - OLIVADESE DAVIDE
+Aggiunto: EE012300263 - MIRZA HACHIBUL HASAN DEEP
+Aggiunto: EE012300273 - STELLACCI CLAUDIO
+Aggiunto: EE012300281 - ANGELINI LUCA
+Aggiunto: EE012300282 - RUBEO MIRKO
+Aggiunto: EE012300284 - JARRA BAKAI
+Aggiunto: EE012300285 - VERZULLI DANIEL
+Aggiunto: EE012300288 - MARINO FULVIO
+Aggiunto: EE012300293 - FARCHI ALESSANDRO
+Aggiunto: EE012300294 - SANTORO CARMINE
+Aggiunto: EE012300305 - CAMPILANI ANGELO
+Aggiunto: EE012300310 - LAINA' WALTER
+Aggiunto: EE012300321 - SAVA GIULIO ARMANDO TOMA
+Aggiunto: EE012300333 - MARROCCHI ALESSANDRO
+Aggiunto: EE012300347 - PONZIANI VINCENZO
+Aggiunto: EE012300350 - HULEI FLORIN
+Aggiunto: EE012300351 - D'ARIENZO MARCO
+Aggiunto: EE012300352 - DI VINCENZO LUCA
+Aggiunto: EE012300353 - FRISINA DANIELE
+Aggiunto: EE012300358 - VIRNO LAMBERTI ALESSANDRO
+Aggiunto: EE012300363 - CONDE OUSMANE
+Aggiunto: EE012300372 - CONSIDERA CARLO
+Aggiunto: EE012300388 - CARUSO MARIO
+Aggiunto: EE012300389 - MANGANARO VINCENZO
+Aggiunto: EE012300410 - NALIN FABIO
+Aggiunto: EE012300411 - PERRONE ANDREA
+Aggiunto: EE012300417 - ALBU POHRIB COSTEL CRISTI
+Aggiunto: EE012300422 - SELLAN BALAREZO ANDRE RUPERTI
+Aggiunto: EE012300453 - SIDNEY BASIL CHIDOZIE
+Aggiunto: EE012300454 - TALINGA CONSTANTIN
+Aggiunto: EE012300458 - AMARIEI STAN
+Aggiunto: EE012300461 - DAVID DANILO
+Aggiunto: EE012300474 - NARDI ACHILLE
+Aggiunto: EE012300478 - CIAMPA VITTORIO
+Aggiunto: EE012300481 - ADAMO MARCO
+Aggiunto: EE012300487 - DANAILA IONEL
+Aggiunto: EE012300489 - VALENTINI VALENTINO
+Aggiunto: EE012300490 - FEDELI MICHELE
+Aggiunto: EE012300492 - GIAMMARIA ANDREA
+Aggiunto: EE012300498 - VIERU CRISTIAN
+Aggiunto: EE012300504 - VOICU ION
+Aggiunto: EE012300505 - NASAF MIRCEA
+Aggiunto: EE012300508 - LORI MASSIMO
+Aggiunto: EE012300522 - FALCELLI DAVID
+Aggiunto: EE012300523 - PUMA GAETANO
+Aggiunto: EE012300527 - STAZZI ALESSIO
+Aggiunto: EE012300530 - DESSI' SALVATORE JOSE'
+Aggiunto: EE012300532 - FATAN PETRU
+Aggiunto: EE012300535 - AHMETOVIC ZRAVCO
+Aggiunto: EE012300543 - DOS SANTOS JURGEN KLISMAN
+Aggiunto: EE012300549 - LATINI ANDREA
+Aggiunto: EE012300550 - BUTTA' MARCO
+Aggiunto: EE012300555 - SANKAREH OUSMAN
+Aggiunto: EE012300558 - BASTARI MARCO
+Aggiunto: EE012300562 - CHAHTOUR KARIM CRISTIAN
+Aggiunto: EE012300568 - ZAPPA MARCO
+Aggiunto: EE012300604 - CALDARELLI BRUNO
+Aggiunto: EE012300609 - STRANGIO FRANCESCO
+Aggiunto: EE012300613 - FABRIANI RICCARDO
+Aggiunto: EE012300618 - CIMINO FERDINANDO VINCENZO
+Aggiunto: EE012300621 - TOMA CEZAR FLORIAN
+Aggiunto: EE012300623 - TARANU IONEL
+Aggiunto: EE012300631 - TARALLO MARIO
+Aggiunto: EE012300632 - LANDOLFI DAMIANO
+Aggiunto: EE012300634 - PROIETTI ROBERTO
+Aggiunto: EE012300642 - OSMANOVIC NUSRET
+Aggiunto: EE012300648 - GIORGI GIUSEPPE
+Aggiunto: EE012300649 - SAIFALDEN ISLAM HASSAN
+Aggiunto: EE012300651 - GIORGI GIUSEPPE
+Aggiunto: EE012300665 - URBINATI ALESSANDRO
+Aggiunto: EE012300666 - NADARAIA LEVANI
+Aggiunto: EE012300667 - PIERGALLINI ALESSANDRO
+Aggiunto: EE012300668 - GUBELADZE BEKA KHVICHAEVICH
+Aggiunto: EE012300679 - PARIS MASSIMO
+Aggiunto: EE012300680 - PINTO SAID
+Aggiunto: EE012300691 - OKEKE OBINNA VINCENT
+Aggiunto: EE012300706 - FUENTES RINCON JUAN DE DIOS
+Aggiunto: EE012300717 - RESTUCCIA GINO
+Aggiunto: EE012300728 - BARBANO NICOLA
+Aggiunto: EE012300729 - WARNAKULASURIYA RASAL NIPUN RODRIGO
+Aggiunto: EE012300733 - RESTUCCIA PAOLO
+Aggiunto: EE012300734 - CHOUADHI MOHAMED
+Aggiunto: EE012300754 - MALFARA' GIUSEPPE
+Aggiunto: EE012300755 - PISCAGLIA CLAUDIO
+Aggiunto: EE012300768 - STOCHIAN MARIUS NICOLAE
+Aggiunto: EE012300769 - DA SILVA FERREIRA LUIZ FELIPE
+Aggiunto: EE012300783 - RIENTE ALFONSO MARCELLO
+Aggiunto: EE012300788 - VASTA KEVIN
+Aggiunto: EE012300790 - COCCIA DANILO
+Aggiunto: EE012300792 - D'ANTIMI GIOVANNI
+Aggiunto: EE012300796 - KILIKU SIMON
+Aggiunto: EE012300802 - CANTANNA ROSARIO
+Aggiunto: EE012300803 - BARBATO RICCARDO
+Aggiunto: EE012300804 - SALVATORI SPARTACO
+Aggiunto: EE012300805 - SGARAMELLA TIZIANO
+Aggiunto: EE012300811 - FELICI CLAUDIO
+Aggiunto: EE012300822 - DE ANGELIS GIUSEPPE
+Aggiunto: EE012300826 - HOXHA ILIR
+Aggiunto: EE012300832 - BERLONI FABIO
+Aggiunto: EE012300842 - TONDO ALDO
+Aggiunto: EE012300844 - ABATE ANTONIO
+Aggiunto: EE012300852 - CLAPAN FLORIN
+Aggiunto: EE012300854 - SERAFINELLI SIMONE
+Aggiunto: EE012300864 - PECCHIOLI SIMONE
+Aggiunto: EE012300867 - RAITI DANIELE
+Aggiunto: EE012300870 - PACRAMI MARJAN
+Aggiunto: EE012300871 - IMBERGAMO LUCA
+Aggiunto: EE012300872 - BEVILACQUA GIULIANO
+Aggiunto: EE012300875 - AZIZ SAYWAN
+Aggiunto: EE012300876 - IANCU NICOLAE DRAGOS
+Aggiunto: EE012300879 - LANDOLFI CUDIA ANDREA
+Aggiunto: EE012300884 - LEONI GIANPAOLO
+Aggiunto: EE012300891 - BIANCONI SIMONE
+Aggiunto: EE012300893 - DE SANTIS SIMONE
+Aggiunto: EE012300894 - MARINACCI FRANCESCO
+Aggiunto: EE012300900 - SELLI LUCA
+Aggiunto: EE012300903 - GALLOTTI ANDREA
+Aggiunto: EE012300904 - SAMMARINI MARCO
+Aggiunto: EE012300908 - KANE ABDOU
+Aggiunto: EE012300910 - SHELL MOHAMED HEDI
+Aggiunto: EE012300913 - PULAJ DENARD
+Aggiunto: EE012300916 - MERCURI MARCELLO
+Aggiunto: EE012300919 - GIORDANO PATRIK
+Aggiunto: EE012300920 - BOTTANI MARCO
+Aggiunto: EE012300926 - HAMZAJ GENCI
+Aggiunto: EE012300927 - PROIETTI PIETRO
+Aggiunto: EE012300936 - MARINACCI MAURIZIO
+Aggiunto: EE012300940 - PICCIRILLI RAFFAELE
+Aggiunto: EE012300943 - ONORATO RICCARDO
+Aggiunto: EE012300945 - DI ROCCO ROBERTO
+Aggiunto: EE012300946 - VENTRE CHRISTIAN
+Aggiunto: EE012300957 - CIACCI ANTONELLO
+Aggiunto: EE012300962 - AMBROGI CLAUDIO
+Aggiunto: EE012300967 - DI MARCANTONIO LUCIANO
+Aggiunto: EE012300968 - MASSARI MASSIMO
+Aggiunto: EE012300974 - GEORGIEV ALEKSANDER
+Aggiunto: EE012300976 - CAPOTOSTO DIEGO
+Aggiunto: EE012300980 - GALASSI STEFANO
+Aggiunto: EE012300986 - LANCIA CLAUDIO
+Aggiunto: EE012300987 - PASQUARIELLO GIORGIO
+Aggiunto: EE012300988 - GIOCO FRANCESCO
+Aggiunto: EE012300995 - ELMI IVANO
+Aggiunto: EE012301000 - MARSALA VINCENZO
+Aggiunto: EE012301009 - MASSA DINO
+Aggiunto: EE012301012 - CIAVARDINI ALESSIO
+Aggiunto: EE012301013 - BENTIVOGLIA DANIELE
+Aggiunto: EE012301014 - NISI ROBERTO
+Aggiunto: EE012301018 - RAMAZZOTTI MARCO
+Aggiunto: EE012301019 - PARRAVANO GIUSEPPE
+Aggiunto: EE012301021 - IANDOLO GIUSEPPE
+Aggiunto: EE012301022 - CEESAY LAMIN
+Aggiunto: EE012301023 - COLLAZOS PINZON YEISON JAVIER
+Aggiunto: EE012301028 - SCIARRILLO DE ROSA LEONARDO
+Aggiunto: EE012301029 - GUIDA DANILO
+Aggiunto: EE012301030 - CURTI MICHEL
+Aggiunto: EE012301036 - DE ROSA ALESSANDRO
+Aggiunto: EE012301038 - PAOLUCCI FABIO
+Aggiunto: EE012301039 - ARCI MARCO
+Aggiunto: EE012301042 - RAJAPAKSAPATHIRANNEHELAGE KASUN VIMUKTHI
+Aggiunto: EE012301043 - PIACENTINI FEDERICO
+Aggiunto: EE012301053 - ELLATIFI RACHID
+Aggiunto: EE012301054 - CAVALLARO MASSIMO
+Aggiunto: EE012301056 - CHADID YOUSSEF
+Aggiunto: EE012301063 - D'ANTONIO FABIO
+Aggiunto: EE012400006 - CAMILLI GIULIO
+Aggiunto: EE012400007 - CALICCHIA MASSIMO
+Aggiunto: EE012400012 - DI PLACIDO CRISTIAN
+Aggiunto: EE012400013 - BALLIU LUFTIM
+Aggiunto: EE012400016 - MARKJA ALBERT
+Aggiunto: EE012400017 - RAMIREZ VASQUE PEDRO CALVIER
+Aggiunto: EE012400019 - MEHAJ BAJRAM
+Aggiunto: EE012400023 - GRIECO ANTONIO
+Aggiunto: EE012400027 - BRUNI MARCO
+Aggiunto: EE012400038 - SOPRANO VINCENZO
+Aggiunto: EE012400043 - GALANTE MIRKO
+Aggiunto: EE012400060 - PULICANI SIMONE
+Aggiunto: EE012400068 - BELTRAN CABALLERO KEVIN STEVEN
+Aggiunto: EE012400069 - POLIGNANO MARCO
+Aggiunto: EE012400071 - BUTTAFUOCO SARO STEFANO
+Aggiunto: EE012400078 - QUIROZ FRANCO BRYAN CARLITO
+Aggiunto: EE012400080 - DE LUCA RICCARDO
+Aggiunto: EE012400083 - IYAMU FRED
+Aggiunto: EE012400090 - CAMPIONI GIOVANNI BATTISTA
+Aggiunto: EE012400097 - STECCONI TOMMASO
+Aggiunto: EE012400098 - BONTI SIMONE
+Aggiunto: EE012400099 - RUSSO LORENZO
+Aggiunto: EE012400102 - GJOKA FATJON
+Aggiunto: EE012400106 - KAFI ASI
+Aggiunto: EE012400107 - MITI MAXIM
+Aggiunto: EE012400109 - GINEPRINI CHRISTIAN
+Aggiunto: EE012400111 - PIZZI DANIELE
+Aggiunto: EE012400121 - IHAGJIAI CLITY
+Aggiunto: EE012400131 - EDELVAIS GIANNI
+Aggiunto: EE012400139 - CERASOLI EMANUELE
+Aggiunto: EE012400141 - BRANDONISIO DOMENICO
+Aggiunto: EE012400146 - PUTGIONINU GIUSEPPE
+Aggiunto: EE012400149 - FUSCO DINO FRANCESCO
+Aggiunto: EE012400150 - GEANGALAU PETRU
+Aggiunto: EE012400153 - CORRADO ADRIANO
+Aggiunto: EE012400157 - LICAJ ARTUR
+Aggiunto: EE012400168 - DI PAOLO NICCOLO'
+Aggiunto: EE012400173 - COLOMBIANO MATTIA
+Aggiunto: EE012400181 - GRASSO TRIFOGLI ROBERTO
+Aggiunto: EE012400186 - FIORE FABIO
+Aggiunto: EE012400188 - DE ZOTTI STEFANO
+Aggiunto: EE012400190 - CADEDDU SILVIO
+Aggiunto: EE012400191 - SEFEROVIC MICELI GIORGIO
+Aggiunto: EE012400193 - TIMPERI ENRICO
+Aggiunto: EE012400201 - MARINI ALESSIO
+Aggiunto: EE012400203 - MEDINA FAMILIA SANTOS
+Aggiunto: EE012400207 - BERTOLINO CARLO
+Aggiunto: EE012400209 - ALBII GIANLUCA
+Aggiunto: EE012400224 - CECCONELLO EMANUELE
+Aggiunto: EE012400232 - IRTI MAURIZIO
+Aggiunto: EE012400241 - CHICOS VASILE
+Aggiunto: EE012400245 - FORNELLI MASSIMILIANO
+Aggiunto: EE012400247 - SOLITARI UGO
+Aggiunto: EE012400251 - PANDEY MATRIKA
+Aggiunto: EE012400257 - TORI STEFANO
+Aggiunto: EE012400268 - SCARANO DANIELE
+Aggiunto: EE012400271 - KEITA MAMADOU
+Aggiunto: EE012400279 - MUNOZ RAMIREZ JAIME ROBERTO
+Aggiunto: EE012400281 - GARUFI ALESSIO
+Aggiunto: EE012400284 - IEVA FABIO
+Aggiunto: EE012400288 - DI SALVATORE SIMONE
+Aggiunto: EE012400298 - FERRI ALESSIO
+Aggiunto: EE012400299 - TUCCINARDI MARCO WILSON
+Aggiunto: EE012400311 - LONGHI RICCARDO
+Aggiunto: EE012400314 - BALOG PATRIC
+Aggiunto: EE012400315 - MINAYA SANTANA MIGUEL MOISES
+Aggiunto: EE012400322 - PALOMBI CRISTIAN
+Aggiunto: EE012400324 - IORGA DUMITRU
+Aggiunto: EE012400325 - DJEBALI KHALED
+Aggiunto: EE012400329 - GENEROSO GENNARO
+Aggiunto: EE012400334 - MAROCCO MIRKO
+Aggiunto: EE012400337 - GIORGIO MANOLO
+Aggiunto: EE012400338 - GIULIANI MIRKO
+Aggiunto: EE012400345 - DIALLO MOHAMED SELLOU
+Aggiunto: EE012400346 - DIOP BAYE DOUDOU
+Aggiunto: EE012400349 - CIOLFI FABRIZIO
+Aggiunto: EE012400351 - PROIETTI STEFANO
+Aggiunto: EE012400352 - PURGATORIO EMILIANO
+Aggiunto: EE012400353 - MACCHIAVELLI LUCA
+Aggiunto: EE012400356 - FADDA GIANLUCA
+Aggiunto: EE012400371 - SINA ERALD
+Aggiunto: EE012400376 - TVILDIANI DISIONI
+Aggiunto: EE012400392 - TAMASCO VINCENZO
+Aggiunto: EE012400397 - BENEDICTO JOSEPH EARL BULAO
+Aggiunto: EE012400405 - SABATINI ROBERTO
+Aggiunto: EE012400409 - PIPITONE ANGELO
+Aggiunto: EE012400414 - BASSI GIANCARLO
+Aggiunto: EE012400415 - D'ARPINO PATRIZIO
+Aggiunto: EE012400423 - MAIR ALEXANDER
+Aggiunto: EE012400424 - D'ONOFRIO DANIEL
+Aggiunto: EE012400433 - DA CRUZ TAVARES ROGEIRO
+Aggiunto: EE012400434 - AGASI SALVATORE
+Aggiunto: EE012400436 - LEHMANN STEFAN
+Aggiunto: EE012400437 - TOZZI ALDO
+Aggiunto: EE012400438 - LABROZZI EMILIANO
+Aggiunto: EE012400445 - DI BIASE ANTONIO
+Aggiunto: EE012400446 - ROSITANO FABRIZIO
+Aggiunto: EE012400448 - BASIURA JAKUB
+Aggiunto: EE012400452 - MEROLLA MARIO
+Aggiunto: EE012400454 - SARNACCHIARO ALESSANDRO
+Aggiunto: EE012400457 - BEVILACQUA LUIGI
+Aggiunto: EE012400460 - SCATTONE MANUEL
+Aggiunto: EE012400461 - BEVILACQUA RINALDO
+Aggiunto: EE012400467 - OHOSNI LUKE
+Aggiunto: EE012400479 - SILLAMI REDA
+Aggiunto: EE012400481 - EL AJLANY JAMAL
+Aggiunto: EE012400482 - GUTIERREZ ZAMORA DAVID DE JESUS
+Aggiunto: EE012400485 - TAGLIAFIERRO RAFFAELE
+Aggiunto: EE012400486 - BELAID AMIS
+Aggiunto: EE012400488 - TARCINARO IVANO
+Aggiunto: EE012400491 - ROSSI ALBERTO
+Aggiunto: EE012400493 - GIUSTINIANI ALESSIO
+Aggiunto: EE012400495 - BEN ARBIA SEIFEDDINE
+Aggiunto: EE012400496 - MUSIC ALESSANDRO
+Aggiunto: EE012400497 - AKRAM MUHAMMAD BILAL
+Aggiunto: EE012400499 - GUACCI PAOLO
+Aggiunto: EE012400500 - ZAHWI NABIL
+Aggiunto: EE012400502 - RAMI MOHAMED
+Aggiunto: EE012400504 - AZKOUL HANI ELSAIDABDELLAFIF
+Aggiunto: EE012400507 - SAIELLA GIANLUCA
+Aggiunto: EE012400508 - GAROFOLO WALTER
+Aggiunto: EE012400510 - BRUNETTI ALESSANDRO
+Aggiunto: EE012400512 - HADZOVIC SEMSO
+Aggiunto: EE012400514 - TRAPASSO EGIDIO
+Aggiunto: EE012400515 - JOVAISA ZYDRUNAS
+Aggiunto: EE012400523 - LLESHI DRITAN
+Aggiunto: EE012400524 - IANNOTTA MICHELANGELO
+Aggiunto: EE012400530 - MINUTILLO CLAUDIO
+Aggiunto: EE012400532 - MANGO VITTORIO
+Aggiunto: EE012400533 - MOHAMMAD IMRAN
+Aggiunto: EE012400541 - PANZIRONI SERGIO
+Aggiunto: EE012400545 - BONILAURI ALESSANDRO
+Aggiunto: EE012400546 - OSMANOVIC ROBERTO
+Aggiunto: EE012400547 - DELL'ORBO CARRARA MATTIA
+Aggiunto: EE012400548 - BREGA GIANLUCA
+Aggiunto: EE012400550 - GUERRINI CLAUDIO
+Aggiunto: EE012400551 - AZIZI NASSER
+Aggiunto: EE012400555 - DI SILVIO FERDINANDO
+Aggiunto: EE012400566 - DI VEZZA CLAUDIO
+Aggiunto: EE012400567 - SALVATI ANTONIO
+Aggiunto: EE012400568 - LATTANZI DANIELE
+Aggiunto: EE012400572 - MAMPIERI MAURIZIO
+Aggiunto: EE012400579 - LELLI FLAVIO
+Aggiunto: EE012400585 - SINGH HARDEEP
+Aggiunto: EE012400586 - IORIO UMBERTO
+Aggiunto: EE012400588 - LAMALLAM ANAS
+Aggiunto: EE012400589 - TRAPASSO MICHELE
+Aggiunto: EE012400590 - DEL BROCCO FIORANI MANUELE
+Aggiunto: EE012400592 - MHAMAD HEMN
+Aggiunto: EE012400596 - D'AGUANNO GIORDANO
+Aggiunto: EE012400597 - SANTELLA NICOLAS
+Aggiunto: EE012400600 - LORENZO GAMEIRO ANTONIO AOSTIGO
+Aggiunto: EE012400601 - AVERSA GIUSEPPE
+Aggiunto: EE012400611 - CIANCI DAMIANO
+Aggiunto: EE012400615 - DE VALERI ANDREA
+Aggiunto: EE012400617 - HEGAZY MOHAB ABDELHAFIZAWAD MOHAMED
+Aggiunto: EE012400626 - ELSAFTY RASHAD MAZHAR RASHADMOHAMED
+Aggiunto: EE012400629 - EL HARDA ISMAIL
+Aggiunto: EE012400630 - CITTADONI VALERIO
+Aggiunto: EE012400636 - NICOLETTI ANTONIO
+Aggiunto: EE012400637 - MACORI ROBERTO
+Aggiunto: EE012400639 - RENZI ANTONIO
+Aggiunto: EE012400640 - BARBU BERNARD
+Aggiunto: EE012400642 - RICCITELLI DAMIANO
+Aggiunto: EE012400645 - DE NICOLA TERSILIO
+Aggiunto: EE012400647 - ELKOMI ABDELMOTTELBABOUELFTOHABDELMOTTELB
+Aggiunto: EE012400648 - GHAZOUANI TAREK
+Aggiunto: EE012400649 - DRAGOMIR TEODOR FLORIN
+Aggiunto: EE012400650 - PAGLIARICCI ANDREA
+Aggiunto: EE012400652 - CAMPANELLA ALESSIO
+Aggiunto: EE012400653 - SVANIDZE LASHA
+Aggiunto: EE012400654 - HICHAM MOURAD
+Aggiunto: EE012400655 - BRINZILA MARIAN LUCIAN
+Aggiunto: EE012400658 - CAPPAI CLAUDIO
+Aggiunto: EE012400659 - MINTEH MBANDING
+Aggiunto: EE012400660 - VISCHETTI LEONARDO
+Aggiunto: EE012400661 - CORDA GIAN CARLO
+Aggiunto: EE012400663 - AMATO MICHELE
+Aggiunto: EE012400664 - DE LEONARDIS LEONARDO
+Aggiunto: EE012400666 - ECHIM DANUT
+Aggiunto: EE012400667 - MACHMOUMI HICHAM
+Aggiunto: EE012400668 - MARCHETTI GINO
+Aggiunto: EE012400669 - CURTI MANUEL
+Aggiunto: EE012400670 - HURMUZ IULIAN
+Aggiunto: EE012400671 - GHARBI AYMEN
+Aggiunto: EE012400672 - MORAGA GUERRERO RAUL SEBASTIAN
+Aggiunto: EE012400673 - PAGANO GENNARO
+Aggiunto: EE012400674 - MORALES QUIMBAYO JHON ALVARO
+Aggiunto: EE012400677 - HATEM TARIQ MOHAMEDHUSSEIN
+Aggiunto: EE012400679 - HYLVIU ANDI
+Aggiunto: EE012400680 - FAHLAL MOHAMED
+Aggiunto: EE012400683 - FALASCA MARCO
+Aggiunto: EE012400684 - GIULIANI MIRKO
+Aggiunto: EE012400685 - GARBOUJ HAITHEM
+Aggiunto: EE012400686 - GIUSTINI MARCO
+Aggiunto: EE012400688 - SERPIERI GINO
+Aggiunto: EE012400690 - MOUNTASSIR MOHAMED
+Aggiunto: EE012400694 - PATRIARCA ROBERTO
+Aggiunto: EE012400695 - EZZIRI AHMED
+Aggiunto: EE012400696 - CIURLICA IONUTA
+Aggiunto: EE012400698 - MANFREDINI ANTONIO
+Aggiunto: EE012400699 - PETRONI VALENTINO
+Aggiunto: EE012400700 - SCICCHITANO MAURIZIO
+Aggiunto: EE012400701 - SABBATINI LEONARDO
+Aggiunto: EE012400703 - ZIU KRISTIAN
+Aggiunto: EE012400704 - HADZOVIC KEMO
+Aggiunto: EE012400709 - OSSOLI DOMENICO
+Aggiunto: EE012400710 - CERRATA LEONARDO
+Aggiunto: EE012400713 - COJOCARU CIPRIAN IONUT
+Aggiunto: EE012400717 - SPANO' PANETTA DOMENICO
+Aggiunto: EE012400719 - HISOM COSTEL CEZAREL
+Aggiunto: EE012400720 - ALFANO CARMINE
+Aggiunto: EE012400723 - BREGA MASSIMILIANO
+Aggiunto: EE012400728 - MIRANDA CHARLES LEANDRO
+Aggiunto: EE012400732 - HABBACHI HOUSSEMEDDINE BENMOHAMED
+Aggiunto: EE012400733 - SALVATELLI GIORDANO
+Aggiunto: EE012400742 - ESPOSITO LUIGI
+Aggiunto: EE012400744 - DE SOUZA ROBERT
+Aggiunto: EE012400745 - EL FATRI YOUSSEF
+Aggiunto: EE012400749 - PROIETTI MASSIMO
+Aggiunto: EE012400750 - DI PLACIDO MARIO
+Aggiunto: EE012400752 - PONZO FRANCESCO
+Aggiunto: EE012400755 - PAPUSHA YEVHENIY
+Aggiunto: EE012400759 - RIZZA AMEDEO
+Aggiunto: EE012400763 - CIORA ALEXA
+Aggiunto: EE012400767 - ODIA VINCENT
+Aggiunto: EE012400769 - DI TULLIO GIUSEPPE SYEED
+Aggiunto: EE012400770 - DEL GRECO MASSIMILIANO
+Aggiunto: EE012400771 - HOXHA ADMIRAL
+Aggiunto: EE012400772 - GJONI EMILJO
+Aggiunto: EE012400773 - NATALINO TIAGO HENRIQUE
+Aggiunto: EE012400778 - OKOYE CHARLES
+Aggiunto: EE012400781 - ZUCCARINI GABRIELE
+Aggiunto: EE012400782 - SOUALI SOHAIB
+Aggiunto: EE012400788 - STATESCU CRISTIAN
+Aggiunto: EE012400790 - CALI' NICOLAS
+Aggiunto: EE012400791 - CAUSHAJ TAULANT
+Aggiunto: EE012400792 - CAUSHAJ ILJAZ
+Aggiunto: EE012400793 - CAUSHAJ SARBIN
+Aggiunto: EE012400794 - SANNEH LAMIN
+Aggiunto: EE012400796 - BUZATU CONSTANTIN MARIUS
+Aggiunto: EE012400797 - ANGHEL MARIAN
+Aggiunto: EE012400800 - MASSAQ NABIL
+Aggiunto: EE012400802 - SUCLUPE JIMENEZ LUIS ENRIQUE
+Aggiunto: EE012400806 - ULIVIERI MARCO
+Aggiunto: EE012400807 - PALOMBI ROBERTO
+Aggiunto: EE012400809 - BIANCHI GIAMPIERO
+Aggiunto: EE012400811 - MUHO LEDJON
+Aggiunto: EE012400812 - BENENATI GIUSEPPE BALDO
+Aggiunto: EE012400813 - SANTOLAMAZZA MIRKO
+Aggiunto: EE012400814 - AMOROSINO CLAUDIO
+Aggiunto: EE012400816 - BIZZARRI MIRCO
+Aggiunto: EE012400817 - CERIONI ENIO
+Aggiunto: EE012400820 - MICONI ANTONIO
+Aggiunto: EE012400821 - FORNETTI ANDREA
+Aggiunto: EE012400823 - KHODAIR MAMDOVH
+Aggiunto: EE012400824 - KHALIDI HABIB
+Aggiunto: EE012400825 - BRUNETTI MAURO
+Aggiunto: EE012400826 - BRUNETTI YURI
+Aggiunto: EE012400832 - PRIMAVERA DANIELE
+Aggiunto: EE012400833 - GRATION BERNARD
+Aggiunto: EE012400835 - SALUSTRO GIUSEPPE
+Aggiunto: EE012400836 - MELE LUCIANO
+Aggiunto: EE012400837 - CARBONE DAVIDE
+Aggiunto: EE012400838 - MOUSTAFA MAHER
+Aggiunto: EE012400839 - HIKAL MOHAMED REDAABOUMOSSALLAM
+Aggiunto: EE012400840 - MUSA HANY
+Aggiunto: EE012400841 - CORODEANU COSTICA
+Aggiunto: EE012400842 - APKHAZAVA BEKA
+Aggiunto: EE012400843 - MADANI HAMZA
+Aggiunto: EE012400844 - FERRARESE STEFANO
+Aggiunto: EE012400845 - BULAI CIPRIAN
+Aggiunto: EE012400846 - ABDULLAH RACHID
+Aggiunto: EE012400847 - TASCA RUBEN
+Aggiunto: EE012400848 - TOSTI LUCA
+Aggiunto: EE012400850 - MORGANTE MIRKO
+Aggiunto: EE012400852 - ROSSI MARCO
+Aggiunto: EE012400853 - DALIBOR KRSTIN
+Aggiunto: EE012400854 - EL SOULI ANIS
+Aggiunto: EE012400857 - LAGRANDE MICHELE
+Aggiunto: EE012400858 - LANZI MAURIZIO
+Aggiunto: EE012400859 - PERUGINI DAVIDE
+Aggiunto: EE012400861 - HOSSAIN AKTAR
+Aggiunto: EE012400862 - BERNARDI STEFANO
+Aggiunto: EE012400863 - SPEZZAFERRO ALESSANDRO
+Aggiunto: EE012400867 - GIORGI FABRIZIO
+Aggiunto: EE012400868 - ALTAMURA MARIO
+Aggiunto: EE012400869 - DAMIAN EMANUEL
+Aggiunto: EE012400871 - VESPA PAOLO
+Aggiunto: EE012400872 - POP IOAN DINU
+Aggiunto: EE012400873 - VERZINO SERGIO
+Aggiunto: EE012400874 - DI ROCCO ANTONIO
+Aggiunto: EE012400875 - KACI GALIN
+Aggiunto: EE012400876 - IDRIS ALI
+Aggiunto: EE012400878 - ZINICOLA ALESSANDRO
+Aggiunto: EE012400879 - CIPOLLA ENRICO
+Aggiunto: EE012400880 - PITORRI ALESSIO
+Aggiunto: EE012400881 - BAKER RUSH
+Aggiunto: EE012400882 - LENARDUZZI MARCO
+Aggiunto: EE012400883 - TLICHE AIMEN
+Aggiunto: EE012400885 - EPIFANI NICKY
+Aggiunto: EE012400886 - TOCILA GHIORGE
+Aggiunto: EE012400888 - JANATI MOHSINE
+Aggiunto: EE012400890 - LA BARBERA MASSIMILIANO
+Aggiunto: EE012400891 - IGBINOBARO EWERE
+Aggiunto: EE012400892 - KATLAN BORIS ALEX
+Aggiunto: EE012400893 - GEBREGZIABEHR BEHAILU
+Aggiunto: EE012400894 - COLA FABRIZIO
+Aggiunto: EE012400895 - MAURA ENZO
+Aggiunto: EE012400896 - PERUGINI CRISTIANO
+Aggiunto: EE012400897 - JOVANOVIC DAMJAN
+Aggiunto: EE012400898 - MOLINA ROBAYO EDWIN GUSTAVO
+Aggiunto: EE012400899 - TELLO CASTRO ROBERTO CARLOS
+Aggiunto: EE012400900 - DI ROCCO GUERINO
+Aggiunto: EE012400901 - BONAFEDE STEFANO
+Aggiunto: EE012400902 - CACA RUBIN
+Aggiunto: EE012400903 - ROSATI FEDERICO
+Aggiunto: EE012400904 - MD SHOHEL
+Aggiunto: EE012400905 - FUSAROLI FABIO
+Aggiunto: EE012400906 - FALCONE FABRIZIO
+Aggiunto: EE012400907 - TESTA FABIO
+Aggiunto: EE012400908 - SCIARRETTA MICHELE
+Aggiunto: EE012400911 - VAPORI ROBERTO
+Aggiunto: EE012400913 - ARRIGONI IVANO
+Aggiunto: EE012400914 - FRANCO MARCO
+Aggiunto: EE012400915 - DIBBA SARJO
+Aggiunto: EE012400916 - OWANELEGBA MICHEAL
+Aggiunto: EE012400917 - AWHIDOLOR DESTINY
+Aggiunto: EE012400918 - CONGIU SERGIO
+Aggiunto: EE012400920 - DI NORCIA MASSIMILIANO
+Aggiunto: EE012400921 - BIAGIOLI ROBERTO
+Aggiunto: EE012400922 - ORLANDI ANTONELLO
+Aggiunto: EE012400923 - GALEOTTI CHRISTIAN
+Aggiunto: EE012400924 - LODDO GIANNI
+Aggiunto: EE012400925 - SARR BABACAR
+Aggiunto: EE012400926 - RANZANI EMILIANO
+Aggiunto: EE012400927 - DE VITO MASSIMO
+Aggiunto: EE012400928 - WANG XIAOBO
+Aggiunto: EE012400929 - LORUSSO MICHELE
+Aggiunto: EE012400930 - NONAJ ERMAL
+Aggiunto: EE012400931 - KARUI MOHAMED
+Aggiunto: EE012400932 - BUCIUMANU GHEORGHE FLORIN
+Aggiunto: EE012400933 - LEGUIA RENGIFO MIGUEL
+Aggiunto: EE012400934 - NARDELLA DANIELE
+Aggiunto: EE012400935 - GRUIA GABRIEL IONEL
+Aggiunto: EE012400936 - SALKANOVIC ANTONIO
+Aggiunto: EE012400937 - OKOSODO FRANK
+Aggiunto: EE012400938 - MONTEREALI FEDERICO
+Aggiunto: EE012400939 - KHAZRAJ MUSTAPHA
+Aggiunto: EE012400940 - CONTI MARCO
+Aggiunto: EE012400941 - ROMITO UMBERTO
+Aggiunto: EE012400942 - DEL VESCOVO ALESSANDRO
+Aggiunto: EE012400944 - PRENGA DANJEL
+Aggiunto: EE012400945 - LUZI AYOUB
+Aggiunto: EE012400946 - ILIEV VALERI
+Aggiunto: EE012400947 - ZRELLI AMEUR
+Aggiunto: EE012400948 - SENYUK ANDRIY
+Aggiunto: EE012400949 - VARGAS ALTAMIRANO CESAR FARITH
+Aggiunto: EE012400950 - ACAMPORA DAVID
+Aggiunto: EE012400951 - COCCOGLIONITI STEFANO
+Aggiunto: EE012400952 - GIUFFRIDA PIETRO
+Aggiunto: EE012400953 - TRAD TAWFIK
+Aggiunto: EE012400954 - ABOU ZIED EL SAYED MOHAMED FEKRY
+Aggiunto: EE012400955 - ELAARAG NASR MOHAMEDMOUSTAFA
+Aggiunto: EE012400956 - SEBASTIANI ENRICO
+Aggiunto: EE019801640 - GAMBACORTA GIUSEPPE
+Aggiunto: EE020602342 - LAINA' LUIGI
+Aggiunto: EE020603392 - PATACCHIOLA AUGUSTO
+Aggiunto: EE020900943 - BARBINO SANTO
+Aggiunto: EE021001527 - LIBERTI PIER FRANCESCO
+Aggiunto: EE021001716 - ZANNINI LUIGI
+Aggiunto: EE021200666 - MASSULLO VINCENZO
+Aggiunto: EE021201288 - DE ANGELIS ALESSANDRO
+Aggiunto: EE021202098 - SOLDANI MANLIO
+Aggiunto: EE021202252 - FOSCHI STEFANO
+Aggiunto: EE021202255 - FARINELLI MIRKO
+Aggiunto: EE021300974 - BROCCOLO MARIO
+Aggiunto: EE021400781 - DE ROSA MARCO
+Aggiunto: EE021400894 - DE SANTIS DANIELE
+Aggiunto: EE021401031 - D'ALESSANDRI GIUSEPPE
+Aggiunto: EE021401248 - DI SILVIO ALFREDO
+Aggiunto: EE021401500 - MARTIN VASILE RICCARDO
+Aggiunto: EE021401551 - MANCINI EMILIO
+Aggiunto: EE021401766 - MICUCCI MAURO
+Aggiunto: EE021500161 - CHILELLI FRANCESCO
+Aggiunto: EE021500180 - KOKOSADZE RAMAZI
+Aggiunto: EE021500949 - GRILLETTO RAIMONDO
+Aggiunto: EE021501077 - GJINI ERNDRIK
+Aggiunto: EE021501135 - GALANTI ALESSANDRO
+Aggiunto: EE021501147 - BORTOLONI PALMIRO
+Aggiunto: EE021502021 - TALLUTO VALENTINO
+Aggiunto: EE021600351 - FOFFO MANUEL
+Aggiunto: EE021600441 - PITARIU BOGDAN COSTEL
+Aggiunto: EE021600532 - SOW BASSIROU
+Aggiunto: EE021600651 - BLANCO STEFANO
+Aggiunto: EE021600666 - NUCCETELLI AUGUSTO
+Aggiunto: EE021600910 - PADUANO VINCENZO
+Aggiunto: EE021600920 - AHMED ABDO FARG KHALD
+Aggiunto: EE021601029 - BORGHI LORENZO
+Aggiunto: EE021601474 - LO VERDE NATALE
+Aggiunto: EE021601497 - BARTOLINI MANUELE
+Aggiunto: EE021601654 - GIGLIO FABIO
+Aggiunto: EE021601677 - GIANNELLI DANIEL
+Aggiunto: EE021601713 - CENTOFANTI ROMEO
+Aggiunto: EE021601888 - ONORI ANTONIO
+Aggiunto: EE021700141 - MIKIC ALEXANDER
+Aggiunto: EE021700356 - BENEDETTI MASSIMILIANO
+Aggiunto: EE021700671 - CARRIERI FRANCESCO
+Aggiunto: EE021700690 - TURNU LUCA
+Aggiunto: EE021700698 - STRAMIELLO ANDREA
+Aggiunto: EE021701157 - DE SANTIS GIUSEPPE
+Aggiunto: EE021701588 - CHIGARELLI CLAUDIO
+Aggiunto: EE021701590 - BIANCO FABRIZIO
+Aggiunto: EE021701619 - HABECHI AHMED KHALIL
+Aggiunto: EE021701677 - MACARIO MARCO
+Aggiunto: EE021701935 - BULTRINI GESUELE
+Aggiunto: EE021800261 - POLIDORI FABIO
+Aggiunto: EE021800330 - ALESSANDRI DANIELE
+Aggiunto: EE021800470 - IZZI LORENZO
+Aggiunto: EE021800622 - CESARINI CLAUDIO
+Aggiunto: EE021800744 - PADOVANI ANDREA
+Aggiunto: EE021800799 - PIERGALLINI EMILIANO
+Aggiunto: EE021800942 - DI ROCCO PASQUALE
+Aggiunto: EE021801484 - CANULLI THOMAS
+Aggiunto: EE021801571 - CARLOMOSTI MARCO
+Aggiunto: EE021801680 - SBIRCIOG COSTEL
+Aggiunto: EE021801688 - LACIDOGNA FABIO
+Aggiunto: EE021801808 - JOVANOVIC CRISTIAN
+Aggiunto: EE021802004 - BONILLA MOREIRA JORGE LUIS
+Aggiunto: EE021802014 - CARDIA MAURIZIO
+Aggiunto: EE021900062 - CHIARADONNA CLAUDIO
+Aggiunto: EE021900063 - CHIARADONNA FABIO
+Aggiunto: EE021900181 - TOCHI SUNDAY
+Aggiunto: EE021900209 - SIBIO RICCARDO
+Aggiunto: EE021900213 - BRISCESE DANIELE
+Aggiunto: EE021900214 - PIOMBO DAVIDE
+Aggiunto: EE021900223 - MARINELLI LORENZO
+Aggiunto: EE021900224 - BAZZANO DANIEL
+Aggiunto: EE021900307 - DIARA SALVATORE
+Aggiunto: EE021900356 - ION CONTI VIALI
+Aggiunto: EE021900415 - LIUZZI ALESSANDRO
+Aggiunto: EE021900440 - PROIA GABRIELE
+Aggiunto: EE021900443 - ZINFOLLINO GIOVANNI
+Aggiunto: EE021900574 - CESARINI SIMONE
+Aggiunto: EE021900693 - DE CONCILIIS FABRIZIO
+Aggiunto: EE021900824 - RIZZUTI ALESSIO
+Aggiunto: EE021900841 - FANELLI MARCO
+Aggiunto: EE021900917 - PETROW ALEX
+Aggiunto: EE021900924 - DEL AGUILA NUNEZ FERNANDO
+Aggiunto: EE021900980 - SILVERI ROBERTO
+Aggiunto: EE021901018 - PIERANUNZI DAVIDE
+Aggiunto: EE021901029 - MARTANESHI DENIS
+Aggiunto: EE021901088 - NIGRELLI FRANCESCO
+Aggiunto: EE021901382 - AHMETOVIC STEFANO
+Aggiunto: EE021901403 - BRUNOTTI LUCA
+Aggiunto: EE021901470 - YOUSSEF DAOUD
+Aggiunto: EE021901518 - LONGO EGIDIO
+Aggiunto: EE021901665 - IOZZO GIUSEPPE GREGORIO
+Aggiunto: EE021901731 - DEL GROSSO VALERIO
+Aggiunto: EE021901732 - PIRINO PAOLO
+Aggiunto: EE021901774 - SISTELLI LORIS
+Aggiunto: EE021901790 - ANTONELLI ENRICO
+Aggiunto: EE021901822 - ABOUSELIM GAMAL TALAAT
+Aggiunto: EE021901826 - BURGIO GIANLUCA
+Aggiunto: EE021901850 - MUSA ARUNA
+Aggiunto: EE022000008 - MENCARONI CHRISTIAN
+Aggiunto: EE022000072 - FARGNOLI GASTONE
+Aggiunto: EE022000079 - AGASI DANILO
+Aggiunto: EE022000091 - CONTI TIZIANO
+Aggiunto: EE022000231 - HALILOVIC SERBO
+Aggiunto: EE022000321 - DI BATTISTA MAURIZIO
+Aggiunto: EE022000366 - CARDARILLI ARMANDO
+Aggiunto: EE022000383 - LUCONI MARCO
+Aggiunto: EE022000514 - GALIOTO MASSIMO
+Aggiunto: EE022000555 - GIORDANO SEVERINO
+Aggiunto: EE022000579 - KUBICA ROMAN
+Aggiunto: EE022000642 - LEONCAVALLO MARCELLO
+Aggiunto: EE022000658 - CASSETTA ALESSANDRO
+Aggiunto: EE022000660 - PALATTA VITTORIO
+Aggiunto: EE022000831 - RADUTA FLORIN VALENTIN
+Aggiunto: EE022001072 - BORS ALEXANDRU
+Aggiunto: EE022001107 - SAKHI AYOUB
+Aggiunto: EE022001153 - ZANOBI DANIELE
+Aggiunto: EE022100062 - GABUNIA OTAR
+Aggiunto: EE022100102 - VALENTE DAVIDE
+Aggiunto: EE022100112 - GASPAR TOLEDO GEORGE CRISTHIAN
+Aggiunto: EE022100136 - LEPONE CLAUDIO
+Aggiunto: EE022100168 - CIONTOLI ANTONIO
+Aggiunto: EE022100172 - FADDA GIOVANNI
+Aggiunto: EE022100193 - ALVARO DOMENICO
+Aggiunto: EE022100222 - HAMZA SOLIMAN MOUSSA AHMED
+Aggiunto: EE022100243 - COLAGROSSI CESARE
+Aggiunto: EE022100260 - GUZMAN ROJAS RUDY EDGAR
+Aggiunto: EE022100277 - LOCCI ANDREA
+Aggiunto: EE022100285 - VIRGUTTO GIOVANNI
+Aggiunto: EE022100299 - DI MAGGIO KEVIN
+Aggiunto: EE022100329 - PROIETTI WALTER
+Aggiunto: EE022100333 - SAINE ARAFAN
+Aggiunto: EE022100338 - BOUZIDY AYOUB
+Aggiunto: EE022100364 - ATEYA SHERIF KAMELABDELKADER
+Aggiunto: EE022100370 - FINIZIO MANUEL
+Aggiunto: EE022100379 - CONDE BANGALY
+Aggiunto: EE022100380 - BRANDIMARTE CRISTIANO
+Aggiunto: EE022100449 - CORRADETTI FABIO
+Aggiunto: EE022100511 - SCAROZZA ANTONELLO
+Aggiunto: EE022100533 - GALMAZI MASSIMO
+Aggiunto: EE022100570 - FARINA ALESSANDRO
+Aggiunto: EE022100575 - BEN MANSOURA OMAR BEN KAMEL
+Aggiunto: EE022100594 - RONDINONE MARCO
+Aggiunto: EE022100609 - POLSINELLI DAMIANO
+Aggiunto: EE022200042 - CAMPAGNA ALESSANDRO
+Aggiunto: EE022200194 - FAROOK MOHAMED ERSHARD
+Aggiunto: EE022200297 - FINOTELLO DINEO
+Aggiunto: EE022200304 - CANTONETTI SANDRO
+Aggiunto: EE022200307 - CALLARA' VALERIO
+Aggiunto: EE022200331 - BAKA HOSSAM KHALEDABDELMUKTADER
+Aggiunto: EE022200337 - AHMETOVIC PASQUALE
+Aggiunto: EE022200390 - LELLI DANILO
+Aggiunto: EE022200403 - MILENKOVIC MARKO
+Aggiunto: EE022200454 - PAPA FRANCESCO
+Aggiunto: EE022200504 - DI FELICE MASSIMILIANO
+Aggiunto: EE022200505 - MARZANI ALESSIO
+Aggiunto: EE022200526 - SERAFINO MARCO
+Aggiunto: EE022200533 - ATTOUI HOUSSEM
+Aggiunto: EE022200585 - GAROFALO VALERIO
+Aggiunto: EE022200615 - ZITO SIMONE
+Aggiunto: EE022200660 - GOVORUSIC VLADO
+Aggiunto: EE022200710 - OLIVIERI ALBERTO
+Aggiunto: EE022200712 - PARLA ELIO
+Aggiunto: EE022200724 - UNGUREANU CLAUDIU DANIEL
+Aggiunto: EE022200747 - ABDELSADEK SALAH MOHAMEDSALAHELDIN
+Aggiunto: EE022200837 - ERNESTI ANDREA
+Aggiunto: EE022200843 - DE LELLIS ANDREA
+Aggiunto: EE022200846 - BRUGIOTTI STEFANO
+Aggiunto: EE022200864 - DE PAU GIANDAVIDE
+Aggiunto: EE022200902 - LONGOBARDI GAETANO
+Aggiunto: EE022200942 - ROCCHI MATTEO
+Aggiunto: EE022300007 - CIPOLLA CARLO ALBERTO
+Aggiunto: EE022300009 - HADJIB SLIMANE
+Aggiunto: EE022300042 - PILUSO GIORDANO
+Aggiunto: EE022300044 - CERRO DAMIANO
+Aggiunto: EE022300055 - RAMUNNO VITO
+Aggiunto: EE022300059 - MECO BLEDI
+Aggiunto: EE022300067 - AMADIO FRANCESCO
+Aggiunto: EE022300081 - MENNUNI PATRICK
+Aggiunto: EE022300130 - D'AGOSTINO STEFANO
+Aggiunto: EE022300173 - NJIE ABDOULIE
+Aggiunto: EE022300206 - SEJDOVIC RATKO
+Aggiunto: EE022300236 - SAMBRINI ROBERTO
+Aggiunto: EE022300243 - LOMBARDI DANIELE
+Aggiunto: EE022300289 - CULLHAJ XHINO
+Aggiunto: EE022300295 - DELI ALESSANDRO
+Aggiunto: EE022300296 - CARUSO FRANCO
+Aggiunto: EE022300347 - FORTUNATO SAVERIO
+Aggiunto: EE022300371 - OTHMAN LOAY MOHAMEDSEIFELDIN MOHAMED
+Aggiunto: EE022300378 - ASIS ABDOUL
+Aggiunto: EE022300432 - PELC MARCO MARIA
+Aggiunto: EE022300448 - FALCOCCHIO DIEGO
+Aggiunto: EE022300513 - GIUMMARRESI MICHELE
+Aggiunto: EE022300537 - NEBOUCH SOULAIMANE
+Aggiunto: EE022300553 - BEN MAATOUG ANDREA
+Aggiunto: EE022300558 - HIWEDI ALI MOHAMED ALIHASSAN IBRAHIM
+Aggiunto: EE022300605 - MORMILE SALVATORE
+Aggiunto: EE022300690 - BARBOSA SANTOS FRANCISCO MONIEL
+Aggiunto: EE022300704 - ANDRIOLLI HARLEY MAICHE
+Aggiunto: EE022300790 - D'AMICO ANDREA
+Aggiunto: EE022300792 - PROIETTI LORIS
+Aggiunto: EE022300825 - ZAVARISE UMBERTO
+Aggiunto: EE022300843 - PAPA LEONARDO
+Aggiunto: EE022300862 - PONCE CUMPLIDO JAIRO ANTONIOPATRICIO
+Aggiunto: EE022300874 - GRATIS DAMIANO
+Aggiunto: EE022300930 - DONOSO SERGIO
+Aggiunto: EE022300956 - PITIGLIANI CARLO ALBERTO
+Aggiunto: EE022301074 - DORE' MANOLO
+Aggiunto: EE022301131 - BRASCHI EMANUELE
+Aggiunto: EE022301142 - MARCOTULLI ALESSANDRO
+Aggiunto: EE022301162 - MIAH ARIF
+Aggiunto: EE022301181 - PADOVANI MARIO
+Aggiunto: EE022301220 - KALON NASRADINE
+Aggiunto: EE022301273 - DI TOMMASI MANUEL
+Aggiunto: EE022301386 - GHARSALLAH MOHAMED AMINE
+Aggiunto: EE022400140 - MOCCIA GIUSEPPE
+Aggiunto: EE022400205 - ABDELMALEK ELYAZAMI
+Aggiunto: EE022400211 - DIABY ABOUDRAMANE
+Aggiunto: EE022400257 - MANCINI MARCO
+Aggiunto: EE022400296 - FAHY MOHAMMED
+Aggiunto: EE022400644 - ZAIDI MOHAMED
+Aggiunto: EE022400726 - NICOLAS PEREIRA DENNER
+Aggiunto: EE022400823 - CASAMATTA MARCO
+Aggiunto: EE022401239 - KORCZ PATRYK RADOSLAW
+Aggiunto: EE022401271 - MIANO CARMELO
+Aggiunto: EE031900001 - FILIPPONE ANDREA
+Aggiunto: EE032100013 - DI MARCO MARIO
+Aggiunto: EE041100414 - HOXHA GAZMIR
+Aggiunto: EE041200133 - BUONO SALVATORE
+Aggiunto: EE051300199 - SPINELLI MARCO
+Aggiunto: EE051600063 - TOBIA ALESSANDRO
+Aggiunto: EE052100014 - CHUKWU SUNNY OGBONNA
+Aggiunto: EE052100027 - CANGIANIELLO MASSIMILIANO
+Aggiunto: EE052200006 - IONNI MARIO
+Aggiunto: EE052200018 - FORTE PIERO
+Aggiunto: EE052200022 - MANERA ALFONSO
+Aggiunto: EE052200059 - PALOMINO JOSE'
+Aggiunto: EE052300090 - KAMBI SAMSEDI
+Aggiunto: EE052400026 - DIAZ CALLEJAS CRISTIAN ANDREY
+Aggiunto: EE061400176 - DI BELLO GIUSEPPE
+Aggiunto: EE061400193 - PALLESCHI ANTONIO
+Aggiunto: EE061600101 - IABONI LUIGI
+Aggiunto: EE061700105 - TEOLI MARIO
+Aggiunto: EE061700146 - ACCIAIOLI GIOVANNI
+Aggiunto: EE061900110 - CANZOLINO SERGIO
+Aggiunto: EE061900116 - DI RONZA FRANCO
+Aggiunto: EE062000028 - KANDEH YERRO
+Aggiunto: EE062100003 - MAGRANE SOUHAIL
+Aggiunto: EE062100037 - RUSSO MASSIMO
+Aggiunto: EE062100044 - GOUIAA MOHAMED ALI
+Aggiunto: EE062200015 - BEVILACQUA MAURIZIO
+Aggiunto: EE062200021 - EL HADJI AIMAD
+Aggiunto: EE062200046 - MANEA GABRIEL
+Aggiunto: EE062200059 - BARKAOUI ANASS
+Aggiunto: EE062200060 - GALLOTTI ALDO
+Aggiunto: EE062300091 - SIMONELLI LINO
+Aggiunto: EE062300116 - CHERIGUI RIADH
+Aggiunto: EE062400062 - MORENO MARTINEZ JHON EDINSON
+Aggiunto: EE062400063 - MARTINEZ TORIBIO LUIS ALFREDO
+Aggiunto: EE071800069 - PIZZINGRILLI SIMONE
+Aggiunto: EE071900093 - GRILLOTTI MASSIMO
+Aggiunto: EE071900130 - CARATELLI MASSIMO
+Aggiunto: EE071900161 - PICCIONI STEFANO
+Aggiunto: EE071900167 - LOLLI FRANCESCO
+Aggiunto: EE072000047 - SPERATI GABRIELE
+Aggiunto: EE072000073 - SIMEONE GABRIELE
+Aggiunto: EE072000102 - BALDETTI RENZO
+Aggiunto: EE072100035 - COSTANTINI MAURIZIO
+Aggiunto: EE072100064 - DI LORENZO VALERIO
+Aggiunto: EE072100123 - PERRONE CLAUDIO
+Aggiunto: EE072100138 - NARDOCCI LUCA
+Aggiunto: EE072100148 - DJELOUL SAMI
+Aggiunto: EE072100248 - HASSAN MOHAMED ATEF MOHAMEDSABRY ISMAIL
+Aggiunto: EE072100252 - FABENI SIMONE
+Aggiunto: EE072100263 - CARDIA GIULIANO
+Aggiunto: EE072100268 - BELLUCCI OVIDIO
+Aggiunto: EE072100289 - FLORIO MAURO
+Aggiunto: EE072100313 - LORI MAURO
+Aggiunto: EE072100321 - COLLU ANDREA
+Aggiunto: EE072100327 - BONGARZONE WALTER
+Aggiunto: EE072100365 - DUCA SIMONE
+Aggiunto: EE072200043 - MEZZATESTA MAURIZIO
+Aggiunto: EE072200190 - KULHANEK JAROSLAV
+Aggiunto: EE072200224 - GARCIA AYERDIS HARRY MIJAIL
+Aggiunto: EE072200258 - BALBUSSO SILVANO
+Aggiunto: EE072300031 - PENNACCHIO CORRADO
+Aggiunto: EE072300046 - DE ROSA CRISTIAN
+Aggiunto: EE090000006 - PETROCCHI GIANNI
+Aggiunto: EE091900059 - LATTANZI MATTEO
+Aggiunto: EE092000042 - GIUPPETTI ENRICO
+Aggiunto: EE092000046 - SAVIGNANO MARCO
+Aggiunto: EE092000047 - FAVITTA ALESSANDRO
+Aggiunto: EE092200015 - DI FILIPPO MIRKO
+Aggiunto: EE092200031 - TROCI KLODJAN
+Aggiunto: EE092200060 - AIDALA PIETRO
+Aggiunto: EE092200128 - NECCIA RINALDO
+Aggiunto: EE092200135 - EL MAYMOUNI REDOUANE
+Aggiunto: EE092300018 - BOUAZZI TARIK
+Aggiunto: EE092300100 - JARMOUNI ABDELLAH
+Aggiunto: EE092300138 - RUSSO HOANG ANH
+Aggiunto: EE092300158 - LLESHI VALENTIN
+Aggiunto: EE092400008 - SALVI SIMONE
+Aggiunto: EE092400029 - DARIDA MICHELE
+Aggiunto: EE092400039 - STANCU LIVIU CATALIN
+Aggiunto: EE092400079 - SALI NICU
+Aggiunto: EE102300084 - NOVELLI GIOVANNI
+Aggiunto: EE102400007 - SAMOUR YASSINE
+Aggiunto: EE102400036 - DE SILVIO GIUSEPPE
+Aggiunto: EE102400075 - TOCCI MASSIMO
+Aggiunto: EE102400079 - INTILI SEBASTIANO
+Aggiunto: EE131300237 - SACCIA CLAUDIO
+Aggiunto: EE131900070 - SUNDAY OTANIYEN
+Aggiunto: EE132200022 - CASTELLANI ALDO
+Aggiunto: EE132200061 - CECILIA MAURO
+Aggiunto: EE132400045 - BASTOS DOS SANTOS JOSEVAL
+Aggiunto: EE172300061 - SCARINCI ENRICO
+Aggiunto: EE182100010 - BRACCINI GIUSEPPE
+Aggiunto: EE182100042 - COCCIA EMILIANO
+Aggiunto: EE182100059 - TARALLO MASSIMO
+Aggiunto: EE182100082 - NOE' GIUSEPPE
+Aggiunto: EE182200040 - KHEMIRI SALAH
+Aggiunto: EE182200066 - SULEJMANOVIC ORHAN
+Aggiunto: EE182300015 - TAGLIAFERRO ANTONELLO
+Aggiunto: EE182300052 - GARBAA FIRAS
+Aggiunto: EE182400030 - BASILE MASSIMILIANO
+Aggiunto: EE182400032 - NITU GABI FLORIN
+Aggiunto: EE191900031 - ARFAOUI MAKREM
+Aggiunto: EE192000122 - TELLO QUIROZ RENATO ALEXANDER
+Aggiunto: EE192000251 - SARANDREA ALESSANDRO
+Aggiunto: EE192100020 - VAIDA IONEL
+Aggiunto: EE192100240 - ROSSETTI STEFANO
+Aggiunto: EE192200014 - MANCA COSTANTINO
+Aggiunto: EE192200017 - TUDORAN FANEL
+Aggiunto: EE192200038 - DURASCO MARCO
+Aggiunto: EE192200081 - GELABERT DIAZ MARCOS LAZARO
+Aggiunto: EE192400041 - SYLLA IBRAHIMA
+Aggiunto: EE201000326 - SINGH GURJANT
+Aggiunto: EE201500233 - ROTARI ANDRIAN
+Aggiunto: EE201600015 - D'ANGELO GIUSEPPE
+Aggiunto: EE201700109 - BARBERI LUCA
+Aggiunto: EE201700210 - MAGNANI FABIO
+Aggiunto: EE201800250 - ROMAGNOLI ALESSANDRO
+Aggiunto: EE201800376 - GIZZI FRANCO
+Aggiunto: EE201900019 - DIONISI FRANCESCO
+Aggiunto: EE201900107 - MIHAI BOGDAN ALEXANDRU
+Aggiunto: EE201900207 - BUONO ALESSANDRO
+Aggiunto: EE202000123 - GOBBETTI EMANUELE
+Aggiunto: EE202000155 - SURIANO EMILIANO
+Aggiunto: EE202000364 - COX DANIEL
+Aggiunto: EE202000367 - LEONIELLO DANIELE
+Aggiunto: EE202000370 - PISTOLA SAMUEL
+Aggiunto: EE202100005 - BOCANCEA ARCADIE
+Aggiunto: EE202100145 - ASOWATA INNOCENT BEMO
+Aggiunto: EE202100147 - DE SILVIO FERDINANDO
+Aggiunto: EE202100150 - TAGLIAFERRI VINCENZO
+Aggiunto: EE202100255 - CRUZ RYAN LESTER
+Aggiunto: EE202100277 - AHMETOVIC SALVAGIO
+Aggiunto: EE202100317 - BUHAICIUC VASILE
+Aggiunto: EE202100322 - IANNARILLI FRANCESCO
+Aggiunto: EE202100358 - KROVIAKOVAS IGORIS
+Aggiunto: EE202100367 - VITTUCCI MARCO
+Aggiunto: EE202100383 - CONSOLI AMERICO
+Aggiunto: EE202100388 - ANGELOTTI FRANCO
+Aggiunto: EE202100417 - DIAKITE LAMINE
+Aggiunto: EE202100444 - BEN OTHMAN RAMZI
+Aggiunto: EE202100471 - SALAZAR DIAZ JOEL SALET
+Aggiunto: EE202200009 - PRETONARI ROSSANO
+Aggiunto: EE202200044 - OSMAN FEDERICO
+Aggiunto: EE202200048 - POCE ALESSIO
+Aggiunto: EE202200057 - SALTARI VALERIO
+Aggiunto: EE202200135 - DE MARTINO VINCENZO
+Aggiunto: EE202200145 - EVANGELISTA FORTUNATO
+Aggiunto: EE202200211 - NOTARANGELO FABIO
+Aggiunto: EE202200217 - TROIANI ROMANO
+Aggiunto: EE202200220 - DE NEGRI SIMONE
+Aggiunto: EE202200350 - ANGELONI MIRKO
+Aggiunto: EE202200359 - SOLIMAN MOHAMED HASSANEHAMED
+Aggiunto: EE202200415 - BEN FARHAT ZAKARI
+Aggiunto: EE202300002 - REZK HOSSAM FARID ABDALLA
+Aggiunto: EE202300009 - BREAZU TOADER
+Aggiunto: EE202300015 - GORA OLAF
+Aggiunto: EE202300036 - GRISANTI DANIELE
+Aggiunto: EE202300050 - GOBBETTI CLAUDIO
+Aggiunto: EE202300101 - BOPARAI JASHANDEEP SINGH
+Aggiunto: EE202300106 - PAPILI MARCO
+Aggiunto: EE202300127 - GUIDI ALESSANDRO
+Aggiunto: EE202300165 - CALDARAS GIANNI
+Aggiunto: EE202300193 - JITARI ION
+Aggiunto: EE202300216 - DURDEVIC TONCEK
+Aggiunto: EE202300217 - PAOLINI ALESSANDRO
+Aggiunto: EE202300226 - ABATE VINCENZO
+Aggiunto: EE202300339 - BEGAJ LEONARD
+Aggiunto: EE202400016 - OUESLATI KAMEL
+Aggiunto: EE202400023 - OUESLATI ALLE
+Aggiunto: EE202400036 - PROIETTI GIANLUCA
+Aggiunto: EE202400067 - JENDOUBI SABER
+Aggiunto: EE202400072 - SALEM THAMEUR
+Aggiunto: EE202400154 - SIVIERO MASSIMO
+Aggiunto: EE202400173 - CARRARINI ARMANDO
+Aggiunto: EE202400179 - ARNONE RICCARDO
+Aggiunto: EE202400181 - MINOTTI GIOVANNI BATTISTA
+Aggiunto: EE230300457 - BERNARDI MASSIMILIANO
+Aggiunto: EE231300174 - FUGANTE SERAFINO
+Aggiunto: EE231300349 - BOLLINI EMILIANO
+Aggiunto: EE231400069 - RANIERI MANUEL
+Aggiunto: EE231500297 - MESSINA TIZIANO
+Aggiunto: EE231700095 - LOMBARDI DIEGO
+Aggiunto: EE231800165 - MELICIANU MARIAN
+Aggiunto: EE231900011 - PETKOV ANDREA
+Aggiunto: EE231900034 - ROMANO ALESSANDRO
+Aggiunto: EE231900265 - TRICOLIC MARIAN
+Aggiunto: EE231900297 - PALAIA VINCENZO
+Aggiunto: EE231900304 - MARZOUKI OUSAMA
+Aggiunto: EE231900306 - CANORI PIETRO
+Aggiunto: EE232000174 - BEDA ALBERTO
+Aggiunto: EE232000198 - GALLACE GIUSEPPE ANTONIO
+Aggiunto: EE232200011 - CIMINI MATTIA
+Aggiunto: EE232200029 - AMBROSINI VINCENZO
+Aggiunto: EE232200031 - CALDIERO CIRO
+Aggiunto: EE232200035 - IALONGO PIETRO
+Aggiunto: EE232200063 - JAFARI JOZANI NASER
+Aggiunto: EE232200075 - GOBBETTI GILBERTO
+Aggiunto: EE232200106 - NOURI LOFTI
+Aggiunto: EE232300004 - ALEANDRI MASSIMILIANO
+Aggiunto: EE232300035 - WU RENJUN
+Aggiunto: EE232300074 - LO ABDOU SALAM
+Aggiunto: EE232300082 - DI RAIMO TIZIANO
+Aggiunto: EE232300096 - LAAMIMI LOTFI
+Aggiunto: EE232300098 - LOVIN GIGEL
+Aggiunto: EE232300108 - MANERA ROBERTO
+Aggiunto: EE232300129 - PELUSO CARLO
+Aggiunto: EE232300161 - ELBARAKAWI AMIR MOHAMED HUSSEINELWAN
+Aggiunto: EE232300166 - ABULEILA MOHAMED
+Aggiunto: EE232300172 - TREFAN GYORGY
+Aggiunto: EE232300176 - JARJU BUBACARR
+Aggiunto: EE232300191 - BRIGANTE FRANCESCO
+Aggiunto: EE232400064 - ALUNNE MANDIP
+Aggiunto: EE232400065 - CIUTIIS GIUSEPPE
+Aggiunto: EE232400070 - PETRILLO FRANCESCO PAOLO
+Aggiunto: EE232400072 - DAOUI MOHAMED
+Aggiunto: EE232400082 - ALLA ANTONIO
+Aggiunto: EE232400085 - ORTENZI SIMONE
+Aggiunto: EE261500142 - TAGLIATA ANTONIO
+Aggiunto: EE291600010 - CASALE FABIO
+Aggiunto: EE292000006 - CASTIGLIONE GIUSEPPE
+Aggiunto: EE292000034 - LAZAR VASILE VICICA
+Aggiunto: EE292000082 - SALVUCCI MAURIZIO
+Aggiunto: EE292000085 - PIZZUTO ANTONIO CESARE
+Aggiunto: EE292000087 - RIENTE EDOARDO
+Aggiunto: EE292100054 - MARINO RENATO
+Aggiunto: EE292100084 - TRUGLI RICCARDO
+Aggiunto: EE292100101 - PIZZI MAURIZIO
+Aggiunto: EE292200005 - AURIEMMA ANTONIO
+Aggiunto: EE292200036 - SEBASTIANELLI STEFANO
+Aggiunto: EE292200061 - TOSELLI BENVENUTO
+Aggiunto: EE292300012 - FABRIZI MARIO
+Aggiunto: EE292300022 - DI PAOLO SIMONE
+Aggiunto: EE292400005 - PROSPERI PIERO
+Aggiunto: EE321900362 - CALDERINO FRANCESCO
+Aggiunto: EE321900415 - BUONAMORE ALESSANDRO
+Aggiunto: EE322000147 - MUSCEDERE ALESSANDRO
+Aggiunto: EE322000183 - SMITH ESQUIVEL MAYKEL
+Aggiunto: EE322000229 - TERENZI MANUELE
+Aggiunto: EE322000244 - ADAMO FEDERICO
+Aggiunto: EE322100049 - BARLETTA RICCARDO
+Aggiunto: EE322100078 - CARLOMOSTI DANIELE
+Aggiunto: EE322100089 - CONTE STEFANO
+Aggiunto: EE322100151 - EDOKPOLOR CHRISTIAN OSARENOGAE
+Aggiunto: EE322100224 - SEJDOVIC KRISTIAN
+Aggiunto: EE322100231 - BORIONI GIANLUCA
+Aggiunto: EE322100272 - MANGHI MASSIMILIANO
+Aggiunto: EE322100277 - VENTRE ALESSIO
+Aggiunto: EE322100289 - KOVACIC DENIS
+Aggiunto: EE322100294 - PAOLONI ANDREA
+Aggiunto: EE322200010 - HRUSTIC DANIEL
+Aggiunto: EE322200024 - PAPAGNI PAOLO RICCARDO
+Aggiunto: EE322200041 - VIRGUTTO DANIEL
+Aggiunto: EE322200204 - ATTOUI BORHAN
+Aggiunto: EE322200369 - VARADI CLAUDIU LIVIU
+Aggiunto: EE322300147 - DE SIMONE FLAVIO
+Aggiunto: EE322300212 - COMPAGNUCCI GIANLUCA
+Aggiunto: EE322300234 - TOSON MATTIA
+Aggiunto: EE322300273 - URCIUOLO MARIO
+Aggiunto: EE322300343 - CONSIGLIO ALESSANDRO
+Aggiunto: EE322300372 - ALBIS SALVATORE NUNZIO
+Aggiunto: EE322400372 - CALVIGIONI MAURIZIO
+Aggiunto: EE322400385 - TUDURAN LUCIAN DUMITRU
+Aggiunto: EE392200011 - SEPIELLI EMILIANO
+Aggiunto: EE392200015 - DUMITRIU IULIAN
+Aggiunto: EE392200016 - LUPU FLORIN DANUT
+Aggiunto: EE481800081 - CIVELLO ROBERTO
+Aggiunto: EE481800082 - FAIANI MASSIMO
+Aggiunto: EE482000032 - RICCI MANOLO
+Aggiunto: EE482000072 - SALINETTI MARCO
+Aggiunto: EE482000119 - OLIVADESE GIOVANNI BATTISTA
+Aggiunto: EE482100056 - MOTTA ALESSANDRO
+Aggiunto: EE482100104 - RICCIARDI ANGELO
+Aggiunto: EE482100142 - VELLUCCI ERNESTO
+Aggiunto: EE482100143 - TRAMMANNONI MARCO SERGIO ALDO
+Aggiunto: EE482100248 - ROCCHI ANDREA
+Aggiunto: EE482100253 - HRUSTIC BRONSON
+Aggiunto: EE482100284 - MAHMOUDI ABDELKERIM BEN DHAOU
+Aggiunto: EE482100306 - NEKOUEI SHAHRAKI FARSHID
+Aggiunto: EE482100318 - PUTZU ANGELO
+Aggiunto: EE482200001 - CAMILLO GIUSEPPE
+Aggiunto: EE482200031 - PRATI ROSSANO
+Aggiunto: EE482200057 - CAPPAI PIERANGELO
+Aggiunto: EE482200068 - ZYRA JUSTYN
+Aggiunto: EE482200071 - BARRERA MUNOZ JENDRI FABIANI
+Aggiunto: EE482200097 - ANYANWU PATRICK CHIKA
+Aggiunto: EE482200106 - MARINO MASSIMILIANO
+Aggiunto: EE482200118 - ELATRIBY MAHMOUD ADELFATTAHAHMED
+Aggiunto: EE482200185 - SASSI ROMOLO
+Aggiunto: FF010605367 - DI FIORE MARIO
+Aggiunto: FF010700525 - FUSCO PASQUALE
+Aggiunto: FF010701372 - VALCARENGHI FAUSTINO
+Aggiunto: FF010704219 - BUONO MARIO
+Aggiunto: FF010705676 - MARMOLINO ANTONIO
+Aggiunto: FF010804868 - OTTAVIANO PAOLO
+Aggiunto: FF010901864 - GALLO VINCENZO
+Aggiunto: FF011701161 - D'AVINO BRUNO
+Aggiunto: FF011800314 - DE PASCALE GIUSEPPE
+Aggiunto: FF012100207 - DOBRE SURAJ ARTUR ION
+Aggiunto: FF012100698 - LIMAJ ALBAN
+Aggiunto: FF012101432 - AHMETOVIC SAMIR
+Aggiunto: FF012101650 - INTRAVAIA DANIELE
+Aggiunto: FF012101744 - FERRARIO ANDREA
+Aggiunto: FF012101765 - CONSORTE GIUSTINO
+Aggiunto: FF012101835 - PITASSI DAVIDE
+Aggiunto: FF012101882 - TAMASCO FRANCO
+Aggiunto: FF012102071 - GALLO MICHELE
+Aggiunto: FF012102273 - COLASANTI GIANLUCA
+Aggiunto: FF012102323 - LOMBARDOZZI MANOLO
+Aggiunto: FF012102346 - SAVELLI SIMONE
+Aggiunto: FF012200063 - DIMITRIJEVIC DOLARI
+Aggiunto: FF012200735 - GIDIDI ANIS
+Aggiunto: FF012300345 - DE LUCA MASSIMO
+Aggiunto: FF012300379 - FARINA GIANLUCA
+Aggiunto: FF012300929 - CIOTOLA ROBERTO
+Aggiunto: FF012401534 - MARRAZZO FRANCESCO
+Aggiunto: FF042000332 - SAGLIANO FRANCESCO
+Aggiunto: FF042000568 - PALMIERO SIMMACO
+Aggiunto: FF042100133 - URSINO BRUNO
+Aggiunto: FF051600766 - SILECCHIA NICOLA
+Aggiunto: FF051900082 - BACCELLIERI GIUSEPPE
+Aggiunto: FF059900899 - STRISCIUGLIO DOMENICO
+Aggiunto: FF110900617 - CALZONE CARMINE
+Aggiunto: FF111200652 - CORSINI UGO
+Aggiunto: FF111600296 - MOGAVERO FRANCESCO
+Aggiunto: FF111900147 - CAFARO SILVIO
+Aggiunto: FF112200395 - GIGLIO SALVATORE
+Aggiunto: FF122200002 - KARAKHI SAMMY
+Aggiunto: FF122300036 - VISCUSI LUIGI ANTONIO
+Aggiunto: FF131100499 - PACILLI GIUSEPPE
+Aggiunto: FF131800822 - SALIA YUSIF
+Aggiunto: FF139200647 - TROVATO FRANCO
+Aggiunto: FF140300151 - CENICOLA MICHELE
+Aggiunto: FF150500185 - ABRUZZESE GIOVANNI
+Aggiunto: FF172200397 - VAVALLE FRANCESCO
+Aggiunto: FF191800030 - BLEJA IONUT LIVIU
+Aggiunto: FF192000027 - BEZHDILI ALKET
+Aggiunto: FF192200065 - ONARO JESSE
+Aggiunto: FF192300005 - HALILOVIC TOMA
+Aggiunto: FF192300013 - DI COSTANZO PIETRO
+Aggiunto: FF192300018 - CUTARELLI SALVATORE
+Aggiunto: FF250400048 - BAYAN KHALED
+Aggiunto: FF291100003 - CATERINO MARIO
+Aggiunto: FF301000014 - CILIEGGIO GIUSEPPE
+Aggiunto: FF320500151 - GENOVESE MODESTINO
+Aggiunto: FF322300094 - GRAMMATICA CARMINE
+Aggiunto: FF341800219 - MARTENA ANDREA
+Aggiunto: FF341900584 - BRUNO SALVATORE
+Aggiunto: FF349300284 - SAPONARO ANGELO
+Aggiunto: FF581100122 - FALANGA MARIO
+Aggiunto: FF581800367 - FIDO SALVATORE
+Aggiunto: FF582000107 - D'ALBENZIO SALVATORE
+Aggiunto: FF582200027 - FUCCI ANTONIO
+Aggiunto: FF582200141 - VALLEFUOCO BIAGIO
+Aggiunto: FF582300275 - LIMATOLA GENNARO
+Aggiunto: HH011000477 - TONARELLI UMBERTO
+Aggiunto: HH012000088 - CASTORINA GIUSEPPE
+Aggiunto: HH022300084 - RAMOVIC ZORAN
+Aggiunto: HH030700259 - BELLOCCO GIUSEPPE
+Aggiunto: HH031800106 - PAGANO CRISTIAN
+Aggiunto: HH031900147 - GASPARRO GREGORIO
+Aggiunto: HH031900148 - RAZIONALE SAVERIO
+Aggiunto: HH032100058 - CANNATA' CARMINE GIUSEPPE
+Aggiunto: HH041400166 - RANGO MAURIZIO
+Aggiunto: HH041600016 - ALVARO NICOLA
+Aggiunto: HH041800016 - SESTITO GIUSEPPE
+Aggiunto: HH042300070 - BARBIERI FRANCESCO
+Aggiunto: HH042300079 - BORELLO MARCO
+Aggiunto: HH061400073 - PILATO GIUSEPPE
+Aggiunto: HH061700058 - STALTARI AURELIO
+Aggiunto: HH071300019 - BATTAGLIA ROSARIO
+Aggiunto: HH071600001 - FORTUNA FRANCESCO SALVATORE
+Aggiunto: HH071800066 - SORIANO LEONE
+Aggiunto: HH071900153 - BARBA BRUNO
+Aggiunto: HH072200086 - ROMANO DENNY
+Aggiunto: HH079000053 - BRUZZISE CARMELO
+Aggiunto: HH111600081 - BORELLI ALDO
+Aggiunto: HH111700105 - ABBRUZZO SALVATORE
+Aggiunto: HH111700114 - LENTINI PAOLO
+Aggiunto: HH111700280 - FAZZALARI DOMENICO
+Aggiunto: HH111900057 - VILLELLA GIUSEPPE
+Aggiunto: HH111900261 - GALLONE PASQUALE
+Aggiunto: HH112100109 - GRANDE ARACRI SALVATORE
+Aggiunto: HH142200050 - CAGGIANO DONATO
+Aggiunto: HH192200052 - CONDOLEO ENRICO
+Aggiunto: HH192200099 - LAROSA MASSIMO
+Aggiunto: HH441900174 - LOLICA' ION FLORIN
+Aggiunto: HH442100104 - ELSAYED ABDELLATIF MOHAMMED ELHAMAMY
+Aggiunto: HH442300091 - KHOURASSANI MEHDI
+Aggiunto: JJ032000005 - NAPPI DOMENICO
+Aggiunto: KK019700739 - AGLIERI PIETRO
+Aggiunto: KK019800488 - VITALE VITO
+Aggiunto: KK020001532 - MUSUMECI ANTONINO
+Aggiunto: KK021800366 - BONFIGLIO RODOLFO
+Aggiunto: KK029301853 - RIGANO FILIPPO
+Aggiunto: KK029501002 - LIMACCIO ALESSANDRO
+Aggiunto: KK042100037 - CATALFAMO ALESSIO
+Aggiunto: KK068406583 - GRAZIOSO ANGELO
+Aggiunto: KK081600134 - SCHIFITTO PAOLO
+Aggiunto: KK082100072 - TROVATO FRANCESCO
+Aggiunto: KK091800029 - VACCARO DOMENICO
+Aggiunto: KK091900037 - BONFIRRARO CALOGERO
+Aggiunto: KK092100070 - PUZZANGHERA GIOVANNI
+Aggiunto: KK231100096 - DI SALVO SALVATORE
+Aggiunto: KK231300137 - SCADUTO SALVATORE
+Aggiunto: KK231400120 - PALAZZOTTO DOMENICO
+Aggiunto: KK231500574 - ROUIBAH ALI
+Aggiunto: KK231700214 - ARCURI FRANCESCO
+Aggiunto: KK231800054 - NUGARA GIUSEPPE
+Aggiunto: KK231800339 - MESSINA DARIO
+Aggiunto: KK231800990 - SORRENTINO SALVATORE
+Aggiunto: KK232100526 - CASCONE GIANFRANCO
+Aggiunto: KK232100572 - D'ACQUISTO SALVATORE
+Aggiunto: KK232200611 - LUPPINO FRANCESCO
+Aggiunto: KK232300084 - BONAFEDE ANDREA
+Aggiunto: KK240900039 - AIELLO VINCENZO MARIA
+Aggiunto: KK241600114 - MAGRI' ANGELO MARCELLO
+Aggiunto: KK242100022 - TOSCANO FRANCESCO
+Aggiunto: KK249300123 - PUGLISI PIETRO
+Aggiunto: LL012000169 - CADDEO MICHELE
+Aggiunto: LL091800065 - SAIU DOMENICO
+Aggiunto: LL101300084 - PECCI ROBERTO
+Aggiunto: LL102200134 - DI GENOVA ELIA
+Aggiunto: LL102400014 - VALENCIA ANDRADE ANTONIO JOSE
+Aggiunto: RA172200003 - CASCIANI MATTIA
+Aggiunto: WW011600037 - SALVATORE FELICE TEO
+
+2024-11-03 11:19:22 - Sincronizzazione completata
+Totali processati: 1536
+Nuovi inserimenti: 0
+Aggiornamenti: 0
+Errori: 0
+Dettagli:
+
+
+2024-11-07 08:33:13 - Sincronizzazione completata
+Totali processati: 1536
+Nuovi inserimenti: 0
+Aggiornamenti: 7
+Errori: 0
+Dettagli:
+Aggiornato: EE012200458 - BELKESSIR SEIFEDDINE
+Aggiornato: EE012400486 - BELAID AMIS
+Aggiornato: EE021900224 - BAZZANO DANIEL
+Aggiornato: EE072100268 - BELLUCCI OVIDIO
+Aggiornato: EE202300339 - BEGAJ LEONARD
+Aggiornato: EE232000174 - BEDA ALBERTO
+Aggiornato: HH030700259 - BELLOCCO GIUSEPPE
+

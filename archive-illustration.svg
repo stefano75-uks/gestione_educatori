@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Corpo Classificatore -->
+  <rect x="50" y="50" width="300" height="400" fill="#dedede" stroke="#999" stroke-width="2"/>
+  
+  <!-- Cassetti -->
+  <g id="cassetto1">
+    <rect x="60" y="70" width="280" height="90" fill="#fff" stroke="#999"/>
+    <rect x="80" y="100" width="180" height="25" fill="#f0f0f0" stroke="#999"/>
+    <circle cx="290" cy="115" r="10" fill="#888"/>
+  </g>
+  
+  <g id="cassetto2">
+    <rect x="60" y="170" width="280" height="90" fill="#fff" stroke="#999"/>
+    <rect x="80" y="200" width="180" height="25" fill="#f0f0f0" stroke="#999"/>
+    <circle cx="290" cy="215" r="10" fill="#888"/>
+  </g>
+  
+  <g id="cassetto3">
+    <rect x="60" y="270" width="280" height="90" fill="#fff" stroke="#999"/>
+    <rect x="80" y="300" width="180" height="25" fill="#f0f0f0" stroke="#999"/>
+    <circle cx="290" cy="315" r="10" fill="#888"/>
+  </g>
+  
+  <g id="cassetto4">
+    <rect x="60" y="370" width="280" height="90" fill="#fff" stroke="#999"/>
+    <rect x="80" y="400" width="180" height="25" fill="#f0f0f0" stroke="#999"/>
+    <circle cx="290" cy="415" r="10" fill="#888"/>
+  </g>
+  
+  <!-- Documenti che sporgono -->
+  <path d="M85 95 L120 95 L120 85 L85 85 Z" fill="#FFD700"/>
+  <path d="M140 95 L175 95 L175 85 L140 85 Z" fill="#87CEEB"/>
+  <path d="M85 295 L120 295 L120 285 L85 285 Z" fill="#98FB98"/>
+</svg>
