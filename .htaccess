@@ -1,0 +1,1 @@
+php_value session.save_path "C:/Apache24/sessions/gestione_educatori"

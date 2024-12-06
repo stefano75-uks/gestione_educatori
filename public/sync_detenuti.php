@@ -8,36 +8,44 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
     exit();
 }
 
-// Connessione al database sorgente (detenuti_da_afis_2)
+// Connessione al database sorgente
 $conn_source = new mysqli("localhost", "root", "MERLIN", "detenuti_presenti");
 if ($conn_source->connect_error) {
     die("Connessione al database sorgente fallita: " . $conn_source->connect_error);
 }
 $conn_source->set_charset("utf8mb4");
 
-// Dopo la connessione al database sorgente
-echo "Struttura tabella sorgente (detenuti_presenti):<br>";
-$debug_source = $conn_source->query("DESCRIBE detenuti_da_afis_2");
-while($row = $debug_source->fetch_assoc()) {
-    echo "Colonna: " . $row['Field'] . "<br>";
-}
-
-echo "<br>Struttura tabella destinazione (login_system):<br>";
-$debug_dest = $conn->query("DESCRIBE detenuti");
-while($row = $debug_dest->fetch_assoc()) {
-    echo "Colonna: " . $row['Field'] . "<br>";
-}
-
 // Statistiche sincronizzazione
 $stats = [
     'nuovi' => 0,
     'aggiornati' => 0,
+    'usciti' => 0,
     'errori' => 0,
     'totali' => 0,
     'dettagli' => []
 ];
 
 try {
+    // 1. Raccolta matricole presenti
+    $matricole_presenti = [];
+    $query_presenti = "SELECT matricola FROM detenuti_da_afis_2";
+    $result_presenti = $conn_source->query($query_presenti);
+    while ($row = $result_presenti->fetch_assoc()) {
+        $matricole_presenti[] = $row['matricola'];
+    }
+
+    // 2. Aggiorna non presenti
+    $update_non_presenti = "UPDATE detenuti 
+                           SET data_uscita = '9999-09-09'
+                           WHERE matricola NOT IN ('" . implode("','", $matricole_presenti) . "')
+                           AND (data_uscita IS NULL OR data_uscita = '0000-00-00')";
+    
+    if ($conn->query($update_non_presenti)) {
+        $stats['usciti'] = $conn->affected_rows;
+        $stats['dettagli'][] = "Aggiornati {$stats['usciti']} detenuti non più presenti con data uscita 9999-09-09";
+    }
+
+    // 3. Query sorgente modificata per includere piano e cella
     $query_source = "SELECT 
                     matricola,
                     cognome,
@@ -45,41 +53,37 @@ try {
                     data_ingresso_istituto,
                     data_uscita,
                     data_nascita,
-                    reparto
+                    reparto,
+                    CASE WHEN piano = '0' THEN 'T' ELSE piano END as piano,
+                    cella
                 FROM detenuti_da_afis_2
                 ORDER BY matricola";
 
     $result_source = $conn_source->query($query_source);
 
-    if (!$result_source) {
-        throw new Exception("Errore nella query sorgente: " . $conn_source->error);
-    }
-
-    $check_query = "SELECT id, 
-                           data_uscita,
-                           reparto 
-                    FROM detenuti 
+    $check_query = "SELECT id, data_uscita, reparto FROM detenuti WHERE matricola = ?";
+    $insert_query = "INSERT INTO detenuti 
+                    (matricola, cognome, nome, data_ingresso_istituto, data_uscita, 
+                     data_nascita, reparto, data_creazione) 
+                    VALUES (?, ?, ?, ?, NULL, ?, ?, NOW())";
+    $update_query = "UPDATE detenuti 
+                    SET cognome = ?, 
+                        nome = ?, 
+                        data_ingresso_istituto = ?,
+                        data_uscita = NULL,
+                        data_nascita = ?,
+                        reparto = ?
                     WHERE matricola = ?";
 
-    $insert_query = "INSERT INTO detenuti 
-                    (matricola, cognome, nome, data_ingresso_istituto, data_uscita, data_nascita, 
-                    reparto, data_creazione) 
-                    VALUES (?, ?, ?, ?, ?, ?, ?, NOW())";
-
-    $update_query = "UPDATE detenuti 
-            SET cognome = ?, 
-    nome = ?, 
-    data_ingresso_istituto = ?,
-    data_uscita = ?,
-    data_nascita = ?,
-    reparto = ?
-WHERE matricola = ?";
     $stmt_check = $conn->prepare($check_query);
     $stmt_insert = $conn->prepare($insert_query);
     $stmt_update = $conn->prepare($update_query);
 
     while ($row = $result_source->fetch_assoc()) {
         $stats['totali']++;
+
+        // Composizione del campo reparto
+        $reparto_completo = $row['reparto'] . " " . $row['piano'] . "-" . $row['cella'];
 
         try {
             $stmt_check->bind_param("s", $row['matricola']);
@@ -88,46 +92,40 @@ WHERE matricola = ?";
             $existing = $result_check->fetch_assoc();
 
             if (!$existing) {
+                // Nuovo record
                 $stmt_insert->bind_param(
-                    "sssssss",
+                    "ssssss",
                     $row['matricola'],
                     $row['cognome'],
                     $row['nome'],
                     $row['data_ingresso_istituto'],
-                    $row['data_uscita'],
                     $row['data_nascita'],
-                    $row['reparto']
+                    $reparto_completo  // Usa il reparto composito
                 );
 
                 if ($stmt_insert->execute()) {
                     $stats['nuovi']++;
-                    $stats['dettagli'][] = "Aggiunto: {$row['matricola']} - {$row['cognome']} {$row['nome']}";
+                    $stats['dettagli'][] = "Aggiunto: {$row['matricola']} - {$row['cognome']} {$row['nome']} - $reparto_completo";
                 } else {
                     throw new Exception("Errore inserimento matricola {$row['matricola']}");
                 }
             } else {
-                if (
-                    $existing['data_uscita'] != $row['data_uscita'] ||
-                    $existing['reparto'] != $row['reparto']
-                ) {
+                // Aggiorna record esistente
+                $stmt_update->bind_param(
+                    "ssssss",
+                    $row['cognome'],
+                    $row['nome'],
+                    $row['data_ingresso_istituto'],
+                    $row['data_nascita'],
+                    $reparto_completo,  // Usa il reparto composito
+                    $row['matricola']
+                );
 
-                    $stmt_update->bind_param(
-                        "sssssss",
-                        $row['cognome'],
-                        $row['nome'],
-                        $row['data_ingresso_istituto'],
-                        $row['data_uscita'],
-                        $row['data_nascita'],
-                        $row['reparto'],
-                        $row['matricola']
-                    );
-
-                    if ($stmt_update->execute()) {
-                        $stats['aggiornati']++;
-                        $stats['dettagli'][] = "Aggiornato: {$row['matricola']} - {$row['cognome']} {$row['nome']}";
-                    } else {
-                        throw new Exception("Errore aggiornamento matricola {$row['matricola']}");
-                    }
+                if ($stmt_update->execute()) {
+                    $stats['aggiornati']++;
+                    $stats['dettagli'][] = "Aggiornato: {$row['matricola']} - {$row['cognome']} {$row['nome']} - $reparto_completo";
+                } else {
+                    throw new Exception("Errore aggiornamento matricola {$row['matricola']}");
                 }
             }
         } catch (Exception $e) {
@@ -139,24 +137,12 @@ WHERE matricola = ?";
     $stats['errori']++;
     $stats['dettagli'][] = "Errore generale: {$e->getMessage()}";
 } finally {
-    // Chiudi le connessioni
     if (isset($stmt_check)) $stmt_check->close();
     if (isset($stmt_insert)) $stmt_insert->close();
     if (isset($stmt_update)) $stmt_update->close();
     $conn_source->close();
 }
-
-// Salva il report nel log
-$log_content = date('Y-m-d H:i:s') . " - Sincronizzazione completata\n";
-$log_content .= "Totali processati: {$stats['totali']}\n";
-$log_content .= "Nuovi inserimenti: {$stats['nuovi']}\n";
-$log_content .= "Aggiornamenti: {$stats['aggiornati']}\n";
-$log_content .= "Errori: {$stats['errori']}\n";
-$log_content .= "Dettagli:\n" . implode("\n", $stats['dettagli']) . "\n\n";
-
-file_put_contents('sync_log.txt', $log_content, FILE_APPEND);
 ?>
-
 <!DOCTYPE html>
 <html lang="it">
 

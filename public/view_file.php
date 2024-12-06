@@ -1,4 +1,3 @@
-```php
 <?php
 session_start();
 require_once '../config.php';
@@ -34,12 +33,18 @@ if (!file_exists($file_path)) {
     die('File non trovato');
 }
 
-// Invia headers per visualizzazione inline
+// Aggiungi header per evitare caching
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+
+// Headers per PDF
 header('Content-Type: application/pdf');
-header('Content-Disposition: inline; filename="' .
+header('Content-Disposition: inline; filename="' . 
     $documento['cognome'] . '_' .
     $documento['nome'] . '_' .
-    date('Y-m-d', strtotime($documento['data_evento'])) . '.pdf"');
+    date('Y-m-d', strtotime($documento['data_evento'])) . '.pdf"'
+);
 header('Content-Length: ' . filesize($file_path));
 
 // Invia il file

@@ -1,4 +1,6 @@
-<div class="modal fade" id="uploadModal<?php echo $row['id']; ?>" tabindex="-1">
+<div class="modal fade" id="uploadModal<?php echo $row['id']; ?>" 
+     data-detenuto-id="<?php echo $row['id']; ?>" 
+     tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -7,15 +9,16 @@
                 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <form method="POST" enctype="multipart/form-data" class="upload-form" 
+            <form method="POST" 
+                  enctype="multipart/form-data" 
+                  class="upload-form" 
                   data-detenuto-id="<?php echo $row['id']; ?>">
                 <div class="modal-body">
                     <input type="hidden" name="user_id" value="<?php echo $row['id']; ?>">
                     
                     <div class="mb-3">
                         <label class="form-label">Documento (PDF)</label>
-                        <input type="file" class="form-control" name="documento" 
-                               accept=".pdf" required>
+                        <input type="file" class="form-control" name="documento" accept=".pdf" required>
                     </div>
                     
                     <div class="mb-3">

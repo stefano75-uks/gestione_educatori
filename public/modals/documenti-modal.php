@@ -1,6 +1,5 @@
-<div class="modal fade modal-lg" id="documentiModal<?php echo $row['id']; ?>"
-    data-detenuto-id="<?php echo $row['id']; ?>" tabindex="-1">
-    <div class="modal-dialog modal-dialog-scrollable">
+<div class="modal fade modal-lg" id="documentiModal<?php echo $row['id']; ?>" data-detenuto-id="<?php echo $row['id']; ?>" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl"> <!-- Cambiato a modal-xl per dare più spazio -->
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">
@@ -14,13 +13,11 @@
                     <div class="row g-2">
                         <div class="col-md-4">
                             <label class="form-label">Data da:</label>
-                            <input type="date" class="form-control form-control-sm filter-date"
-                                data-type="da">
+                            <input type="date" class="form-control form-control-sm filter-date" data-type="da">
                         </div>
                         <div class="col-md-4">
                             <label class="form-label">Data a:</label>
-                            <input type="date" class="form-control form-control-sm filter-date"
-                                data-type="a">
+                            <input type="date" class="form-control form-control-sm filter-date" data-type="a">
                         </div>
                         <div class="col-md-4">
                             <label class="form-label">Tipo:</label>
@@ -44,22 +41,33 @@
                     </div>
                 </div>
 
-                <!-- Tabella documenti -->
-                <div class="table-responsive">
-                    <table class="table table-sm table-hover" id="documentiTable<?php echo $row['id']; ?>">
-                        <thead>
-                            <tr>
-                                <th>Data Caricamento</th>
-                                <th>Data Evento</th>
-                                <th>Tipo</th>
-                                <th>Operatore</th>
-                                <th width="150">Azioni</th>  <!-- Aggiunto width per dare più spazio ai bottoni -->
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Popolato via JavaScript -->
-                        </tbody>
-                    </table>
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- Tabella documenti -->
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover" id="documentiTable<?php echo $row['id']; ?>">
+                                <thead>
+                                    <tr>
+                                        <th>Data Caricamento</th>
+                                        <th>Data Evento</th>
+                                        <th>Tipo</th>
+                                        <th>Operatore</th>
+                                        <th>Azioni</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Popolato via JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Area anteprima PDF -->
+                        <div id="pdfPreview<?php echo $row['id']; ?>" class="pdf-preview-container"
+                            style="min-height: 500px; border: 1px solid #dee2e6; display: none;">
+                            <iframe src="about:blank" style="width: 100%; height: 100%; border: none;"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
