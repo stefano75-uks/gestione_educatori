@@ -6,10 +6,9 @@ function showAlert(message, type) {
         ${message}
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     `;
-        // Trova il container appropriato (modal se aperto, altrimenti container principale)
 
-    const container = document.querySelector('.modal.show .modal-body') || 
-                     document.querySelector('.container-fluid');
+    const container = document.querySelector('.modal.show .modal-body') ||
+        document.querySelector('.container-fluid');
     if (container) {
         container.insertAdjacentElement('afterbegin', alertDiv);
         setTimeout(() => alertDiv.remove(), 5000);
@@ -26,6 +25,63 @@ function formatDate(dateString, includeTime = false) {
         ...(includeTime && { hour: '2-digit', minute: '2-digit' })
     };
     return new Date(dateString).toLocaleDateString('it-IT', options);
+}
+
+// Funzione per caricare i dettagli del reparto
+function loadDettaglioReparto(reparto) {
+    console.log('Caricamento dettagli per reparto:', reparto);
+    const tableBody = document.querySelector('#dettaglioRepartoTable tbody');
+
+    if (!tableBody) {
+        console.error('Table body non trovato!');
+        return;
+    }
+
+    fetch(`get_dettaglio_reparto.php?reparto=${encodeURIComponent(reparto)}`)
+        .then(response => response.json())
+        .then(data => {
+            if (!data.success) {
+                throw new Error(data.error || 'Errore nel caricamento dati');
+            }
+
+            tableBody.innerHTML = data.detenuti.map(detenuto =>
+                `<tr>
+                    <td>${detenuto.matricola || ''}</td>
+                    <td>${detenuto.cognome || ''}</td>
+                    <td>${detenuto.nome || ''}</td>
+                    <td>
+                        <span class="ubicazione-text">${detenuto.reparto || ''}</span>
+                        <input type="text" class="form-control form-control-sm ubicazione-input" 
+                               style="display:none" value="${detenuto.reparto || ''}">
+                    </td>
+                    <td>
+                        ${userPermissions.delete ?
+                    `<div class="btn-group btn-group-sm">
+                                <button type="button" class="btn btn-outline-primary btn-edit" 
+                                        onclick="toggleEditUbicazione(this, ${detenuto.id})">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-success btn-save" 
+                                        style="display:none" onclick="saveUbicazione(this, ${detenuto.id})">
+                                    <i class="bi bi-check"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger btn-cancel" 
+                                        style="display:none" onclick="cancelEditUbicazione(this)">
+                                    <i class="bi bi-x"></i>
+                                </button>
+                            </div>`
+                    : ''}
+                    </td>
+                </tr>`
+            ).join('');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="5" class="text-center text-danger">${error.message}</td>
+                </tr>`;
+        });
 }
 
 // Funzione per caricare i documenti
@@ -97,6 +153,68 @@ function previewDocument(detenutoId, docId) {
                 style="width:100%;height:500px;border:none;"></iframe>`;
 }
 
+// Funzioni per gestire l'editing dell'ubicazione
+function toggleEditUbicazione(btn, id) {
+    const row = btn.closest('tr');
+    const textSpan = row.querySelector('.ubicazione-text');
+    const input = row.querySelector('.ubicazione-input');
+    const editBtn = row.querySelector('.btn-edit');
+    const saveBtn = row.querySelector('.btn-save');
+    const cancelBtn = row.querySelector('.btn-cancel');
+
+    textSpan.style.display = 'none';
+    input.style.display = 'block';
+    editBtn.style.display = 'none';
+    saveBtn.style.display = 'inline-block';
+    cancelBtn.style.display = 'inline-block';
+    input.focus();
+}
+
+function saveUbicazione(btn, id) {
+    const row = btn.closest('tr');
+    const input = row.querySelector('.ubicazione-input');
+    const newReparto = input.value;
+
+    fetch('update_ubicazione.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            id: id,
+            reparto: newReparto
+        })
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showAlert(data.message || 'Ubicazione aggiornata con successo', 'success');
+                setTimeout(() => window.location.reload(), 1000);
+            } else {
+                throw new Error(data.error || 'Errore durante l\'aggiornamento');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            showAlert(error.message, 'danger');
+        });
+}
+
+function cancelEditUbicazione(btn) {
+    const row = btn.closest('tr');
+    const textSpan = row.querySelector('.ubicazione-text');
+    const input = row.querySelector('.ubicazione-input');
+    const editBtn = row.querySelector('.btn-edit');
+    const saveBtn = row.querySelector('.btn-save');
+    const cancelBtn = row.querySelector('.btn-cancel');
+
+    textSpan.style.display = 'block';
+    input.style.display = 'none';
+    editBtn.style.display = 'inline-block';
+    saveBtn.style.display = 'none';
+    cancelBtn.style.display = 'none';
+}
+
 // Funzione per eliminare un documento
 function deleteDocumento(docId, detenutoId) {
     if (!docId) {
@@ -112,14 +230,13 @@ function deleteDocumento(docId, detenutoId) {
         deleteButton.innerHTML = '<span class="spinner-border spinner-border-sm"></span>';
     }
 
-    setTimeout(() => {
-        fetch('delete_documento.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ id: docId })
-        })
+    fetch('delete_documento.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ id: docId })
+    })
         .then(response => {
             if (!response.ok) {
                 throw new Error('Errore nella risposta del server');
@@ -129,12 +246,7 @@ function deleteDocumento(docId, detenutoId) {
         .then(data => {
             if (data.success) {
                 showAlert(data.message || 'Documento eliminato con successo', 'success');
-                
-                // Attendi un attimo per mostrare il messaggio di successo
-                setTimeout(() => {
-                    // Ricarica la pagina per aggiornare i conteggi
-                    window.location.reload();
-                }, 1000);
+                setTimeout(() => window.location.reload(), 1000);
             } else {
                 throw new Error(data.error || 'Errore durante l\'eliminazione');
             }
@@ -147,7 +259,6 @@ function deleteDocumento(docId, detenutoId) {
                 deleteButton.innerHTML = '<i class="bi bi-trash"></i>';
             }
         });
-    }, 0);
 }
 
 // Event Listeners quando il DOM è pronto
@@ -156,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Gestione form di upload
     document.querySelectorAll('.upload-form').forEach(form => {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', function (e) {
             e.preventDefault();
             console.log('Form sottomesso');
 
@@ -164,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const formData = new FormData(this);
             const submitBtn = this.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
-            
+
             submitBtn.disabled = true;
             submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Caricamento...';
 
@@ -172,26 +283,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'POST',
                 body: formData
             })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    showAlert('Documento caricato con successo', 'success');
-                    
-                    // Attendi un attimo per mostrare il messaggio di successo
-                    setTimeout(() => {
-                        // Ricarica la pagina per aggiornare i conteggi
-                        window.location.reload();
-                    }, 1000);
-                } else {
-                    throw new Error(data.error || 'Errore durante il caricamento');
-                }
-            })
-            .catch(error => {
-                console.error('Upload error:', error);
-                showAlert(error.message || 'danger');
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = originalText;
-            });
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        showAlert('Documento caricato con successo', 'success');
+                        setTimeout(() => window.location.reload(), 1000);
+                    } else {
+                        throw new Error(data.error || 'Errore durante il caricamento');
+                    }
+                })
+                .catch(error => {
+                    console.error('Upload error:', error);
+                    showAlert(error.message || 'danger');
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                });
         });
     });
 
@@ -203,4 +309,88 @@ document.addEventListener('DOMContentLoaded', () => {
             loadDocumenti(detenutoId);
         });
     });
+
+    // Gestione del modal dettaglio reparto
+    const dettaglioModal = document.getElementById('dettaglioRepartoModal');
+    if (dettaglioModal) {
+        dettaglioModal.addEventListener('show.bs.modal', function (event) {
+            console.log('Modal reparto in apertura');
+            const button = event.relatedTarget;
+            const reparto = button.getAttribute('data-reparto');
+            console.log('Reparto selezionato:', reparto);
+
+            const modalTitle = dettaglioModal.querySelector('#repartoName');
+            modalTitle.textContent = reparto;
+
+            loadDettaglioReparto(reparto);
+        });
+    }
+
+    // Gestione cambio password
+    const changePasswordForm = document.getElementById('changePasswordForm');
+    if (changePasswordForm) {
+        changePasswordForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+            const data = {
+                old_password: formData.get('old_password'),
+                new_password: formData.get('new_password'),
+                confirm_password: formData.get('confirm_password')
+            };
+
+            // Verifica che le password coincidano
+            if (data.new_password !== data.confirm_password) {
+                showAlert('Le nuove password non coincidono', 'danger');
+                return;
+            }
+
+            // Verifica lunghezza minima
+            if (data.new_password.length < 8) {
+                showAlert('La password deve essere di almeno 8 caratteri', 'danger');
+                return;
+            }
+
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Aggiornamento...';
+
+            console.log('Dati che verranno inviati:', data);  // Debug
+
+            // Cambio la chiamata fetch a
+            fetch('./change_password.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => {
+                    console.log('Status della risposta:', response.status);  // Debug
+                    return response.text();  // Usiamo text() invece di json() per vedere la risposta grezza
+                })
+                .then(text => {
+                    console.log('Risposta dal server:', text);  // Debug
+                    return JSON.parse(text);  // Poi proviamo a parsare il JSON
+                })
+                .then(data => {
+                    if (data.success) {
+                        showAlert(data.message, 'success');
+                        this.reset();
+                        const modal = bootstrap.Modal.getInstance(document.getElementById('changePasswordModal'));
+                        modal.hide();
+                    } else {
+                        throw new Error(data.error || 'Errore durante il cambio password');
+                    }
+                })
+                .catch(error => {
+                    showAlert(error.message, 'danger');
+                })
+                .finally(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                });
+        });
+    }
 });
