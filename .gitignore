@@ -6,7 +6,9 @@ gestione_cartelle/image/
 gestione_cartelle/uploads/
 gestione_cartelle/foto_utenti/
 uploads
-
+bootstrap-5.3.3
+bootstrap-icons-1.11.3
+fontawesome
 # Ignora tutti i file con estensione .sql
 *.sql
 *.xlsx
